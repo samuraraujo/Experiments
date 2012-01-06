@@ -1,0 +1,23 @@
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://dbpedia.org/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://data.nytimes.com/elements/nytd_geo> 
+append => a
+format => txt
+chunk => 10
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+RECALL: 0.569791666666667
+PRECISON: 0.572774869109948
+FMEASURE: 0.571279373368146

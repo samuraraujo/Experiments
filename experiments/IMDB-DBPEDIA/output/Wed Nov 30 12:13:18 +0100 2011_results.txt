@@ -1,0 +1,23 @@
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8896/sparql?default-graph-uri=http://imdb.org
+target => http://ec2-50-17-66-55.compute-1.amazonaws.com/sparql?default-graph-uri=http://dbpedia.org
+class => <http://data.linkedmdb.org/resource/movie/film>  . ?s <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> . FILTER regex(?s, 'resource') 
+append => a
+format => txt
+chunk => 20
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+$shuffle
+false
+$orderbyclause
+ ?s <http://data.linkedmdb.org/resource/movie/director> ?oo . }  
+$orderby
+ order by ?oo 
+RECALL: 0.790989508331619
+PRECISON: 0.813756613756614
+FMEASURE: 0.802211558522846

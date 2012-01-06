@@ -1,0 +1,23 @@
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://dbpedia.org/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://data.nytimes.com/elements/nytd_per> 
+append => a
+format => txt
+chunk => 10
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => false
+blocking => true
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+RECALL: 0.790034157122765
+PRECISON: 0.874749721913237
+FMEASURE: 0.830236486486486

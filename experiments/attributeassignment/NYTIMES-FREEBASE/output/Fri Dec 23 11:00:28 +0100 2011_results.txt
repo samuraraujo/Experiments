@@ -1,0 +1,23 @@
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://localhost:8895/sparql?default-graph-uri=http://freebase.org
+class =>  <http://data.nytimes.com/elements/nytd_geo> 
+append => a
+format => txt
+chunk => 10
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => false
+blocking => true
+$shuffle
+true
+$orderbyclause
+ ?s <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?oo . }  
+$orderby
+
+RECALL: 0.846670397313934
+PRECISON: 0.900595238095238
+FMEASURE: 0.872800692241131

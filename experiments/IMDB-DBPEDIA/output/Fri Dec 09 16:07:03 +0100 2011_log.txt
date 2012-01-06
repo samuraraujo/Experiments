@@ -1,0 +1,3827 @@
+Parameters:
+verbose => false
+logfile => 
+source => imdb
+target => dbpedia
+class => <http://data.linkedmdb.org/resource/movie/film>  . ?s <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> . FILTER regex(?s, 'resource') 
+append => a
+format => txt
+chunk => 5
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+PROCESSING CLASSES
+<http://data.linkedmdb.org/resource/movie/film>  . ?s <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> . FILTER regex(?s, 'resource') 
+ LAST CLASS
+
+Obtaning all instances instances
+Elapsed time
+37.06
+TOTAL NUMBER OF INSTANCES
+4388
+SOURCE PROCESSING ##################
+source_entity_labels
+Computing text properties ... 
+ENTROPY THRESHOLD
+0.361477359187328
+SOURCE CANDIDATES ENTITY LABELS
+<http://data.linkedmdb.org/resource/movie/filmid>
+<http://data.linkedmdb.org/resource/movie/initial_release_date>
+<http://purl.org/dc/terms/date>
+<http://purl.org/dc/terms/title>
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/hasPhotoCollection>
+<http://xmlns.com/foaf/0.1/page>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://data.linkedmdb.org/resource/movie/performance>
+<http://data.linkedmdb.org/resource/movie/actor>
+<http://data.linkedmdb.org/resource/movie/film_cut>
+<http://data.linkedmdb.org/resource/movie/runtime>
+<http://data.linkedmdb.org/resource/movie/producer>
+<http://data.linkedmdb.org/resource/movie/director>
+<http://data.linkedmdb.org/resource/movie/writer>
+<http://data.linkedmdb.org/resource/movie/music_contributor>
+ENTITY LABELS FOUND
+<http://data.linkedmdb.org/resource/movie/initial_release_date>
+<http://purl.org/dc/terms/date>
+<http://purl.org/dc/terms/title>
+<http://www.w3.org/2000/01/rdf-schema#label>
+ENTITY LABELS SELECTED
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/movie/initial_release_date>
+<http://purl.org/dc/terms/date>
+<http://purl.org/dc/terms/title>
+STOP WORDS
+STOP WORDS FOR LABEL: 
+<http://www.w3.org/2000/01/rdf-schema#label>
+SIZE
+511
+MEDIA / STDEV
+0.00316353825310617
+0.00944890106480396
+Threshold
+0.00316353825310617
+international
+wonderland
+everynight
+adventure
+valentine
+manhattan
+secretary
+remember
+laughing
+massacre
+uprising
+takedown
+betrayed
+miracle
+mcvicar
+command
+private
+morning
+bedroom
+strange
+remains
+thunder
+forever
+nothing
+imagine
+street
+puppet
+mystic
+bandit
+ripley
+before
+killer
+streak
+silver
+savage
+legend
+johnny
+circus
+beyond
+night
+three
+young
+death
+bride
+sweet
+mummy
+party
+river
+woman
+house
+black
+alice
+devil
+years
+never
+loves
+today
+heart
+simon
+women
+world
+white
+point
+rules
+love
+wife
+live
+song
+what
+dark
+land
+cars
+dead
+long
+city
+kiss
+moon
+baby
+girl
+loss
+that
+rock
+blue
+last
+stop
+bill
+york
+from
+hair
+fire
+star
+with
+mess
+olly
+days
+same
+omoo
+west
+town
+when
+rose
+high
+only
+talk
+bait
+the
+man
+you
+can
+big
+new
+war
+for
+don
+let
+law
+get
+cry
+all
+dad
+she
+one
+air
+ice
+sgt
+and
+way
+day
+mom
+red
+box
+hot
+who
+boy
+may
+of
+in
+to
+on
+it
+mr
+go
+no
+me
+do
+ll
+re
+my
+dr
+at
+oh
+is
+vs
+END
+153
+PREVIOUS OFFSET
+
+STARTING FROM OFFSET 0
+NUMBER OF INSTANCES
+4388
+TARGET PROCESSING ##################
+Obtaining First Pivot
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/3227>
+KEYWORDS
+Belly
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/8840>
+KEYWORDS
+Gulliver's Travels Beyond the Moon
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/5324>
+KEYWORDS
+Mars Attacks!
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/3168>
+KEYWORDS
+Porn 'n Chicken
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/2429>
+KEYWORDS
+Nothing Lasts Forever
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/6833>
+KEYWORDS
+Dudley Do-Right
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1301>
+KEYWORDS
+Rob Roy
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1187>
+KEYWORDS
+Scum
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/4391>
+KEYWORDS
+When Saturday Comes
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1996>
+KEYWORDS
+Stigmata
+TARGET LABEL PROPERTIES
+?p
+exact_search
+Searched Ambiguous
+Computing text properties ... 
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+target_discriminative_predicates
+ENTROPY THRESHOLD
+0.912345961546514
+TARGET CANDIDATES DISCRIMINATIVE PREDICATES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/page>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://purl.org/dc/terms/subject>
+<http://dbpedia.org/ontology/thumbnail>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/label>
+<http://dbpedia.org/property/genre>
+<http://dbpedia.org/property/cover>
+<http://dbpedia.org/ontology/subsequentWork>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/previousWork>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/wikiPageUsesTemplate>
+<http://dbpedia.org/ontology/recordLabel>
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/property/length>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/ontology/artist>
+<http://dbpedia.org/property/recorded>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/type>
+<http://dbpedia.org/property/note>
+<http://dbpedia.org/property/writer>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/reviews>
+TARGET  DISCRIMINATIVE PREDICATES FOUND
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/label>
+<http://dbpedia.org/property/genre>
+<http://dbpedia.org/property/cover>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/length>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/recorded>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/type>
+<http://dbpedia.org/property/note>
+<http://dbpedia.org/property/writer>
+<http://dbpedia.org/property/reviews>
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.33018867924528
+4.57161057340196
+4.57161057340196
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/activeYearsEndYear>
+<http://dbpedia.org/ontology/album>
+<http://dbpedia.org/ontology/alias>
+<http://dbpedia.org/ontology/associatedBand>
+<http://dbpedia.org/ontology/associatedMusicalArtist>
+<http://dbpedia.org/ontology/author>
+<http://dbpedia.org/ontology/bandMember>
+<http://dbpedia.org/ontology/birthDate>
+<http://dbpedia.org/ontology/birthPlace>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/dcc>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/elevation>
+<http://dbpedia.org/ontology/formerBandMember>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/hometown>
+<http://dbpedia.org/ontology/instrument>
+<http://dbpedia.org/ontology/isPartOf>
+<http://dbpedia.org/ontology/isbn>
+<http://dbpedia.org/ontology/lcc>
+<http://dbpedia.org/ontology/literaryGenre>
+<http://dbpedia.org/ontology/location>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/musicalArtist>
+<http://dbpedia.org/ontology/musicalBand>
+<http://dbpedia.org/ontology/narrator>
+<http://dbpedia.org/ontology/network>
+<http://dbpedia.org/ontology/numberOfPages>
+<http://dbpedia.org/ontology/occupation>
+<http://dbpedia.org/ontology/oclc>
+<http://dbpedia.org/ontology/postalCode>
+<http://dbpedia.org/ontology/previousWork>
+<http://dbpedia.org/ontology/publisher>
+<http://dbpedia.org/ontology/recordDate>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/series>
+<http://dbpedia.org/ontology/subsequentWork>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/%3EPastMembers>
+<http://dbpedia.org/property/after>
+<http://dbpedia.org/property/album>
+<http://dbpedia.org/property/alias>
+<http://dbpedia.org/property/allLyrics>
+<http://dbpedia.org/property/allWriting>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/associatedActs>
+<http://dbpedia.org/property/author>
+<http://dbpedia.org/property/before>
+<http://dbpedia.org/property/bgcolour>
+<http://dbpedia.org/property/birthName>
+<http://dbpedia.org/property/blank1Info>
+<http://dbpedia.org/property/blank1Name>
+<http://dbpedia.org/property/blankInfo>
+<http://dbpedia.org/property/blankName>
+<http://dbpedia.org/property/border>
+<http://dbpedia.org/property/born>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/camera>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/class>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/congress>
+<http://dbpedia.org/property/coordinatesDisplay>
+<http://dbpedia.org/property/coordinatesRegion>
+<http://dbpedia.org/property/cover>
+<http://dbpedia.org/property/coverSize>
+<http://dbpedia.org/property/currentMembers>
+<http://dbpedia.org/property/dateOfBirth>
+<http://dbpedia.org/property/directedby>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/drinkware>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/elevationFt>
+<http://dbpedia.org/property/engineer>
+<http://dbpedia.org/property/episodenumber>
+<http://dbpedia.org/property/firstAired>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/followedBy>
+<http://dbpedia.org/property/format>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/fromAlbum>
+<http://dbpedia.org/property/garnish>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/iba>
+<http://dbpedia.org/property/imageCaption>
+<http://dbpedia.org/property/imageMap>
+<http://dbpedia.org/property/imageSkyline>
+<http://dbpedia.org/property/ingredients>
+<http://dbpedia.org/property/isbn>
+<http://dbpedia.org/property/lastSingle>
+<http://dbpedia.org/property/latd>
+<http://dbpedia.org/property/latm>
+<http://dbpedia.org/property/latns>
+<http://dbpedia.org/property/lats>
+<http://dbpedia.org/property/linecolor>
+<http://dbpedia.org/property/location>
+<http://dbpedia.org/property/longd>
+<http://dbpedia.org/property/longew>
+<http://dbpedia.org/property/longm>
+<http://dbpedia.org/property/longs>
+<http://dbpedia.org/property/lyrics>
+<http://dbpedia.org/property/lyricsCredits>
+<http://dbpedia.org/property/mapCaption>
+<http://dbpedia.org/property/mapsize>
+<http://dbpedia.org/property/misc>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/namedFor>
+<http://dbpedia.org/property/narrator>
+<http://dbpedia.org/property/network>
+<http://dbpedia.org/property/nextSingle>
+<http://dbpedia.org/property/no>
+<http://dbpedia.org/property/notableInstruments>
+<http://dbpedia.org/property/occupation>
+<http://dbpedia.org/property/oclc>
+<http://dbpedia.org/property/officialName>
+<http://dbpedia.org/property/origin>
+<http://dbpedia.org/property/originalairdate>
+<http://dbpedia.org/property/pages>
+<http://dbpedia.org/property/pastMembers>
+<http://dbpedia.org/property/pictureFormat>
+<http://dbpedia.org/property/postalCode>
+<http://dbpedia.org/property/postalCodeType>
+<http://dbpedia.org/property/precededBy>
+<http://dbpedia.org/property/prep>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/pureUrl>
+<http://dbpedia.org/property/pushpinMap>
+<http://dbpedia.org/property/pushpinMapCaption>
+<http://dbpedia.org/property/releaseDate>
+<http://dbpedia.org/property/rev1score>
+<http://dbpedia.org/property/rev2score>
+<http://dbpedia.org/property/rows>
+<http://dbpedia.org/property/rtitle>
+<http://dbpedia.org/property/scotch>
+<http://dbpedia.org/property/screenplay>
+<http://dbpedia.org/property/series>
+<http://dbpedia.org/property/served>
+<http://dbpedia.org/property/settlementType>
+<http://dbpedia.org/property/shortsummary>
+<http://dbpedia.org/property/showName>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/story>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/subdivisionName>
+<http://dbpedia.org/property/subdivisionType>
+<http://dbpedia.org/property/totalLength>
+<http://dbpedia.org/property/website>
+<http://dbpedia.org/property/writer>
+<http://dbpedia.org/property/writtenby>
+<http://dbpedia.org/property/years>
+<http://www.georss.org/georss/point>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://www.w3.org/2003/01/geo/wgs84_pos#geometry>
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/givenName>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/page>
+Buiding Model ...
+GROUP############## - 0
+17
+172
+199
+242
+268
+192
+351
+402
+488
+535
+538
+541
+542
+543
+544
+547
+548
+552
+END GROUP ###
+GROUP############## - 1
+2
+559
+561
+END GROUP ###
+GROUP############## - 2
+2
+632
+638
+END GROUP ###
+GROUP############## - 3
+2
+727
+729
+END GROUP ###
+GROUP############## - 4
+27
+741
+901
+947
+1052
+1089
+1265
+1294
+1317
+1335
+1301
+1363
+1397
+1444
+1275
+1494
+1521
+1545
+1577
+1578
+1579
+1580
+1582
+1583
+1588
+1589
+1590
+1592
+END GROUP ###
+GROUP############## - 5
+2
+1595
+1643
+END GROUP ###
+GROUP############## - 6
+10
+1658
+1688
+1752
+1807
+1856
+1858
+1860
+1861
+1863
+1865
+END GROUP ###
+GROUP############## - 7
+24
+1882
+1898
+1952
+2000
+2045
+2088
+2100
+2272
+2319
+2391
+2412
+2485
+2501
+2398
+2490
+2570
+2433
+2665
+2673
+2674
+2676
+2678
+2679
+2680
+END GROUP ###
+GROUP############## - 8
+7
+2689
+2700
+2816
+3022
+3051
+3052
+3053
+END GROUP ###
+GROUP############## - 9
+28
+3083
+3129
+3207
+3281
+3333
+3137
+3494
+3518
+3600
+3619
+3648
+3661
+3689
+3706
+3719
+3507
+3656
+3804
+3544
+3931
+3960
+3961
+3964
+3966
+3967
+3969
+3971
+3972
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+
+NUMBER OF GROUPS
+10
+NUMBER OF ELEMENTS BY GROUPS 0
+17
+NUMBER OF HOMONYMS
+2	2	2	2	7	10	17	24	27	28
+17	2	2	2	27	2	10	24	7	28
+End of Obtaining First Pivot
+OFFSET
+0
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/3227>
+KEYWORDS
+Belly
+TARGET LABEL PROPERTIES
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/producer>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/8840>
+KEYWORDS
+Gulliver's Travels Beyond the Moon
+TARGET LABEL PROPERTIES
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/5324>
+KEYWORDS
+Mars Attacks!
+TARGET LABEL PROPERTIES
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/name>
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/3168>
+KEYWORDS
+Porn 'n Chicken
+TARGET LABEL PROPERTIES
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/name>
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/2429>
+KEYWORDS
+Nothing Lasts Forever
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.19367588932806
+2.91751551230109
+2.91751551230109
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/language>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/previousWork>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/subsequentWork>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/cover>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/length>
+<http://dbpedia.org/property/misc>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/recorded>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+4
+172
+199
+242
+268
+END GROUP ###
+GROUP############## - 1
+1
+561
+END GROUP ###
+GROUP############## - 2
+1
+638
+END GROUP ###
+GROUP############## - 3
+2
+727
+729
+END GROUP ###
+GROUP############## - 4
+10
+1577
+1578
+1579
+1580
+1582
+1583
+1588
+1589
+1590
+1592
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+########### Normalizing Features
+
+NUMBER OF GROUPS
+6
+NUMBER OF ELEMENTS BY GROUPS 0
+4
+NUMBER OF HOMONYMS
+1	1	1	2	4	10
+4	1	1	2	10	1
+######
+1:0.583147912904622 
+1:0.582417524410965 
+1:0.62357818857171 
+1:0.584237626707443 
+######
+1:0.848911726798024 
+######
+1:0.950923635489199 
+######
+1:0.0290909435287763 
+1:0.315227526943391 
+######
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.0313633036416832 
+1:0.062399466345317 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.560208108829528
+MEAN / DEVIATION
+0.308537067603926
+0.350834783808237
+OUTLIER THRESHOLD
+0.350834783808237
+FINAL THRESHOLD - 0
+0.62357818857171
+FINAL THRESHOLD - 1
+0.848911726798024
+FINAL THRESHOLD - 2
+0.950923635489199
+FINAL THRESHOLD - 3
+0.315227526943391
+FINAL THRESHOLD - 4
+0.062399466345317
+CRITERIA
+
+OFFSET
+5
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/6833>
+KEYWORDS
+Dudley Do-Right
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1301>
+KEYWORDS
+Rob Roy
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1187>
+KEYWORDS
+Scum
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/4391>
+KEYWORDS
+When Saturday Comes
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1996>
+KEYWORDS
+Stigmata
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.72268907563025
+3.36797665052062
+3.36797665052062
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/language>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/caption>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/language>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/wikiPageUsesTemplate>
+<http://dbpedia.org/property/wordnet_type>
+<http://dbpedia.org/property/writer>
+<http://purl.org/dc/terms/subject>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+1
+1643
+END GROUP ###
+GROUP############## - 1
+6
+1856
+1858
+1860
+1861
+1863
+1865
+END GROUP ###
+GROUP############## - 2
+7
+2665
+2673
+2674
+2676
+2678
+2679
+2680
+END GROUP ###
+GROUP############## - 3
+3
+3051
+3052
+3053
+END GROUP ###
+GROUP############## - 4
+8
+3960
+3961
+3964
+3966
+3967
+3969
+3971
+3972
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/When_Saturday_Comes>
+
+NUMBER OF GROUPS
+6
+NUMBER OF ELEMENTS BY GROUPS 0
+1
+NUMBER OF HOMONYMS
+1	1	3	6	7	8
+1	6	7	3	8	1
+######
+1:0.419317446628746 
+######
+1:0.0884473788090862 
+1:0.0884473788090862 
+1:0.0884473788090862 
+1:0.0884473788090862 
+1:0.0884473788090862 
+1:0.353229479549047 
+######
+1:0.0887509555618178 
+1:0.0887509555618178 
+1:0.0887509555618178 
+1:0.0887509555618178 
+1:0.0887509555618178 
+1:0.0887509555618178 
+1:0.354462717477829 
+######
+1:0.0850146262974284 
+1:0.0850146262974284 
+1:1.0 
+######
+1:0.16556702461057 
+1:0.156458787946305 
+1:0.16556702461057 
+1:0.16556702461057 
+1:0.16556702461057 
+1:0.160675712360393 
+1:0.253720109109941 
+1:0.743191755452466 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.574040279821617
+MEAN / DEVIATION
+0.209923839479128
+0.219273826938816
+OUTLIER THRESHOLD
+0.219273826938816
+FINAL THRESHOLD - 0
+0.419317446628746
+FINAL THRESHOLD - 1
+0.353229479549047
+FINAL THRESHOLD - 2
+0.354462717477829
+FINAL THRESHOLD - 3
+1.0
+FINAL THRESHOLD - 4
+0.743191755452466
+CRITERIA
+
+OFFSET
+10
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/6948>
+KEYWORDS
+L.A. Takedown
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/7211>
+KEYWORDS
+The Bonfire of the Vanities
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/7763>
+KEYWORDS
+A/k/a Tommy Chong
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1985>
+KEYWORDS
+Closer
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/14006>
+KEYWORDS
+Parzania
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.24107142857143
+3.17002009827531
+3.17002009827531
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/author>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/isbn>
+<http://dbpedia.org/ontology/literaryGenre>
+<http://dbpedia.org/ontology/mediaType>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/numberOfPages>
+<http://dbpedia.org/ontology/oclc>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/publisher>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/subsequentWork>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/author>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/followedBy>
+<http://dbpedia.org/property/format>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/genre>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageCaption>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/isbn>
+<http://dbpedia.org/property/italicTitle>
+<http://dbpedia.org/property/mediaType>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/oclc>
+<http://dbpedia.org/property/pages>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/releaseDate>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+2
+4360
+4365
+END GROUP ###
+GROUP############## - 1
+3
+4406
+4410
+4413
+END GROUP ###
+GROUP############## - 2
+2
+4449
+4451
+END GROUP ###
+GROUP############## - 3
+18
+4482
+4485
+4492
+4494
+4496
+4498
+4500
+4502
+4505
+4507
+4509
+4511
+4513
+4516
+4518
+4520
+4522
+4524
+END GROUP ###
+GROUP############## - 4
+2
+4561
+4563
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/Parzania>
+
+NUMBER OF GROUPS
+7
+NUMBER OF ELEMENTS BY GROUPS 0
+2
+NUMBER OF HOMONYMS
+1	1	2	2	2	3	18
+2	3	2	18	2	1	1
+######
+1:0.0283267443259055 
+1:0.512057426391179 
+######
+1:0.029831707129525 
+1:0.029831707129525 
+1:0.584559483974269 
+######
+1:0.0283267443259055 
+1:0.882729802644382 
+######
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.0310022337545625 
+1:0.123717512025246 
+######
+1:0.0283267443259055 
+1:1.0 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.620612845007015
+MEAN / DEVIATION
+0.139805401707385
+0.26466100577648
+OUTLIER THRESHOLD
+0.26466100577648
+FINAL THRESHOLD - 0
+0.512057426391179
+FINAL THRESHOLD - 1
+0.584559483974269
+FINAL THRESHOLD - 2
+0.882729802644382
+FINAL THRESHOLD - 3
+0.123717512025246
+FINAL THRESHOLD - 4
+1.0
+CRITERIA
+
+OFFSET
+15
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/5178>
+KEYWORDS
+Kook's Tour
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/19895>
+KEYWORDS
+The Pink Chiquitas
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/4313>
+KEYWORDS
+My Bodyguard
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/3076>
+KEYWORDS
+Who Dares Wins
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/10441>
+KEYWORDS
+Underfunded
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+1.97265625
+2.43413918446254
+2.43413918446254
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/narrator>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/narrator>
+<http://dbpedia.org/property/precededBy>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+2
+4615
+4617
+END GROUP ###
+GROUP############## - 1
+2
+4648
+4650
+END GROUP ###
+GROUP############## - 2
+1
+4678
+END GROUP ###
+GROUP############## - 3
+7
+4707
+4711
+4713
+4716
+4718
+4720
+4723
+END GROUP ###
+GROUP############## - 4
+2
+4737
+4739
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+GROUP############## - 7
+1
+4563
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+
+NUMBER OF GROUPS
+8
+NUMBER OF ELEMENTS BY GROUPS 0
+2
+NUMBER OF HOMONYMS
+1	1	1	1	2	2	2	7
+2	2	1	7	2	1	1	1
+######
+1:0.0235088913551955 
+1:0.964049376164593 
+######
+1:0.0235088913551955 
+1:1.0 
+######
+1:0.803882404888595 
+######
+1:0.0247029095391501 
+1:0.0247029095391501 
+1:0.0247029095391501 
+1:0.0247029095391501 
+1:0.0247029095391501 
+1:0.0247029095391501 
+1:0.172920366774051 
+######
+1:0.0235088913551955 
+1:0.801769504310393 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.748524330427526
+MEAN / DEVIATION
+0.282954698817008
+0.3903099735247
+OUTLIER THRESHOLD
+0.3903099735247
+FINAL THRESHOLD - 0
+0.964049376164593
+FINAL THRESHOLD - 1
+1.0
+FINAL THRESHOLD - 2
+0.803882404888595
+FINAL THRESHOLD - 3
+0.172920366774051
+FINAL THRESHOLD - 4
+0.801769504310393
+CRITERIA
+
+OFFSET
+20
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/12869>
+KEYWORDS
+Go West
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/9190>
+KEYWORDS
+Let's Make Love
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/7363>
+KEYWORDS
+Hot Cars, Cold Facts
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/312>
+KEYWORDS
+The Elephant Man
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/2002>
+KEYWORDS
+Riding the Bullet
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.29596412556054
+2.84618095762657
+2.84618095762657
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/wikiPageRedirects>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/author>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/genre>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/mediaType>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/pubDate>
+<http://dbpedia.org/property/publicationType>
+<http://dbpedia.org/property/publishedIn>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+12
+4773
+4776
+4778
+4780
+4782
+4784
+4786
+4789
+4791
+4793
+4795
+4797
+END GROUP ###
+GROUP############## - 1
+3
+4809
+4812
+4813
+END GROUP ###
+GROUP############## - 2
+1
+4876
+END GROUP ###
+GROUP############## - 3
+9
+4880
+4883
+4886
+4894
+4896
+4899
+4901
+4906
+4908
+END GROUP ###
+GROUP############## - 4
+3
+4911
+4916
+4918
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+GROUP############## - 7
+1
+4563
+END GROUP ###
+GROUP############## - 8
+1
+4650
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/Let%27s_Make_Love>
+
+NUMBER OF GROUPS
+9
+NUMBER OF ELEMENTS BY GROUPS 0
+12
+NUMBER OF HOMONYMS
+1	1	1	1	1	3	3	9	12
+12	3	1	9	3	1	1	1	1
+######
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0300409815274621 
+1:0.0593922470872761 
+######
+1:0.0294431730802028 
+1:0.0294431730802028 
+1:1.0 
+######
+1:0.0484048122718926 
+######
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.030009984052419 
+1:0.0654091414383806 
+######
+1:0.0294431730802028 
+1:0.0294431730802028 
+1:0.289048423449728 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.292450924849455
+MEAN / DEVIATION
+0.0768056423496258
+0.18411198896209
+OUTLIER THRESHOLD
+0.18411198896209
+FINAL THRESHOLD - 0
+0.0593922470872761
+FINAL THRESHOLD - 1
+1.0
+FINAL THRESHOLD - 2
+0.0484048122718926
+FINAL THRESHOLD - 3
+0.0654091414383806
+FINAL THRESHOLD - 4
+0.289048423449728
+CRITERIA
+
+OFFSET
+25
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/6238>
+KEYWORDS
+The Gamers
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/15993>
+KEYWORDS
+So Young the Savage Land
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/8456>
+KEYWORDS
+Neighbors
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/275>
+KEYWORDS
+Friendly Persuasion
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/15969>
+KEYWORDS
+The Dark, Dark Hours
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+<http://dbpedia.org/resource/Let%27s_Make_Love>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.25980392156863
+2.93661001716704
+2.93661001716704
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/wikiPageRedirects>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+3
+4951
+4954
+4955
+END GROUP ###
+GROUP############## - 1
+2
+4966
+4971
+END GROUP ###
+GROUP############## - 2
+6
+4974
+4977
+4979
+4981
+4983
+4985
+END GROUP ###
+GROUP############## - 3
+1
+4996
+END GROUP ###
+GROUP############## - 4
+2
+5003
+5007
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+GROUP############## - 7
+1
+4563
+END GROUP ###
+GROUP############## - 8
+1
+4650
+END GROUP ###
+GROUP############## - 9
+1
+4813
+END GROUP ###
+########### Normalizing Features
+
+NUMBER OF GROUPS
+10
+NUMBER OF ELEMENTS BY GROUPS 0
+3
+NUMBER OF HOMONYMS
+1	1	1	1	1	1	2	2	3	6
+3	2	6	1	2	1	1	1	1	1
+######
+1:0.0365901896206373 
+1:0.0365901896206373 
+1:0.221745530952052 
+######
+1:0.0358116749478578 
+1:0.143581224874164 
+######
+1:0.037057298424305 
+1:0.037057298424305 
+1:0.037057298424305 
+1:0.037057298424305 
+1:0.064690676734614 
+1:0.0792078410425344 
+######
+1:0.062769621019012 
+######
+1:0.0358116749478578 
+1:0.0719902646787585 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.115858896513304
+MEAN / DEVIATION
+0.129134538809023
+0.238043092842003
+OUTLIER THRESHOLD
+0.238043092842003
+FINAL THRESHOLD - 0
+0.221745530952052
+FINAL THRESHOLD - 1
+0.143581224874164
+FINAL THRESHOLD - 2
+0.0792078410425344
+FINAL THRESHOLD - 3
+0.062769621019012
+FINAL THRESHOLD - 4
+0.0719902646787585
+CRITERIA
+
+OFFSET
+30
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/6371>
+KEYWORDS
+Three Sisters
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/3862>
+KEYWORDS
+Showtime
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/15901>
+KEYWORDS
+Bride for Sale
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/18485>
+KEYWORDS
+You'd Be Surprised
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/5997>
+KEYWORDS
+Silver Streak
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://dbpedia.org/property/name>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+<http://dbpedia.org/resource/Let%27s_Make_Love>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.48928571428571
+3.50100386478285
+3.50100386478285
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+18
+5015
+5018
+5021
+5023
+5025
+5027
+5031
+5034
+5036
+5038
+5041
+5044
+5046
+5050
+5052
+5057
+5060
+5062
+END GROUP ###
+GROUP############## - 1
+19
+5098
+5101
+5103
+5105
+5107
+5109
+5111
+5113
+5117
+5136
+5138
+5140
+5142
+5144
+5146
+5156
+5158
+5163
+5164
+END GROUP ###
+GROUP############## - 2
+2
+5195
+5198
+END GROUP ###
+GROUP############## - 3
+3
+5238
+5241
+5242
+END GROUP ###
+GROUP############## - 4
+7
+5256
+5259
+5261
+5263
+5267
+5269
+5271
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+GROUP############## - 7
+1
+4563
+END GROUP ###
+GROUP############## - 8
+1
+4650
+END GROUP ###
+GROUP############## - 9
+1
+4813
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/Bride_for_Sale>
+
+NUMBER OF GROUPS
+10
+NUMBER OF ELEMENTS BY GROUPS 0
+18
+NUMBER OF HOMONYMS
+1	1	1	1	1	2	3	7	18	19
+18	19	2	3	7	1	1	1	1	1
+######
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0243204890126272 
+1:0.0969529837646821 
+######
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0243219178849489 
+1:0.0485340046662878 
+1:0.0964309743973759 
+######
+1:0.0232051962382665 
+1:1.0 
+######
+1:0.0238325484238444 
+1:0.0238325484238444 
+1:0.175159264719977 
+######
+1:0.0242422478103442 
+1:0.0242422478103442 
+1:0.0242422478103442 
+1:0.0242422478103442 
+1:0.0242422478103442 
+1:0.0242422478103442 
+1:0.0482077574217775 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.283350196060762
+MEAN / DEVIATION
+0.0511944833097329
+0.139309414222253
+OUTLIER THRESHOLD
+0.139309414222253
+FINAL THRESHOLD - 0
+0.0969529837646821
+FINAL THRESHOLD - 1
+0.0964309743973759
+FINAL THRESHOLD - 2
+1.0
+FINAL THRESHOLD - 3
+0.175159264719977
+FINAL THRESHOLD - 4
+0.0482077574217775
+CRITERIA
+
+OFFSET
+35
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/18657>
+KEYWORDS
+Custer of the West
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/5104>
+KEYWORDS
+Shalimar
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/902>
+KEYWORDS
+Mask
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/6936>
+KEYWORDS
+DÃ©sirÃ©e
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+exact_search
+exact_bif_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/5615>
+KEYWORDS
+The Bedroom Window
+TARGET LABEL PROPERTIES
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+4
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+<http://dbpedia.org/resource/Let%27s_Make_Love>
+<http://dbpedia.org/resource/Bride_for_Sale>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.36190476190476
+2.97115383345272
+2.97115383345272
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+2
+5286
+5288
+END GROUP ###
+GROUP############## - 1
+5
+5326
+5330
+5332
+5334
+5338
+END GROUP ###
+GROUP############## - 2
+10
+5350
+5354
+5356
+5358
+5364
+5366
+5368
+5370
+5378
+5380
+END GROUP ###
+GROUP############## - 3
+2
+5435
+5437
+END GROUP ###
+GROUP############## - 4
+1
+3804
+END GROUP ###
+GROUP############## - 5
+1
+3053
+END GROUP ###
+GROUP############## - 6
+1
+4563
+END GROUP ###
+GROUP############## - 7
+1
+4650
+END GROUP ###
+GROUP############## - 8
+1
+4813
+END GROUP ###
+GROUP############## - 9
+1
+5198
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/The_Bedroom_Window>
+
+NUMBER OF GROUPS
+10
+NUMBER OF ELEMENTS BY GROUPS 0
+2
+NUMBER OF HOMONYMS
+1	1	1	1	1	1	2	2	5	10
+2	5	10	2	1	1	1	1	1	1
+######
+1:0.0197619699242668 
+1:0.881909112815996 
+######
+1:0.0204207022550757 
+1:0.0204207022550757 
+1:0.0204207022550757 
+1:0.0204207022550757 
+1:0.0406007146325383 
+######
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.0205148068737626 
+1:0.162409332474225 
+######
+1:0.0197619699242668 
+1:1.0 
+MODEL DONE
+4
+4
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.52122978998069
+MEAN / DEVIATION
+0.125829430034498
+0.282022566820133
+OUTLIER THRESHOLD
+0.282022566820133
+FINAL THRESHOLD - 0
+0.881909112815996
+FINAL THRESHOLD - 1
+0.0406007146325383
+FINAL THRESHOLD - 2
+0.162409332474225
+FINAL THRESHOLD - 3
+1.0
+CRITERIA
+
+OFFSET
+40
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/1748>
+KEYWORDS
+Screamers
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/7375>
+KEYWORDS
+Squizzy Taylor
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/507>
+KEYWORDS
+The Star
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/3701>
+KEYWORDS
+Bones
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/8668>
+KEYWORDS
+The Fixer
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+<http://dbpedia.org/resource/Let%27s_Make_Love>
+<http://dbpedia.org/resource/Bride_for_Sale>
+<http://dbpedia.org/resource/The_Bedroom_Window>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.38352272727273
+2.91996674162751
+2.91996674162751
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/alias>
+<http://dbpedia.org/ontology/birthDate>
+<http://dbpedia.org/ontology/birthPlace>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/deathDate>
+<http://dbpedia.org/ontology/deathPlace>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/wikiPageRedirects>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alias>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/birthDate>
+<http://dbpedia.org/property/birthName>
+<http://dbpedia.org/property/birthPlace>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cause>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/dateOfBirth>
+<http://dbpedia.org/property/dateOfDeath>
+<http://dbpedia.org/property/deathDate>
+<http://dbpedia.org/property/deathPlace>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageName>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/placeOfBirth>
+<http://dbpedia.org/property/placeOfDeath>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/givenName>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://xmlns.com/foaf/0.1/surname>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+5
+5495
+5498
+5500
+5504
+5507
+END GROUP ###
+GROUP############## - 1
+3
+5510
+5513
+5517
+END GROUP ###
+GROUP############## - 2
+19
+5551
+5561
+5564
+5566
+5570
+5572
+5575
+5577
+5579
+5581
+5583
+5585
+5587
+5593
+5596
+5598
+5600
+5604
+5606
+END GROUP ###
+GROUP############## - 3
+24
+5628
+5631
+5633
+5635
+5637
+5639
+5641
+5655
+5661
+5666
+5670
+5676
+5678
+5680
+5682
+5684
+5691
+5696
+5698
+5703
+5707
+5710
+5725
+5732
+END GROUP ###
+GROUP############## - 4
+6
+5735
+5739
+5741
+5743
+5746
+5748
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+GROUP############## - 7
+1
+4563
+END GROUP ###
+GROUP############## - 8
+1
+4650
+END GROUP ###
+GROUP############## - 9
+1
+4813
+END GROUP ###
+GROUP############## - 10
+1
+5198
+END GROUP ###
+GROUP############## - 11
+1
+5437
+END GROUP ###
+########### Normalizing Features
+
+NUMBER OF GROUPS
+12
+NUMBER OF ELEMENTS BY GROUPS 0
+5
+NUMBER OF HOMONYMS
+1	1	1	1	1	1	1	3	5	6	19	24
+5	3	19	24	6	1	1	1	1	1	1	1
+######
+1:0.0232987110501965 
+1:0.0232987110501965 
+1:0.0232987110501965 
+1:0.0232987110501965 
+1:0.0463895741199446 
+######
+1:0.023066776905303 
+1:0.023066776905303 
+1:0.297957057904699 
+######
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0234201391759164 
+1:0.0929722914272321 
+######
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0234235115519898 
+1:0.0467639756253245 
+######
+1:0.0233385747313501 
+1:0.0233385747313501 
+1:0.0233385747313501 
+1:0.0233385747313501 
+1:0.0233385747313501 
+1:0.0465091651634053 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.106118412848121
+MEAN / DEVIATION
+0.0473606311512243
+0.131456016385127
+OUTLIER THRESHOLD
+0.131456016385127
+FINAL THRESHOLD - 0
+0.0463895741199446
+FINAL THRESHOLD - 1
+0.297957057904699
+FINAL THRESHOLD - 2
+0.0929722914272321
+FINAL THRESHOLD - 3
+0.0467639756253245
+FINAL THRESHOLD - 4
+0.0465091651634053
+CRITERIA
+
+OFFSET
+45
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/13617>
+KEYWORDS
+Before the Devil Knows You're Dead
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/18090>
+KEYWORDS
+Laughing Gas
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/7185>
+KEYWORDS
+Bill
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1890>
+KEYWORDS
+The Last Command
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1778>
+KEYWORDS
+Meteor
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+TEXT PROPERTIES USED
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/property/shortsummary>
+END
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+MAXIMA
+1.0
+**************************** BUILDING SAMPLE
+5
+*************************** PIVOT SIZE
+<http://dbpedia.org/resource/Stigmata_%28film%29>
+<http://dbpedia.org/resource/When_Saturday_Comes>
+<http://dbpedia.org/resource/Parzania>
+<http://dbpedia.org/resource/The_Pink_Chiquitas>
+<http://dbpedia.org/resource/Let%27s_Make_Love>
+<http://dbpedia.org/resource/Bride_for_Sale>
+<http://dbpedia.org/resource/The_Bedroom_Window>
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+2.675
+3.43793179106276
+3.43793179106276
+OVERFLOW PROPERTY
+##################
+<http://dbpedia.org/ontology/Work/runtime>
+<http://dbpedia.org/ontology/abstract>
+<http://dbpedia.org/ontology/budget>
+<http://dbpedia.org/ontology/cinematography>
+<http://dbpedia.org/ontology/country>
+<http://dbpedia.org/ontology/director>
+<http://dbpedia.org/ontology/distributor>
+<http://dbpedia.org/ontology/editing>
+<http://dbpedia.org/ontology/editor>
+<http://dbpedia.org/ontology/editorTitle>
+<http://dbpedia.org/ontology/genre>
+<http://dbpedia.org/ontology/gross>
+<http://dbpedia.org/ontology/musicComposer>
+<http://dbpedia.org/ontology/producer>
+<http://dbpedia.org/ontology/releaseDate>
+<http://dbpedia.org/ontology/runtime>
+<http://dbpedia.org/ontology/starring>
+<http://dbpedia.org/ontology/thumbnail>
+<http://dbpedia.org/ontology/wikiPageDisambiguates>
+<http://dbpedia.org/ontology/wikiPageExternalLink>
+<http://dbpedia.org/ontology/wikiPageRedirects>
+<http://dbpedia.org/ontology/writer>
+<http://dbpedia.org/property/alt>
+<http://dbpedia.org/property/budget>
+<http://dbpedia.org/property/category>
+<http://dbpedia.org/property/cinematography>
+<http://dbpedia.org/property/circulation>
+<http://dbpedia.org/property/company>
+<http://dbpedia.org/property/country>
+<http://dbpedia.org/property/director>
+<http://dbpedia.org/property/distributor>
+<http://dbpedia.org/property/editing>
+<http://dbpedia.org/property/editor>
+<http://dbpedia.org/property/editorTitle>
+<http://dbpedia.org/property/firstdate>
+<http://dbpedia.org/property/frequency>
+<http://dbpedia.org/property/gross>
+<http://dbpedia.org/property/id>
+<http://dbpedia.org/property/imageSize>
+<http://dbpedia.org/property/music>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/publisher>
+<http://dbpedia.org/property/released>
+<http://dbpedia.org/property/runtime>
+<http://dbpedia.org/property/staffWriter>
+<http://dbpedia.org/property/starring>
+<http://dbpedia.org/property/studio>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/writer>
+<http://www.w3.org/2000/01/rdf-schema#comment>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://xmlns.com/foaf/0.1/depiction>
+<http://xmlns.com/foaf/0.1/homepage>
+<http://xmlns.com/foaf/0.1/name>
+<http://xmlns.com/foaf/0.1/page>
+<http://dbpedia.org/property/shortsummary>
+Buiding Model ...
+GROUP############## - 0
+2
+5756
+5761
+END GROUP ###
+GROUP############## - 1
+7
+5814
+5818
+5820
+5822
+5824
+5826
+5828
+END GROUP ###
+GROUP############## - 2
+30
+5831
+5837
+5839
+5843
+5848
+5853
+5856
+5861
+5869
+5874
+5889
+5900
+5912
+5922
+5928
+5932
+5935
+5941
+5947
+5949
+5954
+5959
+5965
+5970
+5973
+5977
+5979
+5991
+5996
+6014
+END GROUP ###
+GROUP############## - 3
+5
+6053
+6056
+6059
+6062
+6065
+END GROUP ###
+GROUP############## - 4
+13
+6073
+6077
+6080
+6083
+6085
+6087
+6089
+6095
+6099
+6101
+6103
+6108
+6111
+END GROUP ###
+GROUP############## - 5
+1
+3804
+END GROUP ###
+GROUP############## - 6
+1
+3053
+END GROUP ###
+GROUP############## - 7
+1
+4563
+END GROUP ###
+GROUP############## - 8
+1
+4650
+END GROUP ###
+GROUP############## - 9
+1
+4813
+END GROUP ###
+GROUP############## - 10
+1
+5198
+END GROUP ###
+GROUP############## - 11
+1
+5437
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://dbpedia.org/resource/Before_the_Devil_Knows_You%27re_Dead>
+
+NUMBER OF GROUPS
+12
+NUMBER OF ELEMENTS BY GROUPS 0
+2
+NUMBER OF HOMONYMS
+1	1	1	1	1	1	1	2	5	7	13	30
+2	7	30	5	13	1	1	1	1	1	1	1
+######
+1:0.0198692351051156 
+1:1.0 
+######
+1:0.0205147045373217 
+1:0.0205147045373217 
+1:0.0205147045373217 
+1:0.0205147045373217 
+1:0.0205147045373217 
+1:0.0205147045373217 
+1:0.0407769928360969 
+######
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0205689558446607 
+1:0.0818326217438275 
+######
+1:0.0204596244791068 
+1:0.0204596244791068 
+1:0.0204596244791068 
+1:0.0204596244791068 
+1:0.0814324653389131 
+######
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0205554442253505 
+1:0.0409030909880963 
+MODEL DONE
+5
+5
+OUTPUT
+#<File:0xb8216a>
+MEAN OF MAXIMUS
+0.248989034181387
+MEAN / DEVIATION
+0.0405773014272241
+0.128741965580546
+OUTLIER THRESHOLD
+0.128741965580546
+FINAL THRESHOLD - 0
+1.0
+FINAL THRESHOLD - 1
+0.0407769928360969
+FINAL THRESHOLD - 2
+0.0818326217438275
+FINAL THRESHOLD - 3
+0.0814324653389131
+FINAL THRESHOLD - 4
+0.0409030909880963
+CRITERIA
+
+OFFSET
+50
+LIMIT
+5
+ORIGIN LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://data.linkedmdb.org/resource/film/8869>
+KEYWORDS
+A Night to Remember
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
+Searched Ambiguous
+<http://data.linkedmdb.org/resource/film/1014>
+KEYWORDS
+Serenity
+TARGET LABEL PROPERTIES
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://xmlns.com/foaf/0.1/name>
+<http://dbpedia.org/property/name>
+<http://dbpedia.org/property/title>
+<http://dbpedia.org/property/artist>
+<http://dbpedia.org/property/thisAlbum>
+<http://dbpedia.org/property/producer>
+<http://dbpedia.org/property/lastAlbum>
+<http://dbpedia.org/property/nextAlbum>
+exact_search
