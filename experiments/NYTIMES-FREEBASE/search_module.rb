@@ -1,28 +1,4 @@
-require "matching_module.rb"
-
-def get_all_instances(klass , limit)
-  t0 =  Time.now
-  instances = []
-  orderbyclause = "}"
-  orderbyclause = $orderbyclause if $experiment && $orderbyclause != nil
-  orderby = $orderby if $experiment && $orderby != nil
-  count =  Query.new.adapters($session[:origin]).sparql("select distinct count(distinct ?s) where {?s ?p #{klass} . #{orderbyclause} ").execute[0][0].to_i
-  retrieved = 0
-  limit = count if limit == nil
-  while retrieved < count && retrieved < limit
-    results = Query.new.adapters($session[:origin]).sparql("select distinct ?s where {?s ?p #{klass} .   #{orderbyclause} #{orderby} offset #{retrieved } limit #{limit }" ).execute
-    retrieved  = retrieved + results.size
-    # puts "RESULTS SIZE"
-    # puts results.size
-    instances = instances + results.map{|x| x.to_s}
-  end
-  instances.uniq!
-  puts "Elapsed time"
-  puts Time.now - t0
-  instances
-end
-
-
+require "matching_module.rb" 
 
 def intersection_query(subjects, dataset)
   q = subjects.map {|x| "   #{x.to_s}  ?p  ?o . "  }.join(" ")
@@ -41,6 +17,7 @@ def union_query(subjects, dataset)
   while offset < size
     q = subjects[offset..(offset+30-1)].map {|x| " { ?s  ?p  ?o . filter (?s = #{x.to_s}) }"  }.join(" union ")
     return [] if q == ""
+    
     data = data + Query.new.adapters(dataset).sparql("select distinct * where { #{q}}  ").execute
     offset = offset+30
   end
@@ -207,9 +184,7 @@ def and_search(x)
   $word_by_word_properties.insert(0,pre)if pre != nil
   $word_by_word_properties.uniq!
   return union_query(b + c,$session[:target])
-end
-
-
+end 
 
 def word_by_word_search(x)
   b=[]

@@ -17,6 +17,7 @@ def get_all_instances(klass , limit)
     instances = instances + results.map{|x| x.to_s}
   end
   instances.uniq!
+   puts instances.size
   puts "Elapsed time"
   puts Time.now - t0
   instances

@@ -7,7 +7,7 @@ require 'serimi_module.rb'
 $filter=true
 $filter_threshold=0.7
    
-class Serimi
+class Serimi  
   include Initializer_Module
   include Serimi_Module
   
@@ -31,10 +31,10 @@ class Serimi
       end 
     }
     instances_size = instances.map{|s,p| s}.uniq.size.to_f
-    
+     
     predicates = triples.map{|p,o| p if !$textp.include?(p)}.compact.uniq
     entropies = Hash.new 
-   
+    
     predicates.each{|pre| 
       objects = triples.find_all{|p,o| p==pre}.map{|p,o| o}
       entropy = 0
@@ -51,7 +51,7 @@ class Serimi
       entropies[pre] = ( 1 -  entropy ).abs
       end
     } 
-    # puts entropies
+     # puts entropies
     sorted_entropies = sort(entropies)      
     # puts "ENTROPIES"
     # puts entropies
@@ -63,8 +63,8 @@ class Serimi
     entropy_threshold = entropy_threshold.to_f / entropies.size.to_f
     all_predicates=[]
     sorted_entropies.each{|k,v|
-    # puts k
-    # puts v
+    puts k
+    puts v
       all_predicates << k
       predicates << k if v <= entropy_threshold
     }
@@ -95,7 +95,7 @@ class Serimi
   #Converts the rdf data to svm records.
   #it return an array containing a array of svm records for each group of rdf data
   #####################################################################################
-  def rdf2svm_with_meta_properties(rdfdata,transitive)
+  def solve(rdfdata,transitive)
     puts "RDF to SVM WITH META PROPERTIES ..."
     number_homonyms=[]
     max=nil
@@ -281,11 +281,11 @@ class Serimi
       # puts $pivot
       # exit
 
-      $pivot_labels << keywords
+      # $pivot_labels << keywords
       $pivot_subjects << spivot
       if $pivot.size > 10
       $pivot.delete_at(0)
-      $pivot_labels.delete_at(0)
+      # $pivot_labels.delete_at(0)
       $pivot_subjects.delete_at(0)
       end
     end

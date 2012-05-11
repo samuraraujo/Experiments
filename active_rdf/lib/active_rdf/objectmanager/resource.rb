@@ -295,9 +295,9 @@ module RDFS
         return namespace
       end
       all_instance_predicates.each do |pred|    
-        next if methodname == "to_i"    
+        next if methodname == "to_i"  
+        next if pred.instance_of? String #I added this because a problem with dbpedia
         if Namespace.localname(pred) == methodname
- 
           if update
             return set_predicate(pred, args)
           else 

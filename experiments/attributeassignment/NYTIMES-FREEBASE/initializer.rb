@@ -79,7 +79,7 @@ module Initializer_Module
     puts "Obtaning all instances instances"
     $instances = get_all_instances(klass,totallimit)
 
-    $instances = experiment_instances($instances) if $experiment
+    $instances = experiment_instances($instances) if $experiment && false
 
     count = $instances.size
     puts "TOTAL NUMBER OF INSTANCES"

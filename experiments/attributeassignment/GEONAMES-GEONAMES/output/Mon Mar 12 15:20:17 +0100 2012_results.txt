@@ -1,0 +1,25 @@
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://geonames.org
+target => http://localhost:8890/sparql?default-graph-uri=http://geonames.org
+class =>  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR> 
+append => a
+format => txt
+chunk => 15
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+RECALL: 0.769230769230769
+PRECISON: 0.769230769230769
+FMEASURE: 0.769230769230769
+NUMBER HOMONYMS: 571
+ELAPSED TIME: 44.939

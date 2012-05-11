@@ -5,14 +5,17 @@ require './results.rb'
 ##################### SET THE PARAMETER FOR THIS EXPERIMENT #################
 @options = {"verbose".to_sym => false,
 "logfile".to_sym => nil ,
-"source".to_sym => "nytimes",
+"source".to_sym => "dailymed",
 # "target".to_sym => "dbpedia_local",
-"target".to_sym => "freebase",
+"target".to_sym => "drugbank",
   # "class".to_sym => "http://data.linkedmdb.org/resource/movie/film",
-:class=>" <http://data.nytimes.com/elements/nytd_geo> ",
+# :class=>"<http://www.okkam.org/ontology_person1.owl#Person>",
+# :class=>"<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs>",
+:class=>"<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs>",
+# :class=>"<http://data.nytimes.com/elements/nytd_geo> ",
 "append".to_sym => "a",
 "format".to_sym => "txt",
-"chunk".to_sym => 5,
+"chunk".to_sym => 15,
 "topk".to_sym => 1,
 "offset".to_sym => 0,
 "stringthreshold".to_sym => 0.7,
@@ -89,7 +92,7 @@ def ww(str)
 
 end
 predicate = nil
-predicate="http://www.w3.org/2003/01/geo/wgs84_pos#long"
+# predicate="http://www.w3.org/2003/01/geo/wgs84_pos#long"
 experiment(false,predicate) 
  # experiment(true,predicate) 
 # 
