@@ -28,6 +28,7 @@ require  File.dirname(__FILE__)+'/../../modules/experiment/results.rb'
 # "limit".to_sym => 100  ,
 "transitionupdate".to_sym => 'true',
 "globalrecall".to_sym => 'true',
+"aligner".to_sym => 'KMeansAligner',
 }
 
 def experiment(orderby, predicate)
@@ -36,32 +37,18 @@ def experiment(orderby, predicate)
   $list_number_homonyms=[]
   $orderby=nil
   $shuffle=false
-  t1 = Time.now()
+  $t1 = Time.now()
   $orderbyclause=" ?s <#{predicate}> ?oo . }  " if predicate != nil
   $orderby=" order by ?oo " if orderby
 
+ 
   $shuffle=!orderby
  
   Initializer.new(@options)
   puts "RESULTS"
-  results = check_result()
+  $xresults = check_result()
+  summary()
 
-  ww "Parameters:"
-  @options.each { |k,v| ww "#{k} => #{v}" }
-  
-  ww "$shuffle"
-  ww $shuffle
-  ww "$orderbyclause"
-  ww $orderbyclause
-  ww "$orderby"
-  ww $orderby
-  ww "RECALL: " + results[1].to_s
-  ww "PRECISON: " + results[2].to_s
-  ww "FMEASURE: " + results[0].to_s
-  ww "NUMBER HOMONYMS: " +  $number_homonyms.to_s
-  ww "SORTED LIST OF HOMONYMS: " +  $list_number_homonyms.sort.join("\t")
-  ww "LIST OF HOMONYMS: " +  $list_number_homonyms.join("\t")
-  ww "ELAPSED TIME: " +  (Time.now() - t1).to_s
 end
 
 def experiment_instances(instances)

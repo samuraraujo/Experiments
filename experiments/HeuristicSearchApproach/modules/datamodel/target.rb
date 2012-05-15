@@ -61,8 +61,7 @@ class CandidateSet
   end
 
   def search(query)
-    puts "SEARCH"
-    puts query
+    
     b =[]
     return b if query == nil
     begin
@@ -71,8 +70,7 @@ class CandidateSet
       puts "Exception 52: #{ex}"
       puts ex.message
     end
-    puts "TRANSITION TYPE"
-    puts @transition.qtype
+    
     if @transition.qtype !=  QueryType::EXACT
       b = filter(b,@token.to_s)
     end

@@ -28,7 +28,7 @@ class Node < AStarNode
   end
   
   def connect(other, weight, back = true)
-    @connections[other] = weight
+    # @connections[other] = weight
     other.connect(self, weight, false) if back
   end
   

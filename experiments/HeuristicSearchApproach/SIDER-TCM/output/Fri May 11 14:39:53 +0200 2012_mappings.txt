@@ -1,8 +1,0 @@
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0014534=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Epididymitis
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0027059=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Myocarditis
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0002871=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Anemia
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0020538=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Hypertension
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0020538=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Hypertension_Pulmonary
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0020538=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Hypertension_Renal
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0006145=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Breast_Disease
-http://www4.wiwiss.fu-berlin.de/sider/resource/side_effects/C0318712=http://purl.org/net/tcm/tcm.lifescience.ntu.edu.tw/id/disease/Gastroenteritis

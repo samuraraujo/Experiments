@@ -30,6 +30,7 @@ class Serimi < Solver
     #    puts "DATA DEBUG 1"
     #    puts  rdfdata[0][0]
     puts "############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES"
+    # puts $textp
     ifp = restricted_IFP(rdfdata) + $textp  + propertyoverflow(rdfdata)
     ifp.uniq!
     puts ifp
@@ -196,7 +197,7 @@ class Serimi < Solver
   #####################################################################################################
   def solve(data,subjects)
     puts "SOLVER PROCESSING #{data.size} SETS"
-   
+    $textp = get_text_properties([data])
     $selecteds=[]
     
      $number_homonyms=0

@@ -85,12 +85,13 @@ class AStarNode
       open_nodes.delete(fmin_node)
       closed_nodes.add(fmin_node)
       
-      
-      cut=Node::MAX_COST   #stop exploring node with cost > 0. It means that a query retrieve a non-empty candidate set.
+      # puts fmin_node.number
+      # puts fmin_node.name
+      cut=XNode::MAX_COST   #stop exploring node with cost > 0. It means that a query retrieve a non-empty candidate set.
       fmin_node.neighbors.each do |neighbor|
-        next if closed_nodes.include?(neighbor) || cut < Node::MAX_COST         
+        next if closed_nodes.include?(neighbor) || cut < XNode::MAX_COST         
         cut = fmin_node.movement_cost(neighbor)
-        next if cut == Node::MAX_COST
+        next if cut ==XNode::MAX_COST
         tmp_g_score = g_scores[fmin_node] + cut            
         if !open_nodes.include?(neighbor)
           open_nodes.add(neighbor)
@@ -110,7 +111,7 @@ class AStarNode
          ###### LOCAL PATH #######
           neighbor.set_local_path(came_from)     
       end
-       open_nodes.add(fmin_node) if cut == Node::MAX_COST
+       open_nodes.add(fmin_node) if cut ==XNode::MAX_COST
     end
     
     return [nil, nil]

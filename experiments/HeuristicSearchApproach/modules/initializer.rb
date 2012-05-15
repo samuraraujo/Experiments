@@ -18,12 +18,15 @@ require  File.dirname(__FILE__)+"/datamodel/source.rb"
 require  File.dirname(__FILE__)+"/datamodel/target.rb"
 require  File.dirname(__FILE__)+"/util/extension_module.rb"
 require  File.dirname(__FILE__)+"/util/matching_module.rb"
+require  File.dirname(__FILE__)+"/util/feature_counter.rb"
 
 class Initializer
   def initialize(params)
     create_log()
     puts "Parameters:"
-
+    $featurecounter = FeatureCounter.new()
+     
+     
     params.each { |k,v| puts "#{k} => #{v}" }
      totallimit=nil
     $stopwords=[]
@@ -31,6 +34,7 @@ class Initializer
     $pivot = []
     # $pivot_labels = []
     $pivot_subjects = []
+    $aligner = SerimiAligner.new()
     $usepivot=false
     $topk=params[:topk].to_i
     $output=params[:output] if $output == nil
@@ -39,6 +43,7 @@ class Initializer
     $cluster=params[:cluster]    
     $filter_threshold=params[:stringthreshold]
     $rdsthreshold=params[:rdsthreshold]
+    $aligner=eval(params[:aligner]).new() if params[:aligner] != nil
     $usepivot=true if params[:usepivot] ==  'true'
     $blocking=true  if params[:blocking] ==  'true'
     $transitionupdate=true  if params[:transitionupdate] ==  'true'
@@ -62,11 +67,13 @@ class Initializer
     
     $instances = source.set_instances(klass,totallimit)
   
-    alignments = SerimiAligner.new().alignment_algorithm($instances,5)[0..1]
+    alignments = []
+    
+    alignments = $aligner.alignment_algorithm($instances,5)#[0..1]
     puts "Alignments"
     puts alignments
     t1 = Time.now()
-
+  
     solver = Serimi.new()
     $limit = $instances.size if $limit == nil
     puts" $limit"

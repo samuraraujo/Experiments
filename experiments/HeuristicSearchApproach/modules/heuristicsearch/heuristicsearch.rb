@@ -51,23 +51,21 @@ class TransitionQuery
   end
 end
 ##################################################
-class Node < AStarNode   
+class XNode < AStarNode   
    attr_reader :name,:transition, :instance,:solver,:candidate,:nodecost
    attr_accessor :number
    alias_method :inspect, :name
    @@instances=nil
    @@transitions=nil
-   @@solver=nil
+   @@solver=nil    
     
-    
-  def initialize(source_instance,transition) 
+  def initialize(source_instance,transition)     
    @number=0 
    @nodecost=0
     @instance=source_instance
     @transition=transition
     @neighbours=[]
-    @name = "NODE " +source_instance  + " - " + transition.to_s
-    
+    @name = "NODE " +source_instance  + " - " + transition.to_s    
   end
   def connect(node)
     @neighbours << node
@@ -76,7 +74,8 @@ class Node < AStarNode
     1
   end
   def neighbors
-     puts "Getting Neigbout for " + to_s
+     puts "Getting Neighbour for " + to_s
+      
     # if @neighbours.size == 0
     node_expander()       
     # end
@@ -86,25 +85,27 @@ class Node < AStarNode
   end
   def cost()
     return @nodecost if @nodecost != 0
-    puts "CURRENT TRANSITION: " 
+    puts "#### CURRENT TRANSITION: " 
     puts transition.to_s
-    @candidate= transition.query(instance)
+    @candidate= transition.query(instance)  
     @nodecost  = @candidate.elements.size
      puts @nodecost
     if @nodecost == 0
-    @nodecost  = Node::MAX_COST
+    @nodecost  = XNode::MAX_COST
       transition.penalize()
+      $featurecounter.negative_queries=$featurecounter.negative_queries+1
     else
      transition.unpenalize()
+     $featurecounter.positive_queries=$featurecounter.positive_queries+1
     end     
     return @nodecost
   end 
   def movement_cost(node)    
-     puts "MOVEMENT COST" 
-     return 1 if node == Node.goal()
+     # puts "MOVEMENT COST" 
+     return 1 if node == XNode.goal()
      cost= node.cost() 
-     puts "COST COMPUTED"
-     puts cost     
+     # puts "COST COMPUTED"
+     # puts cost     
      cost
   end  
    def node_expander()     
@@ -112,7 +113,7 @@ class Node < AStarNode
       puts "POP"
     if @@instances.size == 0        
        puts "GOAL"
-       self.connect(Node.goal)
+       self.connect(XNode.goal)
       return
     end
     rank_transitions() 
@@ -122,7 +123,7 @@ class Node < AStarNode
     puts source_instance
     puts @@transitions 
     @@transitions.each{|transition|
-      neighbour = Node.new(source_instance, transition)      
+      neighbour = XNode.new(source_instance, transition)      
       neighbour.number=@number+1       
       self.connect(neighbour)     
     }   
@@ -160,17 +161,17 @@ end
  def remove_transitions()
       @@transitions.delete_if{|a | a.weight > 0}
     end
-def to_s
+def to_s 
   @number.to_s + " - " + @name
 end 
 
-   def Node.instances=(instances)
+   def XNode.instances=(instances)
      @@instances = instances
    end
-   def Node.transitions=(transitions)
+   def XNode.transitions=(transitions)
      @@transitions = transitions
    end
-   def Node.solver=(solver)
+   def XNode.solver=(solver)
      @@solver = solver
    end
 end
@@ -180,17 +181,15 @@ class HeuristicSearch
      puts "###########################################################################"
     puts "######################## START SEARCH ###########################"
     puts "###########################################################################"
-     
-  
-    Node.solver=solver 
-    Node.instances=instances   
-    Node.transitions=transitions(alignments)
-   
-    
+       
+    XNode.solver=solver 
+    XNode.instances=instances   
+    XNode.transitions=transitions(alignments)
+       
   end
-  def search()   
-    start = Node.new("start",1)    
-    cost, path = start.path_to(Node.new("Goal",1))
+  def search()        
+    start = XNode.new("start",1)       
+    cost, path = start.path_to(XNode.new("Goal",1))
     
 puts "Total Cost: #{cost}"
 puts "Path: #{path.collect {|node| node.name}.join(', ')}"

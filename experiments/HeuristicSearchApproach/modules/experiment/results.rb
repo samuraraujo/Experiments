@@ -75,3 +75,26 @@ def check_result()
   puts "FMEASURE: " + fmeasure.to_s
   return [fmeasure,recall, precision]
 end
+
+def summary()
+  ww "Parameters:"
+  @options.each { |k,v| ww "#{k} => #{v}" }
+  
+  ww "$shuffle"
+  ww $shuffle
+  ww "$orderbyclause"
+  ww $orderbyclause
+  ww "$orderby"
+  ww $orderby
+  ww "RECALL: " + $xresults[1].to_s
+  ww "PRECISON: " + $xresults[2].to_s
+  ww "FMEASURE: " + $xresults[0].to_s
+  ww "NUMBER QUERIES: " +  ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_s 
+  ww "RATIO QUERIES/POSITIVES: " +  ($featurecounter.positive_queries.to_f / ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_f ).to_s
+  ww "RATIO QUERIES/NEGATIVES: " +  ($featurecounter.negative_queries.to_f / ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_f).to_s  
+  ww "NUMBER HOMONYMS: " +  $number_homonyms.to_s
+  ww "RATIO HOMONYMS/INSTANCES: " + ($number_homonyms.to_f / $number_subjects.to_f).to_s 
+  ww "SORTED LIST OF HOMONYMS: " +  $list_number_homonyms.sort.join("\t")
+  ww "LIST OF HOMONYMS: " +  $list_number_homonyms.join("\t")
+  ww "ELAPSED TIME: " +  (Time.now() - $t1).to_s
+end
