@@ -20,15 +20,14 @@ require  File.dirname(__FILE__)+"/util/extension_module.rb"
 require  File.dirname(__FILE__)+"/util/matching_module.rb"
 require  File.dirname(__FILE__)+"/util/feature_counter.rb"
 
+
 class Initializer
   def initialize(params)
     create_log()
     puts "Parameters:"
     $featurecounter = FeatureCounter.new()
-     
-     
     params.each { |k,v| puts "#{k} => #{v}" }
-     totallimit=nil
+    totallimit=nil
     $stopwords=[]
     $textp=[]
     $pivot = []
@@ -39,55 +38,59 @@ class Initializer
     $topk=params[:topk].to_i
     $output=params[:output] if $output == nil
     $format=params[:format]
-    $limit=params[:limit]    
-    $cluster=params[:cluster]    
+    $limit=params[:limit]
+    $cluster=params[:cluster]
+    $chunk=params[:chunk]
     $filter_threshold=params[:stringthreshold]
     $rdsthreshold=params[:rdsthreshold]
     $aligner=eval(params[:aligner]).new() if params[:aligner] != nil
+    ranker=eval(params[:ranker]).new() if params[:ranker] != nil
+    selector=  params[:selector]
     $usepivot=true if params[:usepivot] ==  'true'
     $blocking=true  if params[:blocking] ==  'true'
     $transitionupdate=true  if params[:transitionupdate] ==  'true'
     $globalrecall=true  if params[:globalrecall] ==  'true'
+    $learning= params[:learningpercent]
+    $learning= 0.01 if params[:learningpercent] == nil
+    $transitionfailurerate= params[:transitionfailurerate]
+    $qconly=true  if params[:qconly] ==  'true'
+
     if params[:append] == 'w'
       File.delete($output) if  File.exist?($output)
     end
     klasses =  [params[:class]]
     klasses =  ["<"+ params[:class] + ">"] if  params[:class].index("<") == nil
- 
-    
     source = Source.new(params)
-    
-   if $cluster != nil
-     klasses =  source.get_clusters($cluster,klasses[0])      
-   end
-    
-    klasses[0..1].each{|klass|
-    puts "processing klass"
-    puts "Obtaning all instances instances"
-    
-    $instances = source.set_instances(klass,totallimit)
-  
-    alignments = []
-    
-    alignments = $aligner.alignment_algorithm($instances,5)#[0..1]
-    puts "Alignments"
-    puts alignments
-    t1 = Time.now()
-  
-    solver = Serimi.new()
-    $limit = $instances.size if $limit == nil
-    puts" $limit"
-    puts $limit
-    path = HeuristicSearch.new($instances[0..$limit],alignments,solver).search()
 
-    data = path.map{|x| x.candidate.elements}
-    # puts "DATA"
-    # puts data.each{|x| puts x.size}
-    solution = solver.solve(data,path.map{|x| x.instance})
+    if $cluster != nil
+    klasses =  source.get_clusters($cluster,klasses[0])
+    end
+
+    klasses[0..1].each{|klass|
+      puts "processing klass"
+      puts "Obtaning all instances instances"
+
+      $instances = source.set_instances(klass,totallimit)
+
+      alignments = []
+
+      alignments = $aligner.alignment_algorithm($instances)
+      
     
-    ww "HEURISTIC ELAPSED TIME: " +  (Time.now() - t1).to_s
- } 
-   close_log()
+      $aligner=nil
+      puts "Alignments"
+      puts alignments
+      t1 = Time.now()
+
+      solver = Serimi.new()
+      $limit = $instances.size if $limit == nil
+      puts" $limit"
+      puts $limit
+      eval(params[:searcher]).new($instances[0..$limit],alignments,solver,ranker, selector,$learning,$transitionfailurerate).search()
+
+      ww "HEURISTIC ELAPSED TIME: " +  (Time.now() - t1).to_s
+    }
+    close_log()
   end
-  
+
 end

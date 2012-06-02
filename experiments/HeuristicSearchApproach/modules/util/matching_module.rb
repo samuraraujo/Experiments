@@ -287,7 +287,7 @@ def permute_expansion(a,hash_expanded)
   # puts c
   # puts "---"
   c
-end
+end 
 
 # $stopwords=["gold" ,"and" ,"silver" ,"corporation","theather","energy" ]
 # puts  advanced_string_matching("Mesquite Generating Station", "MESQUITE POWER" )

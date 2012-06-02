@@ -32,16 +32,21 @@ module DataSourceModule
   end
 
   def union_query(subjects, dataset)
-    
-    subjects.delete_if{|x| x[0].class.to_s == 'BNode'}
-
+    if subjects.size > 0
+    subjects.delete_if{|x| !x.instance_of?(String) && !x.instance_of?(Array) && x.bnode?  } 
+    end
+  
     size = subjects.size
+      
     offset = 0
     data=[]
     while offset < size
+      
       q = subjects[offset..(offset+30-1)].map {|x| " { ?s  ?p  ?o . filter (?s = #{x.to_s}) }"  }.join(" union ")
       return [] if q == ""
+     
       data = data + Query.new.adapters(dataset).sparql("select distinct * where { #{q}}  ").execute
+     
       offset = offset+30
     end
     return data

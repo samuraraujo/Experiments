@@ -2,9 +2,7 @@
 #Author: Samur Araujo
 #Date: 10 March 2012
 #License: SERIMI is distributed under the LGPL[http://www.gnu.org/licenses/lgpl.html] license.
-require  File.dirname(__FILE__)+'/./solver.rb'
-
-
+require  File.dirname(__FILE__)+'/./solver.rb' 
 
 class SimpleClassSolver < ClassSolver
   def solve(positive,negative)
@@ -23,10 +21,7 @@ class SimpleClassSolver < ClassSolver
     freq = triples.inject(Hash.new(0)) { |h,v| h[v] += 1; h } #computes the frequency
     freq =  freq.sort {|a,b| b[1]<=>a[1]} # select a the most frequent
   end
-end
-
-
-
+end 
 class EuclidianClassSolver < ClassSolver
   def solve(positive,negative)
     puts "EUCLIDIAN SOLVER"

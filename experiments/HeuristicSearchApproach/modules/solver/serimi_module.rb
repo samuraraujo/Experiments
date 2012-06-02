@@ -1,20 +1,20 @@
 module Serimi_Module
-   ############## Building Class Queries ###############
+  ############## Building Class Queries ###############
   def class_queries(subjects,data,solver)
     return nil if subjects == nil || subjects.size == 1
     puts "SUBJECTS"
     puts subjects
-     
-    negatives=[]   
+
+    negatives=[]
     triples = []
     data.each{|x| triples = triples + x }
 
     triples.delete_if {|s,p,o|  !o.instance_of?(RDFS::Resource)}
 
-    positives = triples.map {|s,p,o| [s,p,o] if subjects.include?(s)  }.compact    
-    negatives = triples - positives   
-      
-    return solver.solve(positives,negatives) 
+    positives = triples.map {|s,p,o| [s,p,o] if subjects.include?(s)  }.compact
+    negatives = triples - positives
+
+    return solver.solve(positives,negatives)
 
   end
 
@@ -71,8 +71,8 @@ module Serimi_Module
     entropy_threshold = entropy_threshold.to_f / entropies.size.to_f
     all_predicates=[]
     sorted_entropies.each{|k,v|
-      # puts k
-      # puts v
+    puts k
+    puts v
       all_predicates << k
       predicates << k if v <= entropy_threshold
     }
@@ -113,7 +113,11 @@ module Serimi_Module
     triples.compact!
     textp=[]
     triples.each{|s,p,o| textp << p if o.to_s.size > 400}
-    textp.uniq
+    textp.uniq!
+    puts "TEXT PROPERTIES FOUND"
+    puts  textp
+    puts "END"
+    return textp
   end
 
   ##############################################################################################################################
@@ -255,9 +259,9 @@ module Serimi_Module
       tmp.map! {|p,o| [s,p,o] }
       data= data + tmp
     }
-    puts "TEXT PROPERTIES"
+    
     $textp = get_text_properties([data])
-    puts $textp
+   
 
     data.map! {|s,p,o| [s,p,o] if !$textp.include?(p) }.compact.uniq
     labels = []
@@ -266,7 +270,6 @@ module Serimi_Module
     puts candidates
 
     data.each{|s,p,o|
-
       labels << p if !$textp.include?(p) and candidates.include?(p) and o.instance_of?(String) and o.size > 3 and (o.to_i.to_s.size != o.to_s.size and o.to_f.to_s.size != o.to_s.size)  #and (o.to_i == 0)
     }
     labels.uniq!
@@ -283,8 +286,11 @@ module Serimi_Module
     labels.uniq!
     puts labels
 
-    labels[0..4]
-
+    labels = labels[0..4]
+    puts"SEARCHING STOP WORDS"
+    $stopwords=get_stop_words($instances[0..500],labels)
+    
+    return labels
   end
 
   ## GET ENTITY LABELS

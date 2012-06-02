@@ -7,6 +7,7 @@ def create_log()
   $logger =  File.open($current_dir +"/../output/#{t1}_log.txt", 'w')
   $output =  File.open($current_dir+"/../output/#{t1}_mappings.txt", 'w')
   $results =  File.open($current_dir +"/../output/#{t1}_results.txt", 'w')
+  $log_candidates =  File.open($current_dir +"/../output/#{t1}_candidates.txt", 'w')
 end
 
   def puts(str)
@@ -30,6 +31,9 @@ def close_log()
 
   $log_subjects.fsync if $log_subjects!=nil
   $log_subjects.close if $log_subjects!=nil
+
+  $log_candidates.fsync if $log_candidates!=nil
+  $log_candidates.close if $log_candidates!=nil
 
   $output.fsync if $output!=nil
   $output.close if $output!=nil

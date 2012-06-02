@@ -18,6 +18,8 @@ def build_matrix(a, b)
 end
 def preparedata(a)
   a.delete_if {|s,p,o| o.instance_of?(RDFS::Resource) }
+  # textp = get_text_properties([a])
+  # a.delete_if {|s,p,o| textp.include?(p) }
   return a
 end
 def syntax(a,b)

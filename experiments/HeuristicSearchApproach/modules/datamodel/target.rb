@@ -1,79 +1,100 @@
 module QueryType
-  EXACT=1
-  BIF=2
-  AND=3
-  OR=4
-end 
+  EXACTLANG=1
+  EXACT=2
+  BIF=3
+  AND=4
+  OR=5
+  CAPITALIZE=6
+  DOWNCASE=7
+  UPCASE=8
+  NONE=9
+end
+
+
 
 class CandidateSet
   include DataSourceModule
   attr_accessor :elements
   ##############################################################
-  def initialize(transition,source)
+  def initialize(transition,instance)
     @transition=transition
-    @elements = search(build(transition,source))
+    @elements=[]
+    CandidateSet.getTokens(instance, transition.qa.attribute_alignment.source).each{|token|
+      next if @elements.size > 0
+      @elements = search(build(transition,token))
+      if @elements.size > 0
+      @transition.history.addToken(token)
+      end
+    }
+
   end
 
-  def build(transition,source)
+  def self.getTokens(source,attribute)
+    tokens = source.get_tokens(attribute)
+    # puts "KEYWORDS"
+    # puts tokens
+    tokens
+  end
+
+  def build(transition,token)
     qc = ""
     qc = " ?s #{transition.qc.attribute} #{transition.qc.value} " if transition.qc != nil
     # qc = " ?s ?p #{transition.qc.value} " if transition.qc != nil
 
     attribute=transition.qa.attribute_alignment.target
-    tokens = source.get_tokens(transition.qa.attribute_alignment.source)
-    puts "KEYWORDS"
 
-    puts tokens
+    # return nil if tokens.size == 0
 
-    return nil if tokens.size == 0
-
-    token = @token = tokens[0]
-
-    lang = "@en" if $dbpedia
-    query = case transition.qa.qtype
-    when QueryType::EXACT then "SELECT DISTINCT ?s WHERE { ?s #{attribute}   '#{token.gsub(/'/,"\\\\'")}'#{lang} . #{qc}} limit 30"
+    @token = token
+    query =  case transition.qa.qtype
+    when QueryType::EXACTLANG then "SELECT DISTINCT ?s WHERE { ?s #{attribute}   '#{token.gsub(/'/,"\\\\'")}'@en . #{qc}} limit 30"
+    when QueryType::EXACT then "SELECT DISTINCT ?s WHERE { ?s #{attribute}   '#{token.gsub(/'/,"\\\\'")}' . #{qc}} limit 30"
     when QueryType::BIF then "SELECT DISTINCT ?s ?o  WHERE {  ?s #{attribute} ?o . ?o bif:contains  '\"#{token.gsub(/'/,"\\\\'")}\"' . #{qc}} limit 30"
     when QueryType::AND then
       k = token.keyword_normalization.split(" ")
-      splited = k #if splited.size < 2
+      # splited = k #if splited.size < 2
+      splited = k - $stopwords
+      splited = k if splited.size == 0 
       splited.delete_if{|x| x.size == 1}
-      if splited.size ==1
-        "SELECT DISTINCT ?s WHERE { ?s #{attribute}   '#{token.gsub(/'/,"\\\\'")}'#{lang} . #{qc}} limit 30"
-      else
-        z= splited.map{|f| "\"#{f}\""}.join("AND")
-        "SELECT DISTINCT ?s ?o WHERE {?s #{attribute} ?o . ?o bif:contains  '#{z.gsub(/'/,"\\\\'")}'  . #{qc}} limit 30"
-      end
+
+      z= splited.map{|f| "\"#{f}\""}.join("AND")
+      "SELECT DISTINCT ?s ?o WHERE {?s #{attribute} ?o . ?o bif:contains  '#{z.gsub(/'/,"\\\\'")}'  . #{qc}} limit 30"
 
     when QueryType::OR then
       k = token.keyword_normalization.split(" ")
-      splited = k #if splited.size < 2
+      # splited = k #if splited.size < 2
+      splited = k - $stopwords
+      splited = k if splited.size == 0
       splited.delete_if{|x| x.size == 1}
       splited = splited + splited.map{|x| x.singularize}
       splited.uniq!
-      if splited.size ==1
-        "SELECT DISTINCT ?s WHERE { ?s #{attribute}   '#{token.gsub(/'/,"\\\\'")}'#{lang} . #{qc}} limit 30"
-      else
-        z= splited.map{|f| "\"#{f}\""}.join("OR")
-        "SELECT DISTINCT ?s ?o WHERE {?s #{attribute} ?o . ?o bif:contains  '#{z.gsub(/'/,"\\\\'")}'  . #{qc}} limit 30"
-      end
+
+      z= splited.map{|f| "\"#{f}\""}.join("OR")
+      "SELECT DISTINCT ?s ?o WHERE {?s #{attribute} ?o . ?o bif:contains  '#{z.gsub(/'/,"\\\\'")}'  . #{qc}} limit 30"
+
     else nil
     end
+
+    return query
   end
 
   def search(query)
-    
+
     b =[]
     return b if query == nil
+
+    next if b.size > 0
     begin
       b = Query.new.adapters($session[:target]).sparql(query).execute
     rescue Exception => ex
       puts "Exception 52: #{ex}"
       puts ex.message
     end
-    
-    if @transition.qtype !=  QueryType::EXACT
+
+    if @transition.qtype !=  QueryType::EXACT && @transition.qtype !=  QueryType::EXACTLANG
       b = filter(b,@token.to_s)
     end
+
     #faster way to get the triples from the endpoint
     b = union_query(b,$session[:target])
 
@@ -145,3 +166,4 @@ class CandidateSet
     return data
   end
 end
+

@@ -1,6 +1,7 @@
 
 require 'matrix'
-require  File.dirname(__FILE__) +'/../heuristicsearch/heuristicsearch.rb'
+ 
+require  File.dirname(__FILE__) +'/../heuristicsearch/branch_and_bound.rb'
 require  File.dirname(__FILE__) +'/hungarian.rb'
 require  File.dirname(__FILE__)+ "/../util/extension_module.rb"
  
@@ -17,37 +18,42 @@ class AttributeAlignment
 end
 class NoAligner
   include Serimi_Module
-def alignment_algorithm(instances,limit)
+    
+def alignment_algorithm(instances)
+     limit = instances.size * $learning
      entitylabels = source_entity_labels(instances[0..limit]).uniq
-     entitylabels.map{|a| AttributeAlignment.new (a,"?p")}
+     entitylabels.map{|a| AttributeAlignment.new(a,"?p")}
 end
 end
 
 ############################
 class SerimiAligner
   include Serimi_Module
-def alignment_algorithm(instances,limit)
+def alignment_algorithm(instances)
      sourcedata =[]
      targetdata =[]
-      
+      tmp2=[]
+      limit = instances.size * $learning
       entitylabels = source_entity_labels(instances[0..limit]).uniq
       
-      count = limit # used to force the selection of at least "limit" target instances.
-      instances.each {|s|
-         
-        break if count <= 0
+    
+      instances[0..limit].each {|s| 
+      
         tmp =  Query.new.adapters($session[:origin]).sparql("select ?p ?o where {  #{s.to_s} ?p ?o }").execute
         tmp.each {|p,o| sourcedata << [s,p,o] }        
         entitylabels.each{|pre|
-        tmp = TransitionQuery.new(AttributeQuery.new(AttributeAlignment.new(pre,"?p"),0.6,QueryType::BIF),nil).query(s).elements
-        count = count - 1 if tmp.size > 0
+        t = TransitionQuery.new(AttributeQuery.new(AttributeAlignment.new(pre,"?p"),0.6,QueryType::BIF),nil) 
+        tmp2 = tmp2 + t.query(s).elements.compact
         
-        targetdata = targetdata + tmp  
+        count = count - 1 if tmp2.map{|s,p,o| s}.uniq.size > 1
+        
+        targetdata = targetdata + tmp2  
          }
       }
        
       targetdata.uniq!  
       puts " TARGET SIZE " + targetdata.size.to_s 
+    
       entitylabels.map!{|x,y| x.to_s}
       puts "BEFORE ALIGNMENT SOURCE ENTITY LABELS "
       puts entitylabels
@@ -64,7 +70,7 @@ def assingment(a,b)
   solver = Hungarian.new
   data= build_matrix(a,b)
   solution = solver.solve(data[2])
-  solution = solution.map{|x| AttributeAlignment.new (data[0][x[0]].to_s, data[1][x[1]].to_s) }
+  solution = solution.map{|x| AttributeAlignment.new(data[0][x[0]].to_s, data[1][x[1]].to_s) }
   puts "SORUCE PREDICATES"
   puts data[0]
   puts "TARGET PREDICATES"
@@ -91,6 +97,8 @@ def build_matrix(a, b)
 end
 def preparedata(a)
   a.delete_if {|s,p,o| o.instance_of?(RDFS::Resource) }
+   textp = get_text_properties([a])
+  a.delete_if {|s,p,o| textp.include?(p) }
   return a
 end
 def syntax(a,b)
@@ -109,28 +117,19 @@ end
 def entropy_based(a,b)
   ea= entropy_computation([a])[1]
   eb= entropy_computation([b])[1]
-  
-  # puts "TARGET ENTRO"
-  # puts b
 
   va= vocabulary(a)
   vb= vocabulary(b)
+  
+  # puts va
 
-  m = ea.keys.sort.map{|x|    
+  m = ea.keys.sort.map{|x| 
     eb.keys.sort.map{|y|   
+      
        1.0 - ((1.0 - (ea[x] - eb[y]).abs) * object_distance(va[x.to_s],vb[y.to_s]))
     }    
   }
-  # m.each_index{|idx|
-    # x=m[idx] 
-    # min = x.min
-    # index = x.find_index(min)
-    # puts "INDEX"
-    # puts ea.keys[idx]
-    # puts eb.keys[index]
-    # }
-    
-  # puts m
+  
   return  [ea.keys.sort,eb.keys.sort,normalize_matrix(m)]
 end
 
@@ -199,45 +198,43 @@ def select_object_vocabulary(instances,pre)
   return instances.map{|s,p,o| o.to_s.downcase.split("") if p.to_s == pre.to_s}.compact.flatten
 end
 
-def cosine(a,b) 
-  c =  a.uniq.map{|x| a.find_all{|s| s==x}.size} 
-  d= a.uniq.map{|x| b.find_all{|s| s==x}.size} 
-  prod=0
-  c=a
-  d=b
-  c.each_index{|i| prod = prod + c[i]*d[i]} 
-  d1 =  (c.map{|i| i*i}.inject {|sum, n| sum + n })
-  d2 = (d.map{|i| i*i}.inject {|sum, n| sum + n })
-  
-  prod.to_f / Math.sqrt(d1 * d2)
-end  
+ 
  # puts "x".get_similarity("xaaa","xaaa","LEVENSHTEIN")
 end
-
+##########################################################################
 class KMeansAligner < SerimiAligner
   include Serimi_Module
-def alignment_algorithm(instances,limit)
+def alignment_algorithm(instances)
      sourcedata =[]
      targetdata =[]
+       tmp2=[]
+      limit = instances.size * $learning #can be too many elements
+       
+      entitylabels = source_entity_labels(instances[0..limit]).uniq 
       
-      entitylabels = source_entity_labels(instances[0..limit]).uniq
-      
-      count = limit # used to force the selection of at least "limit" target instances.
-      instances.each {|s|
-         
-        break if count <= 0
+      puts "LIMIT"
+      puts limit
+       
+      instances[0..limit].each {|s|   
         tmp =  Query.new.adapters($session[:origin]).sparql("select ?p ?o where {  #{s.to_s} ?p ?o }").execute
         tmp.each {|p,o| sourcedata << [s,p,o] }        
         entitylabels.each{|pre|
-        tmp = TransitionQuery.new(AttributeQuery.new(AttributeAlignment.new(pre,"?p"),0.6,QueryType::BIF),nil).query(s).elements
-        count = count - 1 if tmp.size > 0
+        t = TransitionQuery.new(AttributeQuery.new(AttributeAlignment.new(pre,"?p"),0.6,QueryType::BIF),nil)  
+         
+        tmp2 = tmp2 + t.query(s).elements
         
-        targetdata = targetdata + tmp  
+        targetdata = targetdata + tmp2  
          }
+         break if targetdata.map{|s,p,o| s}.uniq.size > 20  
       }
        
-      targetdata.uniq!  
-      puts " TARGET SIZE " + targetdata.size.to_s 
+      targetdata.uniq!
+        
+      if targetdata.size == 0
+        puts "COULD NOT FIND THE ENTITY LABELS FOR THE GIVEN SAMPLE. INCREASE THE LEARNING THRESHOLD."
+        exit
+        end  
+      puts "END DATA"
       entitylabels.map!{|x,y| x.to_s}
       puts "BEFORE ALIGNMENT SOURCE ENTITY LABELS "
       puts entitylabels
@@ -245,6 +242,7 @@ def alignment_algorithm(instances,limit)
       alignments = assingment(sourcedata,targetdata) 
       alignments.delete_if{|x| !entitylabels.include?(x.source)}
       alignments.delete_if{|x| x.target == ""}
+      alignments.sort!{|a,b| entitylabels.index(a.source)<=>entitylabels.index(b.source)}
       alignments
 end
 def assingment(a,b)
@@ -254,8 +252,8 @@ def assingment(a,b)
   d1 =  entropy_based(a,b) 
   d2 =  syntax(a,b)
   
-  m1 = d1[2]
-  m2 = d2[2]
+  m1 = d1[2] #normalize NXN matrix of scores
+  m2 = d2[2] #normalize NXN matrix of scores
   
   data=[]
   
@@ -289,7 +287,7 @@ def assingment(a,b)
   kmeans.view.each{|x|
     if x.include?(min_index)
     x.each{|y|
-      alignment << AttributeAlignment.new (d1[0][indexes[y][0]].to_s, d1[1][indexes[y][1]] .to_s)
+      alignment << AttributeAlignment.new(d1[0][indexes[y][0]].to_s, d1[1][indexes[y][1]] .to_s)
       puts y
       puts d1[0][indexes[y][0]] 
       puts d1[1][indexes[y][1]] 
@@ -306,4 +304,21 @@ class CustomCentroid
   def initialize(position); @position = position; end
   def reposition(nodes, centroid_positions); end
 end
-
+def cosine_wrapper(a,b)
+  c =  a.uniq.map{|x| a.find_all{|s| s==x}.size} 
+  d= a.uniq.map{|x| b.find_all{|s| s==x}.size} 
+  cosine(c,d)
+end
+def cosine(a,b) 
+  #DO NOT UNCOMENT THIS. DO THIS OPERATION OUTSIDE
+  # c =  a.uniq.map{|x| a.find_all{|s| s==x}.size} 
+  # d= a.uniq.map{|x| b.find_all{|s| s==x}.size} 
+  prod=0
+  c=a
+  d=b
+  c.each_index{|i| prod = prod + c[i]*d[i]} 
+  d1 =  (c.map{|i| i*i}.inject {|sum, n| sum + n })
+  d2 = (d.map{|i| i*i}.inject {|sum, n| sum + n })
+  
+  prod.to_f / Math.sqrt(d1 * d2)
+end 

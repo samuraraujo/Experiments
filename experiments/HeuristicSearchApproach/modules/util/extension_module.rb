@@ -111,10 +111,8 @@ end
   av=0
   # ['JAROWINKLER','LEVENSHTEIN','NGRAM','SMITHWATERMAN','SOUDEX','NEEDLEMAN'].each{|x|
   list=['JAROWINKLER','LEVENSHTEIN','NGRAM' ,'SOUDEX' ]
-  list.each{|x|
-    
-    score = get_similarity( self,b,x)
-  
+  list.each{|x| 
+    score = get_similarity( self,b,x) 
     av= av + score if x != 'SOUDEX' 
     av= av * score if x == 'SOUDEX' 
   }

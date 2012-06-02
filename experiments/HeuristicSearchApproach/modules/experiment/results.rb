@@ -7,6 +7,7 @@ def check_result()
   subjects=[]
   recall=[]
   precision=[]
+  candidates=[]
 
   File.open("#{$current_dir}/../reference/reference.txt", 'r').each { |line|
     solution << line.rstrip
@@ -21,6 +22,9 @@ def check_result()
   File.open( $log_subjects.path, 'r').each { |line|
     subjects << line.rstrip
   }
+   File.open( $log_candidates.path, 'r').each { |line|
+    candidates << line.rstrip
+  }
   subjects.uniq!
   puts "SUBJECTS"
   $number_subjects = subjects.uniq.size
@@ -34,9 +38,12 @@ def check_result()
     y[1] +"=" +y[0]
     }   
     end 
+    
+    
   golden = solution.map{|x| x.split("=")[0]}
   encountered.delete_if{|x| !golden.include?(x.split("=")[0]) }
   solution.delete_if{|x| !subjects.include?(x.split("=")[0]) } if $globalrecall == nil
+
 
   solution.uniq!
   encountered.uniq!
@@ -69,11 +76,14 @@ def check_result()
   recall = (positive.to_f / (positive.to_f + false_negative.to_f))
 
   fmeasure = fmeasure(recall,precision)#.round(3)
+  
+  paircompleteness = (candidates & solution).size.to_f / solution.size.to_f
 
+  puts "PAIRCOMPLETENESS: " + recall.to_s
   puts "RECALL: " + recall.to_s
   puts "PRECISON: " + precision.to_s
   puts "FMEASURE: " + fmeasure.to_s
-  return [fmeasure,recall, precision]
+  return [fmeasure,recall, precision,paircompleteness]
 end
 
 def summary()
@@ -86,15 +96,30 @@ def summary()
   ww $orderbyclause
   ww "$orderby"
   ww $orderby
+  ww "PAIR COMPLETENESS: " + $xresults[3].to_s
   ww "RECALL: " + $xresults[1].to_s
   ww "PRECISON: " + $xresults[2].to_s
   ww "FMEASURE: " + $xresults[0].to_s
-  ww "NUMBER QUERIES: " +  ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_s 
-  ww "RATIO QUERIES/POSITIVES: " +  ($featurecounter.positive_queries.to_f / ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_f ).to_s
-  ww "RATIO QUERIES/NEGATIVES: " +  ($featurecounter.negative_queries.to_f / ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_f).to_s  
+  ww "NUMBER QUERIES: " +  ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_s
+  ww "RATIO NUMBER QUERIES/INSTANCES: " + ( ($featurecounter.positive_queries +  $featurecounter.negative_queries) / $limit.to_f ).to_s
+   
+  ww "RATIO QUERIES/POSITIVES: " +  ( $featurecounter.positive_queries.to_f / ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_f ).to_s
+  ww "RATIO QUERIES/NEGATIVES: " +  ( $featurecounter.negative_queries.to_f / ($featurecounter.positive_queries +  $featurecounter.negative_queries).to_f).to_s  
   ww "NUMBER HOMONYMS: " +  $number_homonyms.to_s
   ww "RATIO HOMONYMS/INSTANCES: " + ($number_homonyms.to_f / $number_subjects.to_f).to_s 
   ww "SORTED LIST OF HOMONYMS: " +  $list_number_homonyms.sort.join("\t")
   ww "LIST OF HOMONYMS: " +  $list_number_homonyms.join("\t")
-  ww "ELAPSED TIME: " +  (Time.now() - $t1).to_s
+  ww "ELAPSED TIME S: " +  (Time.now() - $t1).to_s
+  ww "ELAPSED TIME M: " +  ((Time.now() - $t1) / 60).to_s
+  
+  
+  # $distribution.each_index{|x|
+#     
+     # begin
+     # puts cosine($distribution[x],$distribution[x+1])
+     # rescue
+     # end
+  # }
 end
+
+ # puts "token a  dkds".split(" ").map{|x| x.capitalize}.join(" ")

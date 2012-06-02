@@ -12,6 +12,11 @@ $filter_threshold=0.7
 class Serimi < Solver
   include Serimi_Module
   include DataSourceModule
+  def initialize ()
+    $number_homonyms=0
+    $list_number_homonyms=[]
+  end
+
   #####################################################################################
   #Converts the rdf data to svm records.
   #it return an array containing a array of svm records for each group of rdf data
@@ -33,7 +38,7 @@ class Serimi < Solver
     # puts $textp
     ifp = restricted_IFP(rdfdata) + $textp  + propertyoverflow(rdfdata)
     ifp.uniq!
-    puts ifp
+    # puts ifp
     ifp.map!{|x| getCode(x.to_s.hash.abs)}
 
     groups_counter=[]
@@ -101,12 +106,12 @@ class Serimi < Solver
           origin_object_properties = origin_s.map{|p,o,t| o if t  }.compact
           origin_tuple_counter = origin_s.map{|p,o| p.to_s + " " + o.to_s    }.compact
 
-        # groups_counter.each{|gs,group_predicates,group_datatype, group_objects, group_tuple|
-        # sim1 = sim1 + hm(origin_predicates,predicates, gs.size.to_f)
-        # sim2 = sim2 + hm(origin_datatype_objects, datatype_objects, gs.size.to_f)
-        # sim3 = sim3 + hm(origin_object_properties, object_properties, gs.size.to_f)
-        # sim4 = sim4 + hm(origin_tuple_counter, tuple_counter, gs.size.to_f)
-        # }
+        groups_counter.each{|gs,group_predicates,group_datatype, group_objects, group_tuple|
+        sim1 = sim1 + hm(origin_predicates,predicates, gs.size.to_f)
+        sim2 = sim2 + hm(origin_datatype_objects, datatype_objects, gs.size.to_f)
+        sim3 = sim3 + hm(origin_object_properties, object_properties, gs.size.to_f)
+        sim4 = sim4 + hm(origin_tuple_counter, tuple_counter, gs.size.to_f)
+        }
         end
         # puts "PIVOT SIMILARITY"
         # puts sim1
@@ -187,7 +192,7 @@ class Serimi < Solver
     puts svmmodelbygroup[0].size if svmmodelbygroup.size > 0
     puts "NUMBER OF HOMONYMS"
     number_homonyms.each{|v | $number_homonyms = $number_homonyms + v}
-    $list_number_homonyms = $list_number_homonyms + number_homonyms 
+    $list_number_homonyms = $list_number_homonyms + number_homonyms
     puts number_homonyms.sort.join("\t")
     puts number_homonyms.join("\t")
 
@@ -196,12 +201,12 @@ class Serimi < Solver
 
   #####################################################################################################
   def solve(data,subjects)
+    RDFS::Resource.reset_cache()
+
     puts "SOLVER PROCESSING #{data.size} SETS"
     $textp = get_text_properties([data])
     $selecteds=[]
-    
-     $number_homonyms=0
-     $list_number_homonyms=[]
+
     solutionset = []
     #REMOVE empty candidate sets from the list
     remove_idx = []
@@ -213,23 +218,28 @@ class Serimi < Solver
       remove_idx << x if data[x].size == 0
     }
     remove_idx.reverse.each{|x|
-      # @searchedlabels.delete_at(x)
+    # @searchedlabels.delete_at(x)
       subjects.delete_at(x)
       data.delete_at(x)
     }
-    
+
     puts "**************************** BUILDING SAMPLE"
     puts data.size
     return "NOT ENOUGHT SET DATA FOR CLASS  DISAMBIGUATION" if data.size < 2
     puts "*************************** PIVOT SIZE"
     puts $pivot.map{|x| x.map{|s,p| s}.uniq}
     pivot_size = $pivot.size
-    
-    subjects.each{|s|   
+   #log all candidates
+    subjects.each_index{|idx|
+      data[idx].map{|s,p,o| s}.uniq.each{|i|
+        $log_candidates.write(subjects[idx].to_s.gsub(/[<>]/,"") + "=" + i.to_s.gsub(/[<>]/,"") + "\n" )
+      }
+    }
+
+    subjects.each_index{|s|
       $log_subjects.write(s.to_s.gsub("<","").gsub(">",""))
-      $log_subjects.write("\n") 
-     }
-    
+      $log_subjects.write("\n")
+    }
     results = union_query(subjects, $session[:origin])
     $origin_subjects = subjects.map{|x|
       results.find_all{|s,p,o| s.to_s==x.to_s}
@@ -288,10 +298,12 @@ class Serimi < Solver
         mean_stdev =  mean_and_standard_deviation(svm)
 
         final_threshold = mean_stdev[0]
+
         if mean_stdev[1] > 0.1 and svm.max >= mean_maximus
           final_threshold = mean([svm.max,mean_maximus])
         end
-        if global_mean_deviation[1] > 0.13
+        if global_mean_deviation[1] > 0.013 # I change this parameter for the new serimi at 20 may 2012. It does not cut the outliers before. Because the data was to large and too many positives
+          # if global_mean_deviation[1] > 0.13
           final_threshold = [final_threshold , outliers_threshold].max
         end
 
@@ -299,6 +311,7 @@ class Serimi < Solver
         final_threshold = final_threshold + 0.01 if outliers_threshold == final_threshold
         final_threshold = mean_and_standard_deviation(svm.map{|v| v if v >=0.1}.compact)[0] if final_threshold < 0.1 and svm.max >= 0.1
       else
+        puts "TOP-K USED"
         final_threshold = svm.sort{|a,b| b <=> a}[$topk-1]
       end
 
@@ -309,6 +322,8 @@ class Serimi < Solver
 
       svm.each_index{|i|
         line = svm[i]
+        puts "SCORE"
+        puts line
         final_threshold= $rdsthreshold if $rdsthreshold != nil
         if line >= final_threshold
           $selecteds << groupedsubjects[i]
@@ -323,6 +338,9 @@ class Serimi < Solver
       }
 
     }
+    #clean the hashcode
+    @counter=0
+    @codes=Hash.new
     return solutionset
   end
 
