@@ -9,7 +9,7 @@ This repository contains the source code and the output of the experiments that 
 You can rerun the script run.sh for recompute all results.
 
 ## Getting the Code
-You should checout the project using this command.
+You should checkout the project using this command.
 
 	git checkout https://github.com/samuraraujo/Experiments.git
 
