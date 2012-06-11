@@ -4,7 +4,7 @@ SONDA-ISWC2012-EXPERIMENTS
 Sonda is available as a command line tool, here:
 https://github.com/samuraraujo/SONDA-EFFICIENT-SPARQL-BASED-RDF-INTERLINK
 
-This repository contains the source code and the output of the experiments that we did for ISWC 2012 (submitted) paper entitle Effective and Efficient Candidate Selection over Multiple Heterogeneous Datasets.
+This repository contains the source code and the results of the experiments that we did for ISWC 2012 (submitted) paper entitle Effective and Efficient Candidate Selection over Multiple Heterogeneous Datasets.
 
 You can rerun the script run.sh for recompute all results.
 
