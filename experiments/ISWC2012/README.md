@@ -6,4 +6,4 @@ This repository contains the source code and the results of the experiments that
 
 If you wish to try Sonda, you can download it as a command line tool at:
 
-	https://github.com/samuraraujo/SONDA-EFFICIENT-SPARQL-BASED-RDF-INTERLINK
+https://github.com/samuraraujo/SONDA-EFFICIENT-SPARQL-BASED-RDF-INTERLINK
