@@ -8,6 +8,11 @@ This repository contains the source code and the output of the experiments that 
 
 You can rerun the script run.sh for recompute all results.
 
+## Getting the Code
+You should checout the project using this command.
+
+	git checkout https://github.com/samuraraujo/Experiments.git
+
 ## Instalation Issues
 To install and run this version of Sonda, you need to install Jruby. We recommend you to use install Jruby using RVM.
 https://rvm.io/
