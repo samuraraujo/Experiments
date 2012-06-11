@@ -1,6 +1,6 @@
 SONDA-ISWC2012-EXPERIMENTS
 ==========================================
-
+#About This Repository
 Sonda is available as a command line tool, here:
 https://github.com/samuraraujo/SONDA-EFFICIENT-SPARQL-BASED-RDF-INTERLINK
 
@@ -8,6 +8,7 @@ This repository contains the source code and the output of the experiments that 
 
 You can rerun the script run.sh for recompute all results.
 
+#Instalation Issues
 To install and run this version of Sonda, you need to install Jruby. We recommend you to use install Jruby using RVM.
 https://rvm.io/
 
