@@ -1,0 +1,47 @@
+HEURISTIC ELAPSED TIME: 46.165
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://restaurant1.org
+target => http://localhost:8891/sparql?default-graph-uri=http://restaurant2.org
+class =>  <http://www.okkam.org/ontology_restaurant1.owl#Restaurant> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => NoAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => Baseline
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+LATEX & 91.74 & 87.61 & 89.63  & 3 & 3.0   & 47.12
+PAIR COMPLETENESS: 0.876106194690265
+RECALL: 0.876106194690265
+PRECISON: 0.942857142857143
+FMEASURE: 0.908256880733945
+FOUND INSTANCES: 100
+NUMBER QUERIES: 339
+RATIO NUMBER QUERIES / INSTANCES: 3.0
+RATIO QUERIES/POSITIVES: 0.353982300884956
+RATIO QUERIES/NEGATIVES: 0.646017699115044
+NUMBER HOMONYMS: 109
+RATIO HOMONYMS/INSTANCES: 1.09
+INSTANCES / HOMONYMS RATIO: 0.91743119266055
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	6
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	6	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 47.117
+ELAPSED TIME M: 0.785283333333333

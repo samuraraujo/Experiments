@@ -17,7 +17,8 @@ def mount_adapter(endpoint, method=:post,cache=true)
   return adapter
 end
 
-$session[:origin] = mount_adapter($endpoints[:dbpedia] ,:post,false)
+# $session[:origin] = mount_adapter($endpoints[:dbpedia] ,:post,false)
+$session[:origin] = mount_adapter($endpoints[:freebase] ,:post,false)
 
 def count(cluster)
   instances = Array.new
@@ -35,4 +36,9 @@ instances.each{|x|
 puts instances[0] & instances[1]
 
 end
-count("./cluster.txt")
+def teste
+   puts Query.new.adapters($session[:origin]).sparql("SELECT DISTINCT ?s WHERE { ?s <http://rdf.freebase.com/ns/type.object.name>   'Alaska'@en . } limit 30").execute
+ 
+end
+# count("./cluster.txt")
+teste()

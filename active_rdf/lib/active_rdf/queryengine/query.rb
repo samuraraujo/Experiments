@@ -224,7 +224,7 @@ class Query
   # usage:: results = query.execute
   # usage:: query.execute do |s,p,o| ... end
   def execute(options={:flatten => false}, &block)
-    puts 'Executing. .. '
+     
     options = {:flatten => true} if options == :flatten  
     if block_given?
       for result in FederationManager.query(self, options)

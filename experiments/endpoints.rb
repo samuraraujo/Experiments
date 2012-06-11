@@ -11,3 +11,4 @@ $endpoints[:imdb]="http://localhost:8896/sparql?default-graph-uri=http://imdb.or
 $endpoints[:nytimes]="http://localhost:8890/sparql?default-graph-uri=http://nytimes.org"
 $endpoints[:freebase]="http://localhost:8895/sparql?default-graph-uri=http://freebase.org"
 
+ 

@@ -1,0 +1,29 @@
+HEURISTIC ELAPSED TIME: 32.581
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+target => http://lod.openlinksw.com/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR> 
+append => a
+format => txt
+chunk => 15
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+RECALL: 1.0
+PRECISON: 1.0
+FMEASURE: 1.0
+NUMBER HOMONYMS: 38
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	4	9
+LIST OF HOMONYMS: 4	9	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME: 46.631

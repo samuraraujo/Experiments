@@ -190,9 +190,11 @@ class SparqlAdapter < ActiveRdfAdapter
     end
   end 
   def is_into_cache(query_string)
+     
     @sparql_cache.include?(query_string)      
   end
   def query_cache(query_string)         
+     
     return @sparql_cache.fetch(query_string)    
   end
   

@@ -396,7 +396,9 @@ module RDFS
 		end
     tmp.compact
 		end
-
+ def bnode?()
+      self.instance_of? BNode
+  end
     # define a localname for a predicate URI
     #
     # localname should be a Symbol or String, fulluri a Resource or String, e.g. 
@@ -460,13 +462,13 @@ module RDFS
 		# alias include? to ==, so that you can do paper.creator.include?(eyal)
 		# without worrying whether paper.creator is single- or multi-valued
 		alias include? ==
-
+ 
 		# returns uri of resource, can be overridden in subclasses
 		def to_s
 			"<#{uri}>"
 	end
      
-
+ 
 		def set_predicate(predicate, values)     
       FederationManager.delete(self, predicate)
       values.flatten.each {|v| FederationManager.add(self, predicate, v) }

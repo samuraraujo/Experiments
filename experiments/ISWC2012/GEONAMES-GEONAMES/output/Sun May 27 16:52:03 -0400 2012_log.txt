@@ -1,0 +1,354 @@
+Parameters:
+verbose => false
+logfile => 
+source => geonames
+target => geonames
+class =>  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR> 
+append => a
+format => txt
+chunk => 15
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+globalrecall => false
+aligner => KMeansAligner
+ranker => TimeBasedTransitionRanking
+selector => CardinalityBasedTransitionSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.0
+transitionfailurerate => 1.0
+qconly => true
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT ?o WHERE { ?s <http://xmlns.com/foaf/0.1/homepage> ?o . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .   } 
+Via POST
+processing klass
+Obtaning all instances instances
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct count(distinct ?s) where {?s ?p  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR>  . } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?s where {?s ?p  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR>  .   }  offset 0 limit 26
+Via POST
+Elapsed time
+1.174
+source_entity_labels
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3386496/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3388368/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3390760/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3394023/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3396016/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3395981/> ?p ?o }
+Via POST
+TEXT PROPERTIES
+Computing text properties ... 
+ENTROPY THRESHOLD
+0.315179450408906
+SOURCE CANDIDATES ENTITY LABELS
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+<http://www.geonames.org/ontology#population>
+<http://www.geonames.org/ontology#name>
+<http://www.geonames.org/ontology#parentFeature>
+<http://www.geonames.org/ontology#nearbyFeatures>
+<http://www.geonames.org/ontology#locationMap>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://www.geonames.org/ontology#wikipediaArticle>
+ENTITY LABELS FOUND
+<http://www.geonames.org/ontology#name>
+ENTITY LABELS SELECTED
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://www.geonames.org/ontology#name>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3386496/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3386496/> <http://www.w3.org/2000/01/rdf-schema#label> ?o. }
+Via POST
+KEYWORDS
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3386496/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Teresina
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"Teresina"' . } limit 30
+Via POST
+$filter_threshold
+0.7
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3386496/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3083384/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3386497/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/6320025/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3386496/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3083384/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3386497/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6320025/>) }}  
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3388368/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3388368/> <http://www.w3.org/2000/01/rdf-schema#label> ?o. }
+Via POST
+KEYWORDS
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3388368/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+São Luís
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"São Luís"' . } limit 30
+Via POST
+$filter_threshold
+0.7
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3388368/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388368/>) }}  
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3390760/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3390760/> <http://www.w3.org/2000/01/rdf-schema#label> ?o. }
+Via POST
+KEYWORDS
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3390760/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Recife
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"Recife"' . } limit 30
+Via POST
+$filter_threshold
+0.7
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3390760/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3390760/>) }}  
+Via POST
+ TARGET SIZE 187
+BEFORE ALIGNMENT SOURCE ENTITY LABELS 
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://www.geonames.org/ontology#name>
+#####################################
+ENTROPY THRESHOLD
+0.0871778383347863
+ENTROPY THRESHOLD
+0.236494081929211
+4
+4
+0.102555858340598 0
+0.762558593885279 0.240272154745839
+1.0 0.283576998050682
+0.992272454680465 0.43966049382716
+0.992272454680465 0.444008319914117
+0.827956989247312 0.240272154745839
+0.515803742979389 0
+1.0 0.254344729344729
+1.0 0.39639126305793
+1.0 0.400739089144886
+1.0 0.283576998050682
+1.0 0.254344729344729
+0.4 0
+0.25 0.412566137566138
+0.25 0.417074994248907
+0.990740740740741 0.43966049382716
+1.0 0.39639126305793
+0.5 0.412566137566138
+0.0833333333333335 0
+0.0833333333333335 0.213906142167012
+0.990610328638498 0.444008319914117
+1.0 0.400739089144886
+0.555555555555556 0.417074994248907
+0.166666666666667 0.213906142167012
+0.166666666666667 0
+CENTROIDS
+2
+[[0, 6, 12, 13, 14, 17, 18, 19, 22, 23, 24], [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 15, 16, 20, 21]]
+0
+<http://www.geonames.org/ontology#alternateName>
+<http://www.geonames.org/ontology#alternateName>
+6
+<http://www.geonames.org/ontology#name>
+<http://www.geonames.org/ontology#name>
+12
+<http://www.geonames.org/ontology#population>
+<http://www.geonames.org/ontology#population>
+13
+<http://www.geonames.org/ontology#population>
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+14
+<http://www.geonames.org/ontology#population>
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+17
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+<http://www.geonames.org/ontology#population>
+18
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+19
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+22
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+<http://www.geonames.org/ontology#population>
+23
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+24
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+Alignments
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>]
+ $limit
+26
+
+###########################################################################
+######################## START SEARCH ###########################
+###########################################################################
+LEARNING SIZE: 0.0
+Getting Neighbour for 0 -  - NODE start - 1
+<http://sws.geonames.org/3664980/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3664980/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Boa Vista
+NODE TIME
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+0.0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 
+0.0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 
+0.0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 
+0.0
+DETAILS NODES
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+#### CURRENT TRANSITION: 1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Boa Vista' . } limit 30
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243547/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243548/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243549/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270824/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270825/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270826/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270827/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270828/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270829/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270832/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270833/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270834/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270836/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270837/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270835/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270839/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270840/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742198/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742202/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742197/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742199/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742200/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742201/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3373296/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3373297/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405531/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405532/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405533/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405534/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405535/>) }}  
+Via POST
+NODE COST: 300
+NEW LIST
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 
+DETAILS NODES
+NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 
+false
+NEW LIST
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 
+DETAILS NODES
+NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 
+false
+NEW LIST
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 
+DETAILS NODES
+NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 
+false
+NEW LIST
+TIME UPDATE
+Getting Neighbour for 1 - Boa Vista - NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 
+<http://sws.geonames.org/3662574/>
+LOCAL PATH NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 

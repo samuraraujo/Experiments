@@ -52,7 +52,7 @@ class FederationManager
       federation =ConnectionPool.read_adapters if federation == nil        
       
       federation.each do |source|    
-         puts "Using ... #{source.title}"
+         # puts "Using ... #{source.title}"
         q.limit(source.limit) if source.limit != nil
         source_results = source.query(q)
 #        return source_results if source.raw

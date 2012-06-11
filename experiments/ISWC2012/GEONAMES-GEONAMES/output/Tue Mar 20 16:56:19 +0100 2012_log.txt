@@ -1,0 +1,2848 @@
+Parameters:
+verbose => false
+logfile => 
+source => geonames
+target => geonames
+class =>  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR> 
+append => a
+format => txt
+chunk => 15
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+Obtaning all instances instances
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT ?o WHERE { ?s <http://xmlns.com/foaf/0.1/homepage> ?o . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct count(distinct ?s) where {?s ?p  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR>  . } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?s where {?s ?p  <http://www.geonames.org/ontology#P.PPLA>. ?s ?k <http://www.geonames.org/countries/#BR>  .   }  offset 0 limit 26
+Via POST
+Elapsed time
+36.487
+source_entity_labels
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3386496/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3388368/> ?p ?o }
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3390760/> ?p ?o }
+Via POST
+TEXT PROPERTIES
+Computing text properties ... 
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+0.0
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+0.0
+<http://www.geonames.org/ontology#population>
+0.0
+<http://www.geonames.org/ontology#name>
+0.0
+<http://www.geonames.org/ontology#parentFeature>
+0.0
+<http://www.geonames.org/ontology#nearbyFeatures>
+0.0
+<http://www.geonames.org/ontology#locationMap>
+0.0
+<http://www.w3.org/2002/07/owl#sameAs>
+0.0
+<http://www.geonames.org/ontology#wikipediaArticle>
+7.7715611723761e-16
+<http://www.geonames.org/ontology#alternateName>
+0.435889191673932
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+1.0
+<http://www.geonames.org/ontology#featureClass>
+1.0
+<http://www.geonames.org/ontology#featureCode>
+1.0
+<http://www.geonames.org/ontology#inCountry>
+1.0
+ENTROPY THRESHOLD
+0.316849227976709
+SOURCE CANDIDATES ENTITY LABELS
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+<http://www.geonames.org/ontology#population>
+<http://www.geonames.org/ontology#name>
+<http://www.geonames.org/ontology#parentFeature>
+<http://www.geonames.org/ontology#nearbyFeatures>
+<http://www.geonames.org/ontology#locationMap>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://www.geonames.org/ontology#wikipediaArticle>
+ENTITY LABELS FOUND
+<http://www.geonames.org/ontology#name>
+ENTITY LABELS SELECTED
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://www.geonames.org/ontology#name>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3386496/> ?p ?o }
+Via POST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3386496/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3386496/> <http://www.w3.org/2000/01/rdf-schema#label> ?o. }
+Via POST
+KEYWORDS
+SEARCH
+
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3386496/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3386496/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Teresina
+SEARCH
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"Teresina"' . } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"Teresina"' . } limit 30
+Via POST
+TRANSITION TYPE
+2
+$filter_threshold
+0.7
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3386496/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3083384/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3386497/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/6320025/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3386496/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3083384/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3386497/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6320025/>) }}  
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3388368/> ?p ?o }
+Via POST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3388368/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3388368/> <http://www.w3.org/2000/01/rdf-schema#label> ?o. }
+Via POST
+KEYWORDS
+SEARCH
+
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3388368/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3388368/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+São Luís
+SEARCH
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"São Luís"' . } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"São Luís"' . } limit 30
+Via POST
+TRANSITION TYPE
+2
+$filter_threshold
+0.7
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3388368/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388368/>) }}  
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select ?p ?o where {  <http://sws.geonames.org/3390760/> ?p ?o }
+Via POST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3390760/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3390760/> <http://www.w3.org/2000/01/rdf-schema#label> ?o. }
+Via POST
+KEYWORDS
+SEARCH
+
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3390760/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3390760/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Recife
+SEARCH
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"Recife"' . } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s ?o  WHERE {  ?s ?p ?o . ?o bif:contains  '"Recife"' . } limit 30
+Via POST
+TRANSITION TYPE
+2
+$filter_threshold
+0.7
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?p ?o WHERE { <http://sws.geonames.org/3390760/> ?p ?o .   } 
+Via POST
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3390760/>) }}  
+Via POST
+entitylabels
+<http://www.w3.org/2000/01/rdf-schema#label>
+<http://www.geonames.org/ontology#name>
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+0.0
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+0.0
+<http://www.geonames.org/ontology#population>
+0.0
+<http://www.geonames.org/ontology#name>
+0.0
+<http://www.geonames.org/ontology#alternateName>
+0.435889191673932
+ENTROPY THRESHOLD
+0.0871778383347863
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+1.11022302462516e-16
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat>
+1.11022302462516e-16
+<http://www.geonames.org/ontology#population>
+0.333333333333333
+<http://www.geonames.org/ontology#alternateName>
+0.333333333333334
+<http://www.geonames.org/ontology#name>
+0.515803742979389
+ENTROPY THRESHOLD
+0.236494081929211
+Alignments
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>]
+ $limit
+26
+
+###########################################################################
+######################## START SEARCH ###########################
+###########################################################################
+Getting Neigbout for 0 - NODE start - 1
+NODE COST: 0
+POP
+LOCAL PATH NODE start - 1
+<http://sws.geonames.org/3664980/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3664980/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3664980/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Boa Vista
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Boa Vista' . } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Boa Vista' . } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243547/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243548/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243549/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270824/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270825/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270826/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270827/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270828/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270829/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270832/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270833/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270834/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270836/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270837/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270835/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270839/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270840/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742198/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742202/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742197/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742199/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742200/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2742201/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3373296/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3373297/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405531/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405532/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405533/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405534/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405535/>) }}  
+Via POST
+300
+COST COMPUTED
+300
+Getting Neigbout for 1 - NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 0
+NODE COST: 300
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 0
+END
+<http://sws.geonames.org/3662574/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3662574/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3662574/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Rio Branco
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Rio Branco' . } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Rio Branco' . } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3390313/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3404978/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3404979/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3404980/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3404981/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3404982/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3408569/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451244/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451245/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451247/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451246/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451248/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451249/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469074/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469075/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469076/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469077/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469078/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469079/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469080/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3469081/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3479396/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3478633/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3479408/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3479478/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664876/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664877/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664878/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664879/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664880/>) }}  
+Via POST
+311
+COST COMPUTED
+311
+Getting Neigbout for 2 - NODE <http://sws.geonames.org/3662574/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -1
+NODE COST: 311
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3662574/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -1
+END
+<http://sws.geonames.org/3663517/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -2
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3663517/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3663517/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Manaus
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Manaus' . } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Manaus' . } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3395682/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663517/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6319328/>) }}  
+Via POST
+104
+COST COMPUTED
+104
+Getting Neigbout for 3 - NODE <http://sws.geonames.org/3663517/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -2
+NODE COST: 104
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3663517/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -2
+END
+SOLVING ... 
+SOLVER PROCESSING 3 SETS
+**************************** BUILDING SAMPLE
+3
+*************************** PIVOT SIZE
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664980/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3662574/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663517/>) }}  
+Via POST
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+1.0809968847352
+1.58054180642571
+1.58054180642571
+OVERFLOW PROPERTY
+##################
+<http://www.geonames.org/ontology#alternateName>
+<http://www.geonames.org/ontology#childrenFeatures>
+<http://www.geonames.org/ontology#locationMap>
+<http://www.geonames.org/ontology#nearbyFeatures>
+<http://www.geonames.org/ontology#population>
+<http://www.geonames.org/ontology#wikipediaArticle>
+<http://www.w3.org/2002/07/owl#sameAs>
+<http://www.w3.org/2003/01/geo/wgs84_pos#long>
+Buiding Model ...
+GROUP############## - 0
+30
+9
+27
+33
+39
+46
+51
+56
+60
+65
+73
+78
+84
+90
+96
+102
+107
+113
+117
+123
+129
+135
+140
+146
+151
+157
+162
+169
+175
+180
+185
+END GROUP ###
+GROUP############## - 1
+30
+190
+196
+204
+209
+214
+219
+224
+230
+239
+245
+251
+257
+262
+267
+276
+281
+288
+294
+300
+305
+312
+317
+322
+330
+335
+340
+347
+352
+357
+362
+END GROUP ###
+GROUP############## - 2
+3
+367
+374
+431
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://sws.geonames.org/3451246/>
+
+NUMBER OF GROUPS
+3
+NUMBER OF ELEMENTS BY GROUPS 0
+30
+NUMBER OF HOMONYMS
+3	30	30
+30	30	3
+######
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.616386646635463 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.836731619124068 
+1:0.948489896131759 
+1:0.9474327022895 
+1:0.9474327022895 
+1:0.9474327022895 
+1:0.9474327022895 
+######
+1:0.948489896131759 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.835674425281809 
+1:0.779655032929091 
+1:0.9474327022895 
+1:0.9474327022895 
+1:1.0 
+1:0.9474327022895 
+1:0.9474327022895 
+1:0.77859784446991 
+1:0.726030535958636 
+1:0.778597839086832 
+1:0.778597833669136 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.778597833669136 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.778597833669136 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+1:0.726030535958636 
+######
+1:0.0189035173921031 
+1:0.0183619766334591 
+1:0.0146739103078403 
+MODEL DONE
+3
+3
+OUTPUT
+#<File:0xb21521>
+MEAN OF MAXIMUS
+0.655797804507954
+MEAN / DEVIATION
+0.779002604358696
+0.188187147862468
+OUTLIER THRESHOLD
+0.590815456496229
+FINAL THRESHOLD - 0
+0.948489896131759
+FINAL THRESHOLD - 1
+1.0
+FINAL THRESHOLD - 2
+0.0189035173921031
+SUBJECTS
+<http://sws.geonames.org/3405531/>
+<http://sws.geonames.org/3451246/>
+<http://sws.geonames.org/3395682/>
+EUCLIDIAN SOLVER
+4
+205
+SELECTED PREDICATES / VALUE
+<http://www.geonames.org/ontology#featureClass><http://www.geonames.org/ontology#P>
+-31
+<http://www.geonames.org/ontology#featureCode><http://www.geonames.org/ontology#P.PPL>
+-32
+<http://www.geonames.org/ontology#inCountry><http://www.geonames.org/countries/#BR>
+-34
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type><http://www.geonames.org/ontology#Feature>
+-57
+TRANSITIONS UPDATED
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+<http://sws.geonames.org/3662762/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3662762/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3662762/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Porto Velho
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Porto Velho' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Porto Velho' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1028601/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2264398/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2264399/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3473817/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3662762/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6318035/>) }}  
+Via POST
+111
+COST COMPUTED
+111
+Getting Neigbout for 4 - NODE <http://sws.geonames.org/3662762/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -4
+NODE COST: 111
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3662762/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -4
+END
+<http://sws.geonames.org/3470127/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -5
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3470127/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3470127/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Belo Horizonte
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Belo Horizonte' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Belo Horizonte' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243643/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243644/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270968/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3351675/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405814/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405815/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405817/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405818/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405819/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405820/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405821/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405822/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405823/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405824/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405825/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405826/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405816/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3411602/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470121/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470122/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470123/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470124/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470125/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470126/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470127/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470128/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470129/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470130/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3665027/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3665028/>) }}  
+Via POST
+393
+COST COMPUTED
+393
+Getting Neigbout for 5 - NODE <http://sws.geonames.org/3470127/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -5
+NODE COST: 393
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3470127/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -5
+END
+<http://sws.geonames.org/3474574/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -6
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3474574/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3474574/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Palmas
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Palmas' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Palmas' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2523907/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2988693/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3455458/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3455459/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3474574/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3522113/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3522114/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3522115/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3522116/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3622605/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3653549/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3673190/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3673189/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3770222/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3908761/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3908762/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3972642/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3993822/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3993823/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3993824/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3993825/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/4566481/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6303349/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6317855/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/6659386/>) }}  
+Via POST
+319
+COST COMPUTED
+319
+Getting Neigbout for 6 - NODE <http://sws.geonames.org/3474574/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -6
+NODE COST: 319
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3474574/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -6
+END
+<http://sws.geonames.org/3471872/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -7
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3471872/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3471872/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Aracaju
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Aracaju' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Aracaju' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3471872/>) }}  
+Via POST
+60
+COST COMPUTED
+60
+Getting Neigbout for 7 - NODE <http://sws.geonames.org/3471872/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -7
+NODE COST: 60
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3471872/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -7
+END
+<http://sws.geonames.org/3467747/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -8
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3467747/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3467747/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Campo Grande
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Campo Grande' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Campo Grande' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270339/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2741632/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403580/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403581/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403582/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403583/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403584/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403590/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403586/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403588/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403585/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403587/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403589/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3403591/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3410158/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3410071/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3435788/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3435789/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467745/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467752/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467753/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467754/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467744/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467746/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467747/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467748/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467749/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467750/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467751/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3788453/>) }}  
+Via POST
+363
+COST COMPUTED
+363
+Getting Neigbout for 8 - NODE <http://sws.geonames.org/3467747/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -8
+NODE COST: 363
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3467747/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -8
+END
+<http://sws.geonames.org/3465038/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -9
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3465038/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3465038/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Cuiabá
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Cuiabá' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Cuiabá' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3401428/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3465037/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3465038/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664453/>) }}  
+Via POST
+96
+COST COMPUTED
+96
+Getting Neigbout for 9 - NODE <http://sws.geonames.org/3465038/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -9
+NODE COST: 96
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3465038/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -9
+END
+<http://sws.geonames.org/3464975/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -10
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3464975/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3464975/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Curitiba
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Curitiba' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Curitiba' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3464975/>) }}  
+Via POST
+181
+COST COMPUTED
+181
+Getting Neigbout for 10 - NODE <http://sws.geonames.org/3464975/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -10
+NODE COST: 181
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3464975/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -10
+END
+<http://sws.geonames.org/3462377/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -11
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3462377/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3462377/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Goiânia
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Goiânia' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Goiânia' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3462377/>) }}  
+Via POST
+69
+COST COMPUTED
+69
+Getting Neigbout for 11 - NODE <http://sws.geonames.org/3462377/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -11
+NODE COST: 69
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3462377/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -11
+END
+<http://sws.geonames.org/3463237/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -12
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3463237/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3463237/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Florianópolis
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Florianópolis' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Florianópolis' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3463237/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664211/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664212/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664213/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664214/>) }}  
+Via POST
+113
+COST COMPUTED
+113
+Getting Neigbout for 12 - NODE <http://sws.geonames.org/3463237/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -12
+NODE COST: 113
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3463237/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -12
+END
+<http://sws.geonames.org/3452925/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -13
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3452925/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3452925/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Porto Alegre
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Porto Alegre' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Porto Alegre' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2410892/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3391402/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3452925/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3760906/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3828833/>) }}  
+Via POST
+125
+COST COMPUTED
+125
+Getting Neigbout for 13 - NODE <http://sws.geonames.org/3452925/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -13
+NODE COST: 125
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3452925/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -13
+END
+<http://sws.geonames.org/3450554/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -14
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3450554/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3450554/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Salvador
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Salvador' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Salvador' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1097415/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1103553/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1690679/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1690680/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1690682/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1690683/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1690684/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1966368/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2263597/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2263598/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2734850/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3110971/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3389782/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3408716/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3450555/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3450551/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3450552/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3450553/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3450554/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3520015/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3541298/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3541297/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3621991/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3652076/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3905965/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3905966/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3973334/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3988052/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3988053/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/5391518/>) }}  
+Via POST
+389
+COST COMPUTED
+389
+Getting Neigbout for 14 - NODE <http://sws.geonames.org/3450554/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -14
+NODE COST: 389
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3450554/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -14
+END
+<http://sws.geonames.org/3451190/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -15
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3451190/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3451190/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Rio de Janeiro
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Rio de Janeiro' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Rio de Janeiro' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451190/>) }}  
+Via POST
+184
+COST COMPUTED
+184
+Getting Neigbout for 15 - NODE <http://sws.geonames.org/3451190/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -15
+NODE COST: 184
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3451190/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -15
+END
+<http://sws.geonames.org/3448439/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -16
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3448439/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3448439/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+São Paulo
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'São Paulo' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'São Paulo' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2263259/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2410768/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2734381/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2734380/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388241/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388242/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388243/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388244/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388245/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388246/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388247/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388248/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388249/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388250/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388251/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388252/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388253/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388254/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388255/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388256/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388257/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448440/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448441/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448442/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448443/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448444/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448436/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448437/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448438/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448439/>) }}  
+Via POST
+419
+COST COMPUTED
+419
+Getting Neigbout for 16 - NODE <http://sws.geonames.org/3448439/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -16
+NODE COST: 419
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3448439/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -16
+END
+<http://sws.geonames.org/3444924/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -17
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3444924/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3444924/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Vitória
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Vitória' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Vitória' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2732249/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3372470/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3384994/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3384995/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3384996/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3384997/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3384998/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3384999/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3385001/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3385002/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444925/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444928/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444929/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444930/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444923/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444924/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444926/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444931/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444921/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444922/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444927/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3474066/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3661610/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3661611/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3661612/>) }}  
+Via POST
+313
+COST COMPUTED
+313
+Getting Neigbout for 17 - NODE <http://sws.geonames.org/3444924/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -17
+NODE COST: 313
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3444924/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -17
+END
+<http://sws.geonames.org/3405870/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -18
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3405870/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3405870/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Belém
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Belém' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Belém' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1052362/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243650/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2243651/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270978/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2270979/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2374975/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2374976/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3351677/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3351676/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3373305/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405856/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405857/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405858/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405859/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405860/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405861/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405862/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405863/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405864/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405865/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405866/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405867/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405868/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405869/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405870/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3409957/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470155/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470156/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470154/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3665035/>) }}  
+Via POST
+430
+COST COMPUTED
+430
+Getting Neigbout for 18 - NODE <http://sws.geonames.org/3405870/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -18
+NODE COST: 430
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3405870/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -18
+END
+<http://sws.geonames.org/3399415/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -19
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3399415/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3399415/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Fortaleza
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Fortaleza' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Fortaleza' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1713591/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399401/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399408/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399411/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399416/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399417/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399418/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399419/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399420/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399421/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399422/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399423/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399400/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399402/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399405/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399409/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399410/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399413/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399415/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399403/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399404/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399406/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399407/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399412/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399414/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3408792/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3411605/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3463058/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3463059/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3463060/>) }}  
+Via POST
+371
+COST COMPUTED
+371
+Getting Neigbout for 19 - NODE <http://sws.geonames.org/3399415/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -19
+NODE COST: 371
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3399415/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -19
+END
+<http://sws.geonames.org/3397277/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -20
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3397277/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3397277/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+João Pessoa
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'João Pessoa' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'João Pessoa' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3397277/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3459787/>) }}  
+Via POST
+73
+COST COMPUTED
+73
+Getting Neigbout for 20 - NODE <http://sws.geonames.org/3397277/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -20
+NODE COST: 73
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3397277/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -20
+END
+<http://sws.geonames.org/3395981/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -21
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3395981/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3395981/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Maceió
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Maceió' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Maceió' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3395982/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3395981/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3410868/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3480595/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663607/>) }}  
+Via POST
+101
+COST COMPUTED
+101
+Getting Neigbout for 21 - NODE <http://sws.geonames.org/3395981/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -21
+NODE COST: 101
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3395981/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -21
+END
+<http://sws.geonames.org/3396016/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -22
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3396016/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3396016/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Macapá
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Macapá' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Macapá' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3396014/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3396015/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3396016/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3410899/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663617/>) }}  
+Via POST
+93
+COST COMPUTED
+93
+Getting Neigbout for 22 - NODE <http://sws.geonames.org/3396016/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -22
+NODE COST: 93
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3396016/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -22
+END
+<http://sws.geonames.org/3394023/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -23
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3394023/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3394023/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Natal
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Natal' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Natal' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/1214413/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3394022/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3394023/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3456385/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3456386/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663193/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663194/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663195/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3909649/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/4775486/>) }}  
+Via POST
+162
+COST COMPUTED
+162
+Getting Neigbout for 23 - NODE <http://sws.geonames.org/3394023/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -23
+NODE COST: 162
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3394023/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -23
+END
+<http://sws.geonames.org/3390760/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -24
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3390760/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3390760/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Recife
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Recife' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Recife' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3390760/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451767/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3471440/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3747313/>) }}  
+Via POST
+109
+COST COMPUTED
+109
+Getting Neigbout for 24 - NODE <http://sws.geonames.org/3390760/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -24
+NODE COST: 109
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3390760/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -24
+END
+<http://sws.geonames.org/3388368/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -25
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3388368/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3388368/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+São Luís
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'São Luís' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'São Luís' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/2410777/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388370/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388352/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388353/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388354/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388356/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388357/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388358/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388359/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388360/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388361/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388362/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388363/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388364/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388369/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388349/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388350/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388351/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388365/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388366/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388367/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388368/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448571/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448573/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448576/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448577/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448578/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448579/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448580/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448581/>) }}  
+Via POST
+359
+COST COMPUTED
+359
+Getting Neigbout for 25 - NODE <http://sws.geonames.org/3388368/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -25
+NODE COST: 359
+POP
+LOCAL PATH NODE <http://sws.geonames.org/3388368/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -25
+END
+<http://sws.geonames.org/3386496/>
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -26
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -4
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -3
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureCode> <http://www.geonames.org/ontology#P.PPL> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Feature> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#inCountry> <http://www.geonames.org/countries/#BR> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -1
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 2 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 3 0
+[<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 4 0
+MOVEMENT COST
+QUERY TRANSITION COST FOR:<http://sws.geonames.org/3386496/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct ?o where { <http://sws.geonames.org/3386496/> <http://www.geonames.org/ontology#name> ?o. }
+Via POST
+KEYWORDS
+Teresina
+SEARCH
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Teresina' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+SELECT DISTINCT ?s WHERE { ?s <http://www.geonames.org/ontology#name>   'Teresina' .  ?s <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> } limit 30
+Via POST
+TRANSITION TYPE
+1
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3083384/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3386496/>) }}  
+Via POST
+75
+COST COMPUTED
+75
+Getting Neigbout for 26 - NODE <http://sws.geonames.org/3386496/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -26
+NODE COST: 75
+POP
+GOAL
+MOVEMENT COST
+Total Cost: 5624
+Path: NODE start - 1, NODE <http://sws.geonames.org/3664980/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 0, NODE <http://sws.geonames.org/3662574/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -1, NODE <http://sws.geonames.org/3663517/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 -2, NODE <http://sws.geonames.org/3662762/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -4, NODE <http://sws.geonames.org/3470127/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -5, NODE <http://sws.geonames.org/3474574/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -6, NODE <http://sws.geonames.org/3471872/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -7, NODE <http://sws.geonames.org/3467747/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -8, NODE <http://sws.geonames.org/3465038/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -9, NODE <http://sws.geonames.org/3464975/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -10, NODE <http://sws.geonames.org/3462377/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -11, NODE <http://sws.geonames.org/3463237/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -12, NODE <http://sws.geonames.org/3452925/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -13, NODE <http://sws.geonames.org/3450554/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -14, NODE <http://sws.geonames.org/3451190/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -15, NODE <http://sws.geonames.org/3448439/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -16, NODE <http://sws.geonames.org/3444924/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -17, NODE <http://sws.geonames.org/3405870/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -18, NODE <http://sws.geonames.org/3399415/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -19, NODE <http://sws.geonames.org/3397277/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -20, NODE <http://sws.geonames.org/3395981/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -21, NODE <http://sws.geonames.org/3396016/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -22, NODE <http://sws.geonames.org/3394023/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -23, NODE <http://sws.geonames.org/3390760/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -24, NODE <http://sws.geonames.org/3388368/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -25, NODE <http://sws.geonames.org/3386496/> - [<http://www.geonames.org/ontology#name>=<http://www.geonames.org/ontology#name>] 0.6 1 AND <http://www.geonames.org/ontology#featureClass> <http://www.geonames.org/ontology#P> -26, NODE Goal - 1
+SOLVER PROCESSING 26 SETS
+**************************** BUILDING SAMPLE
+26
+*************************** PIVOT SIZE
+<http://sws.geonames.org/3451246/>
+Executing. .. 
+Using ... http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+Querying ...http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+select distinct * where {  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3664980/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3662574/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3663517/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3662762/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3470127/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3474574/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3471872/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3467747/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3465038/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3464975/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3462377/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3463237/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3452925/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3450554/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3451190/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3448439/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3444924/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3405870/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3399415/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3397277/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3395981/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3396016/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3394023/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3390760/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3388368/>) } union  { ?s  ?p  ?o . filter (?s = <http://sws.geonames.org/3386496/>) }}  
+Via POST
+RDF to SVM WITH META PROPERTIES ...
+############# RESTRICTED INVERSE FUNCTIONAL PROPERTIES
+Computing the IFP ... 
+PROPERTY OVERFLOW THRESHOLD
+MEAN / DEVIATION
+1.3246220855752
+3.98587384642865
+3.98587384642865
+OVERFLOW PROPERTY
+##################
+<http://www.geonames.org/ontology#childrenFeatures>
+<http://www.geonames.org/ontology#locationMap>
+<http://www.geonames.org/ontology#nearbyFeatures>
+<http://www.geonames.org/ontology#population>
+<http://www.w3.org/2002/07/owl#sameAs>
+Buiding Model ...
+GROUP############## - 0
+30
+9
+27
+33
+39
+46
+51
+56
+60
+65
+73
+78
+84
+90
+96
+102
+107
+113
+117
+123
+129
+135
+140
+146
+151
+157
+162
+169
+175
+180
+185
+END GROUP ###
+GROUP############## - 1
+30
+190
+196
+204
+209
+214
+219
+224
+230
+239
+245
+251
+257
+262
+267
+276
+281
+288
+294
+300
+305
+312
+317
+322
+330
+335
+340
+347
+352
+357
+362
+END GROUP ###
+GROUP############## - 2
+3
+367
+374
+431
+END GROUP ###
+GROUP############## - 3
+6
+441
+449
+454
+459
+465
+505
+END GROUP ###
+GROUP############## - 4
+30
+511
+520
+526
+531
+537
+542
+548
+553
+559
+565
+570
+575
+580
+586
+591
+597
+602
+607
+612
+617
+622
+627
+632
+639
+645
+709
+714
+720
+725
+731
+END GROUP ###
+GROUP############## - 5
+25
+736
+744
+763
+768
+782
+817
+824
+829
+835
+841
+848
+854
+861
+867
+873
+880
+886
+892
+898
+904
+910
+915
+923
+930
+935
+END GROUP ###
+GROUP############## - 6
+1
+941
+END GROUP ###
+GROUP############## - 7
+30
+979
+984
+989
+994
+998
+1002
+1008
+1013
+1018
+1023
+1028
+1033
+1037
+1042
+1047
+1052
+1057
+1064
+1074
+1079
+1084
+1089
+1095
+1101
+1105
+1146
+1151
+1156
+1161
+1166
+END GROUP ###
+GROUP############## - 8
+4
+1173
+1178
+1183
+1227
+END GROUP ###
+GROUP############## - 9
+1
+1233
+END GROUP ###
+GROUP############## - 10
+1
+1390
+END GROUP ###
+GROUP############## - 11
+5
+1437
+1486
+1491
+1496
+1502
+END GROUP ###
+GROUP############## - 12
+5
+1507
+1515
+1519
+1579
+1584
+END GROUP ###
+GROUP############## - 13
+30
+1590
+1597
+1602
+1609
+1615
+1621
+1627
+1642
+1647
+1652
+1657
+1662
+1668
+1673
+1678
+1683
+1688
+1693
+1698
+1758
+1764
+1772
+1778
+1783
+1789
+1794
+1799
+1804
+1810
+1816
+END GROUP ###
+GROUP############## - 14
+1
+1823
+END GROUP ###
+GROUP############## - 15
+30
+1970
+1977
+1982
+1986
+1991
+1995
+1999
+2003
+2008
+2012
+2017
+2021
+2026
+2031
+2036
+2041
+2046
+2050
+2055
+2060
+2064
+2069
+2074
+2079
+2084
+2089
+2094
+2099
+2105
+2110
+END GROUP ###
+GROUP############## - 16
+25
+2203
+2209
+2214
+2219
+2224
+2229
+2234
+2239
+2243
+2247
+2252
+2258
+2263
+2269
+2274
+2280
+2327
+2332
+2337
+2342
+2347
+2351
+2356
+2361
+2365
+END GROUP ###
+GROUP############## - 17
+30
+2370
+2377
+2384
+2389
+2436
+2440
+2447
+2453
+2459
+2464
+2469
+2473
+2478
+2483
+2487
+2492
+2496
+2501
+2519
+2526
+2531
+2536
+2541
+2546
+2551
+2603
+2608
+2613
+2618
+2623
+END GROUP ###
+GROUP############## - 18
+30
+2627
+2634
+2639
+2644
+2648
+2653
+2658
+2663
+2668
+2673
+2677
+2682
+2688
+2692
+2696
+2701
+2706
+2711
+2716
+2770
+2775
+2779
+2784
+2788
+2792
+2797
+2802
+2807
+2812
+2817
+END GROUP ###
+GROUP############## - 19
+2
+2821
+2865
+END GROUP ###
+GROUP############## - 20
+5
+2870
+2876
+2915
+2920
+2925
+END GROUP ###
+GROUP############## - 21
+5
+2929
+2935
+2940
+2974
+2979
+END GROUP ###
+GROUP############## - 22
+10
+2984
+2995
+3000
+3045
+3051
+3056
+3061
+3066
+3071
+3076
+END GROUP ###
+GROUP############## - 23
+4
+3082
+3136
+3140
+3145
+END GROUP ###
+GROUP############## - 24
+30
+3150
+3157
+3162
+3167
+3171
+3176
+3181
+3186
+3191
+3196
+3201
+3206
+3211
+3215
+3220
+3225
+3230
+3234
+3239
+3244
+3249
+3254
+3295
+3300
+3305
+3310
+3315
+3320
+3325
+3330
+END GROUP ###
+GROUP############## - 25
+2
+3335
+3343
+END GROUP ###
+GROUP############## - 26
+1
+251
+END GROUP ###
+########### Normalizing Features
+PIVOT FOUND
+<http://sws.geonames.org/3467747/>
+
+NUMBER OF GROUPS
+27
+NUMBER OF ELEMENTS BY GROUPS 0
+30
+NUMBER OF HOMONYMS
+1	1	1	1	1	2	2	3	4	4	5	5	5	5	6	10	25	25	30	30	30	30	30	30	30	30	30
+30	30	3	6	30	25	1	30	4	1	1	5	5	30	1	30	25	30	30	2	5	5	10	4	30	2	1
+######
+1:0.700618873194794 
+1:0.69963660994806 
+1:0.69961847450193 
+1:0.700156981882815 
+1:0.700165832866672 
+1:0.700156981882815 
+1:0.700156981882815 
+1:0.700156981882815 
+1:0.568261078074436 
+1:0.700660070132241 
+1:0.700942746321554 
+1:0.700193267376051 
+1:0.700156981882815 
+1:0.700156981882815 
+1:0.700211185221419 
+1:0.700175117328945 
+1:0.700175117328945 
+1:0.700183133785288 
+1:0.700174921017106 
+1:0.700175131929921 
+1:0.700191995407346 
+1:0.700169690248939 
+1:0.700156981882815 
+1:0.700201269231417 
+1:0.700201269231417 
+1:0.803774681634553 
+1:0.799526687270063 
+1:0.799526687270063 
+1:0.799526687270063 
+1:0.799526687270063 
+######
+1:0.818184274914068 
+1:0.681528861742952 
+1:0.681546785862289 
+1:0.681528861742952 
+1:0.681564738405739 
+1:0.681528861742952 
+1:0.686932347514558 
+1:0.744119957038268 
+1:0.829685488565051 
+1:0.814359851686514 
+1:0.93096387750979 
+1:0.814359851686514 
+1:0.814359851686514 
+1:0.725264008824173 
+1:0.697268335239637 
+1:0.726415046370118 
+1:0.727721270979383 
+1:0.698523602482895 
+1:0.698613534272023 
+1:0.729148686585689 
+1:0.681942698361101 
+1:0.680894167922025 
+1:0.685656644362344 
+1:0.697268335239637 
+1:0.680894167922025 
+1:0.728098565124624 
+1:0.682303829181814 
+1:0.681280372655443 
+1:0.68214972172774 
+1:0.682140880657619 
+######
+1:0.783518892363658 
+1:0.962575326826211 
+1:0.648935498926307 
+######
+1:0.696168426498344 
+1:0.696303487058551 
+1:0.69633048957742 
+1:0.795632772873103 
+1:0.979726152906794 
+1:0.76516858754258 
+######
+1:0.745744298196468 
+1:0.699636565247391 
+1:0.700651169748289 
+1:0.699618429801261 
+1:0.799544608395451 
+1:0.816513210727528 
+1:0.803774679403449 
+1:0.799562942838952 
+1:0.803656829623778 
+1:0.799589733264046 
+1:0.803756740269158 
+1:0.803656829623778 
+1:0.76820828047859 
+1:0.799012474992131 
+1:0.847043896845343 
+1:0.804930838774787 
+1:0.799562547529741 
+1:0.804930838774787 
+1:0.816612025532253 
+1:0.798892659182255 
+1:0.816612025532253 
+1:0.864102045297321 
+1:0.863321076964915 
+1:0.79891077854903 
+1:0.975721214044441 
+1:0.816612025532253 
+1:0.799064780491489 
+1:0.79994118962133 
+1:0.851671688239726 
+1:0.852472636098671 
+######
+1:0.699518691466495 
+1:0.853450584050095 
+1:0.769078672100278 
+1:0.923018276927674 
+1:0.985538998210757 
+1:0.699536836454766 
+1:0.699536836454766 
+1:0.699536836454766 
+1:0.699536836454766 
+1:0.699554981443037 
+1:0.699554778669414 
+1:0.699518691466495 
+1:0.699518691466495 
+1:0.699518691466495 
+1:0.699883273943911 
+1:0.7474308658102 
+1:0.699554981443037 
+1:0.699536836454766 
+1:0.699536836454766 
+1:0.699536836454766 
+1:0.699554981443037 
+1:0.739346865820324 
+1:0.699518691466495 
+1:0.769078672100278 
+1:0.699518691466495 
+######
+1:0.814364238259712 
+######
+1:0.700211165406036 
+1:0.700175117077451 
+1:0.799966969232019 
+1:0.801393894547079 
+1:0.804939688512464 
+1:0.816493964534273 
+1:0.803756748936715 
+1:0.801375981664623 
+1:0.803756748936715 
+1:0.803656838291334 
+1:0.772852643777792 
+1:0.803683653085708 
+1:0.799562951506508 
+1:0.799562951506508 
+1:0.803756748936715 
+1:0.801375981664623 
+1:0.699582149024808 
+1:0.732314547414401 
+1:0.815890798805773 
+1:0.799959137423177 
+1:0.816513219395084 
+1:0.839358822338337 
+1:0.765687255349018 
+1:0.798928719103633 
+1:1.0 
+1:0.798928711335923 
+1:0.800044830348944 
+1:0.8003023291096 
+1:0.800044830348944 
+1:0.699582149024808 
+######
+1:0.806566243901706 
+1:0.79007994197311 
+1:0.97259024491804 
+1:0.841989027354686 
+######
+1:0.784248366046304 
+######
+1:0.811394605925487 
+######
+1:0.977532465100942 
+1:0.793861127678377 
+1:0.793825243898673 
+1:0.845820052753336 
+1:0.798616710755611 
+######
+1:0.694619520111505 
+1:0.79507862042983 
+1:0.969613694117213 
+1:0.798615554320503 
+1:0.793144818437374 
+######
+1:0.700058189158207 
+1:0.700058189158207 
+1:0.699600279476423 
+1:0.699600279476423 
+1:0.699600279476423 
+1:0.699600279476423 
+1:0.857147024781927 
+1:0.699600279476423 
+1:0.700651171127371 
+1:0.700633026823555 
+1:0.700174668471862 
+1:0.699590993240723 
+1:0.799562944218034 
+1:0.801375974376149 
+1:0.799064781870571 
+1:0.803655137001656 
+1:0.80004482306047 
+1:0.799941191000412 
+1:0.977891412322282 
+1:0.699608279542994 
+1:0.747133687644629 
+1:0.668777937105123 
+1:0.699634427467324 
+1:0.699608279542994 
+1:0.699962719968197 
+1:0.747514266048625 
+1:0.699634427467324 
+1:0.699608279542994 
+1:0.699608279542994 
+1:0.699746277869102 
+######
+1:0.787513472990263 
+######
+1:0.700156926122067 
+1:0.700934799459901 
+1:0.700174839004523 
+1:0.700156926122067 
+1:0.799562545504211 
+1:0.816511892975477 
+1:0.817140996104983 
+1:0.803674769163304 
+1:0.799571778803184 
+1:0.803674748637227 
+1:0.799580855578432 
+1:0.799012469886243 
+1:0.799012469886243 
+1:0.7990647753856 
+1:0.80375673516327 
+1:0.799012469886243 
+1:0.804948765555946 
+1:0.799562937733064 
+1:0.804930833668899 
+1:0.801393899778226 
+1:0.801375967891179 
+1:0.798910773443142 
+1:0.798910773443142 
+1:0.799941184515442 
+1:0.799941184515442 
+1:0.799966955458574 
+1:0.799962306153136 
+1:0.847478845401992 
+1:0.803655130516686 
+1:0.967033223155835 
+######
+1:0.700103668040248 
+1:0.700121803486378 
+1:0.816414513641704 
+1:0.816414513641704 
+1:0.816414513641704 
+1:0.799021199914308 
+1:0.803677298044145 
+1:0.803695215889513 
+1:0.817049633083648 
+1:0.803677298044145 
+1:0.864036488102128 
+1:0.799861747396317 
+1:0.847374327145776 
+1:0.799861747396317 
+1:0.846343720683154 
+1:0.980047606117903 
+1:0.816414513641704 
+1:0.799861747396317 
+1:0.769078674520469 
+1:0.815187384274853 
+1:0.799888570054846 
+1:0.799861747396317 
+1:0.800059929692835 
+1:0.804860237619894 
+1:0.799380660666645 
+######
+1:0.70005816968353 
+1:0.74644505641756 
+1:0.699636556693938 
+1:0.79489622015434 
+1:0.700175085255466 
+1:0.666389383866202 
+1:0.74713365543689 
+1:0.699618412390122 
+1:0.699618412390122 
+1:0.700201237157938 
+1:0.816531144388722 
+1:0.799526655196584 
+1:0.816493947313264 
+1:0.817140987146294 
+1:0.803656821070325 
+1:0.803674760204615 
+1:0.803656821070325 
+1:0.956366262411524 
+1:0.850397307880646 
+1:0.803756731715705 
+1:0.799562934285498 
+1:0.799012466438678 
+1:0.803756731715705 
+1:0.801375964443614 
+1:0.979720489290565 
+1:0.801375964443614 
+1:0.815890781584764 
+1:0.798910769995577 
+1:0.815266817946413 
+1:0.799305853186919 
+######
+1:0.699600286762701 
+1:0.803756746065031 
+1:0.799527358799055 
+1:0.799571067270683 
+1:0.80493084457066 
+1:0.799527358799055 
+1:0.799562948634825 
+1:0.80137597879294 
+1:0.80137597879294 
+1:0.799545301013703 
+1:0.799527358799055 
+1:0.799472915111997 
+1:0.799959113262572 
+1:0.803966495942886 
+1:0.799064786287361 
+1:0.799527358799055 
+1:0.799064786287361 
+1:0.804736714741706 
+1:0.978601780619425 
+1:0.799064786287361 
+1:0.803774677952078 
+1:0.80137597879294 
+1:0.803774685199321 
+1:0.799527358799055 
+1:0.80137597879294 
+1:0.80137597879294 
+1:0.80493084457066 
+1:0.81526683229574 
+1:0.798910784344903 
+1:0.816637802271258 
+######
+1:0.941475256025052 
+1:0.763276531995652 
+######
+1:0.762445944171341 
+1:0.977591047402233 
+1:0.793250138684882 
+1:0.809577985984148 
+1:0.793861179777032 
+######
+1:0.797344818046845 
+1:0.793215341426249 
+1:0.980247875973581 
+1:0.797444728692225 
+1:0.798618827197854 
+######
+1:0.774154497153666 
+1:0.766816716081218 
+1:0.979257114675648 
+1:0.862586470559808 
+1:0.798600951784659 
+1:0.803486968878058 
+1:0.803486968878058 
+1:0.803486968878058 
+1:0.698518848692387 
+1:0.698448407855457 
+######
+1:0.984209006594615 
+1:0.789992459296157 
+1:0.759170340663278 
+1:0.794964184330277 
+######
+1:0.748486307797433 
+1:0.799527360372505 
+1:0.799527360372505 
+1:0.799606645270743 
+1:0.799562950208274 
+1:0.799012482361454 
+1:0.80137598036639 
+1:0.799012482361454 
+1:0.803756747638481 
+1:0.799012482361454 
+1:0.799012482361454 
+1:0.803756747638481 
+1:0.799545292259552 
+1:0.799527360372505 
+1:0.799472916685447 
+1:0.851272719050457 
+1:0.803765588708602 
+1:0.803756747638481 
+1:0.799527360372505 
+1:0.799562950208274 
+1:0.80137598036639 
+1:0.986746017226807 
+1:0.851171168514132 
+1:0.862783142039641 
+1:0.80004482905071 
+1:0.864102055058544 
+1:0.81589079750754 
+1:0.864102055058544 
+1:0.798910785918353 
+1:0.846434892817581 
+######
+1:0.667468188809454 
+1:0.942044705601296 
+MODEL DONE
+26
+26
+OUTPUT
+#<File:0xb21521>
+MEAN OF MAXIMUS
+0.939631648980606
+MEAN / DEVIATION
+0.78061407857515
+0.0714897472556809
+OUTLIER THRESHOLD
+0.709124331319469
+FINAL THRESHOLD - 0
+0.803774681634553
+FINAL THRESHOLD - 1
+0.93096387750979
+FINAL THRESHOLD - 2
+0.962575326826211
+FINAL THRESHOLD - 3
+0.979726152906794
+FINAL THRESHOLD - 4
+0.975721214044441
+FINAL THRESHOLD - 5
+0.985538998210757
+FINAL THRESHOLD - 6
+0.814364238259712
+FINAL THRESHOLD - 7
+1.0
+FINAL THRESHOLD - 8
+0.97259024491804
+FINAL THRESHOLD - 9
+0.784248366046304
+FINAL THRESHOLD - 10
+0.811394605925487
+FINAL THRESHOLD - 11
+0.977532465100942
+FINAL THRESHOLD - 12
+0.969613694117213
+FINAL THRESHOLD - 13
+0.977891412322282
+FINAL THRESHOLD - 14
+0.787513472990263
+FINAL THRESHOLD - 15
+0.967033223155835
+FINAL THRESHOLD - 16
+0.980047606117903
+FINAL THRESHOLD - 17
+0.979720489290565
+FINAL THRESHOLD - 18
+0.978601780619425
+FINAL THRESHOLD - 19
+0.941475256025052
+FINAL THRESHOLD - 20
+0.977591047402233
+FINAL THRESHOLD - 21
+0.980247875973581
+FINAL THRESHOLD - 22
+0.979257114675648
+FINAL THRESHOLD - 23
+0.984209006594615
+FINAL THRESHOLD - 24
+0.986746017226807
+FINAL THRESHOLD - 25
+0.942044705601296
+RESULTS
+CHECKING RESULTS
+SUBJECTS
+26
+SUBJECTS FOUND
+27
+http://sws.geonames.org/3386496/=http://sws.geonames.org/3386496/
+http://sws.geonames.org/3388368/=http://sws.geonames.org/3388368/
+http://sws.geonames.org/3390760/=http://sws.geonames.org/3390760/
+http://sws.geonames.org/3394023/=http://sws.geonames.org/3394023/
+http://sws.geonames.org/3395981/=http://sws.geonames.org/3395981/
+http://sws.geonames.org/3396016/=http://sws.geonames.org/3396016/
+http://sws.geonames.org/3397277/=http://sws.geonames.org/3397277/
+http://sws.geonames.org/3399415/=http://sws.geonames.org/3399415/
+http://sws.geonames.org/3405870/=http://sws.geonames.org/3405870/
+http://sws.geonames.org/3444924/=http://sws.geonames.org/3444924/
+http://sws.geonames.org/3448439/=http://sws.geonames.org/3448439/
+http://sws.geonames.org/3450554/=http://sws.geonames.org/3450554/
+http://sws.geonames.org/3451190/=http://sws.geonames.org/3451190/
+http://sws.geonames.org/3452925/=http://sws.geonames.org/3452925/
+http://sws.geonames.org/3462377/=http://sws.geonames.org/3462377/
+http://sws.geonames.org/3463237/=http://sws.geonames.org/3463237/
+http://sws.geonames.org/3464975/=http://sws.geonames.org/3464975/
+http://sws.geonames.org/3465038/=http://sws.geonames.org/3465038/
+http://sws.geonames.org/3467747/=http://sws.geonames.org/3467747/
+http://sws.geonames.org/3470127/=http://sws.geonames.org/3470127/
+http://sws.geonames.org/3471872/=http://sws.geonames.org/3471872/
+http://sws.geonames.org/3474574/=http://sws.geonames.org/3474574/
+http://sws.geonames.org/3662574/=http://sws.geonames.org/3662574/
+http://sws.geonames.org/3662762/=http://sws.geonames.org/3662762/
+http://sws.geonames.org/3663517/=http://sws.geonames.org/3663517/
+http://sws.geonames.org/3664980/=http://sws.geonames.org/3664980/
+$$$$$$
+http://sws.geonames.org/3386496/=http://sws.geonames.org/3386496/
+http://sws.geonames.org/3388368/=http://sws.geonames.org/3388368/
+http://sws.geonames.org/3390760/=http://sws.geonames.org/3390760/
+http://sws.geonames.org/3394023/=http://sws.geonames.org/3394023/
+http://sws.geonames.org/3395981/=http://sws.geonames.org/3395981/
+http://sws.geonames.org/3396016/=http://sws.geonames.org/3396016/
+http://sws.geonames.org/3397277/=http://sws.geonames.org/3397277/
+http://sws.geonames.org/3399415/=http://sws.geonames.org/3399415/
+http://sws.geonames.org/3405870/=http://sws.geonames.org/3405870/
+http://sws.geonames.org/3444924/=http://sws.geonames.org/3444924/
+http://sws.geonames.org/3448439/=http://sws.geonames.org/3448439/
+http://sws.geonames.org/3450554/=http://sws.geonames.org/3450554/
+http://sws.geonames.org/3451190/=http://sws.geonames.org/3451190/
+http://sws.geonames.org/3452925/=http://sws.geonames.org/3452925/
+http://sws.geonames.org/3462377/=http://sws.geonames.org/3462377/
+http://sws.geonames.org/3463237/=http://sws.geonames.org/3463237/
+http://sws.geonames.org/3464975/=http://sws.geonames.org/3464975/
+http://sws.geonames.org/3465038/=http://sws.geonames.org/3465038/
+http://sws.geonames.org/3467747/=http://sws.geonames.org/3467747/
+http://sws.geonames.org/3470127/=http://sws.geonames.org/3470127/
+http://sws.geonames.org/3471872/=http://sws.geonames.org/3471872/
+http://sws.geonames.org/3474574/=http://sws.geonames.org/3474574/
+http://sws.geonames.org/3662574/=http://sws.geonames.org/3451246/
+http://sws.geonames.org/3662762/=http://sws.geonames.org/3662762/
+http://sws.geonames.org/3663517/=http://sws.geonames.org/3395682/
+http://sws.geonames.org/3663517/=http://sws.geonames.org/3663517/
+http://sws.geonames.org/3664980/=http://sws.geonames.org/3405531/
+######## DIFFERENCE  encountered - solution
+http://sws.geonames.org/3664980/=http://sws.geonames.org/3405531/
+http://sws.geonames.org/3662574/=http://sws.geonames.org/3451246/
+http://sws.geonames.org/3663517/=http://sws.geonames.org/3395682/
+######## DIFFERENCE  solution - encountered
+http://sws.geonames.org/3662574/=http://sws.geonames.org/3662574/
+http://sws.geonames.org/3664980/=http://sws.geonames.org/3664980/
+24.0
+3.0
+2.0
+RECALL: 0.923076923076923
+PRECISON: 0.888888888888889
+FMEASURE: 0.905660377358491
