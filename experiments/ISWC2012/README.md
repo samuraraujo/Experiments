@@ -60,5 +60,7 @@ You may need some of those gems installed:
 	xml-simple (1.1.0)
 	yajl-ruby (0.8.2)
 
-For instance, to install the gem yajl-ruby , you must type: gem install yajl-ruby -v=0.8.2
+For instance, to install the gem yajl-ruby, you must type: 
+
+	gem install yajl-ruby -v=0.8.2
 
