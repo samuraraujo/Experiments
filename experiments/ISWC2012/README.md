@@ -1,7 +1,10 @@
 SONDA-ISWC2012-EXPERIMENTS
 ==========================================
 
-This repository contains the source code and the output of the experiments that we did for ISWC 2012 paper.
+Sonda is available as a command line tool, here:
+https://github.com/samuraraujo/SONDA-EFFICIENT-SPARQL-BASED-RDF-INTERLINK
+
+This repository contains the source code and the output of the experiments that we did for ISWC 2012 paper (submitted).
 
 You can rerun the script run.sh for recompute all results.
 
