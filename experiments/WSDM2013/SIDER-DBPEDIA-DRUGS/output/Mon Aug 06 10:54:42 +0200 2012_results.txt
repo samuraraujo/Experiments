@@ -1,0 +1,162 @@
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 1.433
+CARDINALITY: 0.0
+TOTAL: 15.0
+SUCCESS: 0.0
+FAILURES: 15.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0895625
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00400270986001
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 1.951
+CARDINALITY: 0.0
+TOTAL: 15.0
+SUCCESS: 0.0
+FAILURES: 15.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.1219375
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00740694553207
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 210.315
+CARDINALITY: 757.0
+TOTAL: 700.0
+SUCCESS: 699.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.945872801082544
+Elapse time: 0.300021398002853
+Cardinality Ratio: 0.0778364116094987
+Failure Ratio: 0.00285306704707561
+Cost: 0.309953780799379
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.51
+CARDINALITY: 2.0
+TOTAL: 2.0
+SUCCESS: 2.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0027063599458728
+Elapse time: 0.17
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.333333333333333
+Cost: 0.374180586229579
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.306
+CARDINALITY: 1.0
+TOTAL: 1.0
+SUCCESS: 1.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0013531799729364
+Elapse time: 0.153
+Cardinality Ratio: 0.5
+Failure Ratio: 0.5
+Cost: 0.522885264661379
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.318
+CARDINALITY: 1.0
+TOTAL: 1.0
+SUCCESS: 1.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0013531799729364
+Elapse time: 0.159
+Cardinality Ratio: 0.5
+Failure Ratio: 0.5
+Cost: 0.524672278665454
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.332
+CARDINALITY: 1.0
+TOTAL: 1.0
+SUCCESS: 1.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0013531799729364
+Elapse time: 0.166
+Cardinality Ratio: 0.5
+Failure Ratio: 0.5
+Cost: 0.526835837809084
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.35
+CARDINALITY: 1.0
+TOTAL: 1.0
+SUCCESS: 1.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0013531799729364
+Elapse time: 0.175
+Cardinality Ratio: 0.5
+Failure Ratio: 0.5
+Cost: 0.529740502510427
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.561
+CARDINALITY: 2.0
+TOTAL: 2.0
+SUCCESS: 2.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0027063599458728
+Elapse time: 0.187
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.333333333333333
+Cost: 0.382204279294609
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.384
+CARDINALITY: 1.0
+TOTAL: 1.0
+SUCCESS: 1.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.0013531799729364
+Elapse time: 0.192
+Cardinality Ratio: 0.5
+Failure Ratio: 0.5
+Cost: 0.535596863321659
+HEURISTIC ELAPSED TIME: 317.358
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+target => http://lod.openlinksw.com/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 10 & 1.04   & 85.07  & 217.47 & 92.43 & 93.46 & 92.94  \\ 
+LEARNING TIME: 85.07
+SEARCH TIME: 217.47
+MATCHER TIME: 83.55
+TOTAL TIME: 386.09
+PAIR COMPLETENESS: 0.934604904632153
+RECALL: 0.448228882833787
+PRECISON: 0.996969696969697
+FMEASURE: 0.618421052631579
+FOUND INSTANCES: 708
+NUMBER QUERIES: 739
+RATIO NUMBER QUERIES / INSTANCES: 1.04378531073446
+RATIO QUERIES/POSITIVES: 0.958051420838971
+RATIO QUERIES/NEGATIVES: 0.0419485791610284
+NUMBER HOMONYMS: 766
+RATIO HOMONYMS/INSTANCES: 1.0819209039548
+INSTANCES / HOMONYMS RATIO: 0.924281984334204
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	2	1	1	1	1	2	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	3	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	3	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	1	2	2	1	2	1	1	2	1	1	1	1	1	2	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 405.688
+ELAPSED TIME M: 6.76146666666667

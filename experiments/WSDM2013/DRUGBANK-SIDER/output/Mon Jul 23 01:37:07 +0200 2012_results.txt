@@ -1,0 +1,52 @@
+HEURISTIC ELAPSED TIME: 306.257
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://drugbank.org
+target => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+class =>  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => Baseline
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => S-based
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & S-based  & 8 & 8.0   & 50.78  & 265.46 & 95.92 & 99.65 & 97.75  \\ 
+LEARNING TIME: 50.781
+SEARCH TIME: 265.456
+MATCHER TIME: 21.773
+TOTAL TIME: 338.01
+PAIR COMPLETENESS: 0.996466431095406
+RECALL: 0.964664310954064
+PRECISON: 0.985559566787004
+FMEASURE: 0.975
+FOUND INSTANCES: 282
+NUMBER QUERIES: 2264
+RATIO NUMBER QUERIES / INSTANCES: 8.0
+RATIO QUERIES/POSITIVES: 0.703621908127208
+RATIO QUERIES/NEGATIVES: 0.296378091872791
+NUMBER HOMONYMS: 294
+RATIO HOMONYMS/INSTANCES: 1.04255319148936
+INSTANCES / HOMONYMS RATIO: 0.959183673469388
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	1	1	1	1	1
+ELAPSED TIME S: 358.912
+ELAPSED TIME M: 5.98186666666667

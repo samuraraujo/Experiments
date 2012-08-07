@@ -1,0 +1,52 @@
+HEURISTIC ELAPSED TIME: 249.93
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+target => http://localhost:8894/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugs> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => NoAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => Baseline
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => S-agnostic
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & S-agnostic  & 3 & 3.0   & 35.41  & 155.64 & 69.18 & 93.19 & 79.41  \\ 
+LEARNING TIME: 35.409
+SEARCH TIME: 155.639
+MATCHER TIME: 78.663
+TOTAL TIME: 269.71
+PAIR COMPLETENESS: 0.931880108991826
+RECALL: 0.502724795640327
+PRECISON: 0.997297297297297
+FMEASURE: 0.668478260869565
+FOUND INSTANCES: 698
+NUMBER QUERIES: 2124
+RATIO NUMBER QUERIES / INSTANCES: 3.0
+RATIO QUERIES/POSITIVES: 0.593220338983051
+RATIO QUERIES/NEGATIVES: 0.406779661016949
+NUMBER HOMONYMS: 1009
+RATIO HOMONYMS/INSTANCES: 1.44555873925501
+INSTANCES / HOMONYMS RATIO: 0.691774033696729
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	4	4	4	5	7	10	10	24	31
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	3	3	1	2	1	2	1	1	1	1	1	1	1	1	1	1	2	2	2	1	2	2	3	2	1	2	2	3	2	3	2	1	1	1	1	1	4	2	1	2	2	1	1	2	2	1	2	2	1	1	1	1	2	1	1	2	1	2	1	3	1	1	1	2	1	1	1	1	2	1	1	1	1	1	2	1	1	2	1	1	1	2	1	2	1	1	10	1	1	1	31	1	1	1	1	2	1	1	1	1	2	1	1	1	1	1	1	2	1	1	2	1	2	2	1	1	1	1	1	1	1	1	2	1	1	2	1	1	3	1	1	1	4	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	3	2	2	1	2	2	1	2	1	1	2	5	1	1	2	1	2	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	2	2	1	3	1	1	2	1	1	1	1	2	1	1	2	2	2	1	1	2	2	1	2	2	2	2	2	2	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	2	1	2	2	1	2	1	1	24	1	1	1	1	3	2	1	2	1	1	2	1	1	1	1	2	1	2	1	1	2	1	1	1	1	2	1	1	1	1	1	2	2	2	1	1	1	1	1	1	1	2	1	1	2	2	1	1	1	1	1	1	1	2	2	1	1	2	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	1	2	4	1	1	1	2	2	1	2	1	2	1	1	1	1	1	1	1	1	1	1	1	2	2	1	1	1	2	1	2	2	7	1	1	2	1	1	2	1	1	2	1	2	1	1	1	2	1	1	1	2	1	2	1	1	1	2	2	1	1	1	1	1	2	1	2	1	1	3	2	2	1	1	10	1	2	1	1	1	2	1	1	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	2	1	2	1	2	2	2	1	3	1	2	1	1	1	1	1	3	1	1	1	2	2	2	2	2	3	2	2	2	1	2	2	2	2	2	2	1	1	1	1	1	1	1	1	2	3	1	1	2	2	1	1	2	1	2	1	2	2	2	2	1	1	1	2	1	2	3	2	1	1	1	1	1	2	1	1	1	2	1	1	3	1	2	1	1	2	1	2	1	1	1	1	1	1	1	2	2	2	2	1	1	1	1	2	3	1	1	1	2	1	1	3	1	1	1	1	1	1	1	3	2	1	1	2	2	1	1	2	1	1	1	1	3	1	2	1	2	1	1	2	2	1	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	2	1	1	2	2	1	1	1	1	3	1	1	1	1	1	1	1	2	2	1
+ELAPSED TIME S: 286.224
+ELAPSED TIME M: 4.7704

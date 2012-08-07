@@ -1,0 +1,492 @@
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 4.615
+CARDINALITY: 28.0
+TOTAL: 97.0
+SUCCESS: 28.0
+FAILURES: 69.0
+GLOBAL SUCESS CHANCE: 0.00933955970647098
+Elapse time: 0.0470918367346938
+Cardinality Ratio: 0.0344827586206896
+Failure Ratio: 0.714285714285714
+Cost: 0.0583669575114191
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 103.706
+CARDINALITY: 792.0
+TOTAL: 1557.0
+SUCCESS: 792.0
+FAILURES: 765.0
+GLOBAL SUCESS CHANCE: 0.264176117411608
+Elapse time: 0.0665635430038514
+Cardinality Ratio: 0.00126103404791933
+Failure Ratio: 0.491655969191271
+Cost: 0.0665754869610098
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.612
+CARDINALITY: 0.0
+TOTAL: 35.0
+SUCCESS: 0.0
+FAILURES: 35.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.017
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00014448956138
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 1.747
+CARDINALITY: 8.0
+TOTAL: 35.0
+SUCCESS: 8.0
+FAILURES: 27.0
+GLOBAL SUCESS CHANCE: 0.00266844563042028
+Elapse time: 0.0485277777777778
+Cardinality Ratio: 0.111111111111111
+Failure Ratio: 0.777777777777778
+Cost: 0.121246130777007
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.5
+CARDINALITY: 0.0
+TOTAL: 27.0
+SUCCESS: 0.0
+FAILURES: 27.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0178571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00015942606717
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.5
+CARDINALITY: 0.0
+TOTAL: 27.0
+SUCCESS: 0.0
+FAILURES: 27.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0178571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00015942606717
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.486
+CARDINALITY: 0.0
+TOTAL: 27.0
+SUCCESS: 0.0
+FAILURES: 27.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0173571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00015062386031
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.556
+CARDINALITY: 3.0
+TOTAL: 27.0
+SUCCESS: 3.0
+FAILURES: 24.0
+GLOBAL SUCESS CHANCE: 0.00100066711140761
+Elapse time: 0.0198571428571429
+Cardinality Ratio: 0.25
+Failure Ratio: 0.892857142857143
+Cost: 0.250787372334512
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 1.094
+CARDINALITY: 6.0
+TOTAL: 24.0
+SUCCESS: 6.0
+FAILURES: 18.0
+GLOBAL SUCESS CHANCE: 0.00200133422281521
+Elapse time: 0.04376
+Cardinality Ratio: 0.142857142857143
+Failure Ratio: 0.76
+Cost: 0.149409172627741
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.296
+CARDINALITY: 0.0
+TOTAL: 17.0
+SUCCESS: 0.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0164444444444444
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00013520073692
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.379
+CARDINALITY: 0.0
+TOTAL: 17.0
+SUCCESS: 0.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0210555555555556
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00022164364692
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 1.206
+CARDINALITY: 5.0
+TOTAL: 18.0
+SUCCESS: 5.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.00166777851901267
+Elapse time: 0.0634736842105263
+Cardinality Ratio: 0.166666666666667
+Failure Ratio: 0.736842105263158
+Cost: 0.17834429165251
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.224
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.016
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012799180905
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.229
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0163571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00013376911414
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.228
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0162857142857143
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00013260345306
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.216
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0154285714285714
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011901332608
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.222
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0158571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012571658747
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 0.224
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.016
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012799180905
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.237
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0169285714285714
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00014327800101
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 0.241
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0172142857142857
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0001481548414
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.217
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0155
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012011778586
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.227
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0162142857142857
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.000131442892
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.222
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0158571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012571658747
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.227
+CARDINALITY: 0.0
+TOTAL: 14.0
+SUCCESS: 0.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0151333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0001145023335
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 0.245
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0175
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00015311327816
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.227
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0162142857142857
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.000131442892
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.225
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0160714285714286
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012913706997
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.231
+CARDINALITY: 0.0
+TOTAL: 14.0
+SUCCESS: 0.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0154
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011857297023
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.225
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0160714285714286
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012913706997
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 89.675
+CARDINALITY: 668.0
+TOTAL: 742.0
+SUCCESS: 668.0
+FAILURES: 74.0
+GLOBAL SUCESS CHANCE: 0.222815210140093
+Elapse time: 0.120693135935397
+Cardinality Ratio: 0.00149476831091178
+Failure Ratio: 0.100942126514132
+Cost: 0.120702391833068
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.066
+CARDINALITY: 0.0
+TOTAL: 3.0
+SUCCESS: 0.0
+FAILURES: 3.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0165
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00013611573625
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.062
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.0206666666666667
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.500426928842874
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 11.34
+CARDINALITY: 43.0
+TOTAL: 74.0
+SUCCESS: 43.0
+FAILURES: 31.0
+GLOBAL SUCESS CHANCE: 0.014342895263509
+Elapse time: 0.1512
+Cardinality Ratio: 0.0227272727272727
+Failure Ratio: 0.426666666666667
+Cost: 0.152898557630933
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/fullName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.137
+CARDINALITY: 1.0
+TOTAL: 3.0
+SUCCESS: 1.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.03425
+Cardinality Ratio: 0.5
+Failure Ratio: 0.75
+Cost: 0.501171689643379
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 1.536
+CARDINALITY: 13.0
+TOTAL: 33.0
+SUCCESS: 13.0
+FAILURES: 20.0
+GLOBAL SUCESS CHANCE: 0.00433622414943295
+Elapse time: 0.0451764705882353
+Cardinality Ratio: 0.0714285714285714
+Failure Ratio: 0.617647058823529
+Cost: 0.084516000326188
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.132
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.044
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.501932266346765
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 0.144
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.048
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.502298715905187
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.151
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.0503333333333333
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.502527058420185
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/genericMedicine>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.155
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.0516666666666667
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.502662356303358
+[<http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/name>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 0.197
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000333555703802535
+Elapse time: 0.0656666666666667
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.504293675462137
+HEURISTIC ELAPSED TIME: 325.754
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://dailymed.org
+target => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+class =>  <http://www4.wiwiss.fu-berlin.de/dailymed/resource/dailymed/drugs> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaC
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaC  & 40 & 1.88   & 29.55  & 228.25 & 100.0 & 98.43 & 99.21  \\ 
+LEARNING TIME: 29.554
+SEARCH TIME: 228.254
+MATCHER TIME: 94.455
+TOTAL TIME: 352.26
+PAIR COMPLETENESS: 0.98429648241206
+RECALL: 0.873115577889447
+PRECISON: 0.995702005730659
+FMEASURE: 0.930388219544846
+FOUND INSTANCES: 1573
+NUMBER QUERIES: 2998
+RATIO NUMBER QUERIES / INSTANCES: 1.88316582914573
+RATIO QUERIES/POSITIVES: 0.524683122081388
+RATIO QUERIES/NEGATIVES: 0.475316877918612
+NUMBER HOMONYMS: 1573
+RATIO HOMONYMS/INSTANCES: 1.0
+INSTANCES / HOMONYMS RATIO: 1.0
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 358.318
+ELAPSED TIME M: 5.97196666666667

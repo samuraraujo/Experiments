@@ -1,0 +1,217 @@
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 5.109
+CARDINALITY: 0.0
+TOTAL: 117.0
+SUCCESS: 0.0
+FAILURES: 117.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0432966101694915
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00093685937334
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 2 
+TIME: 1.756
+CARDINALITY: 0.0
+TOTAL: 117.0
+SUCCESS: 0.0
+FAILURES: 117.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0148813559322034
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011072124759
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 2 
+TIME: 1.75
+CARDINALITY: 0.0
+TOTAL: 117.0
+SUCCESS: 0.0
+FAILURES: 117.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0148305084745763
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010996594455
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 1 
+TIME: 22.001
+CARDINALITY: 29.0
+TOTAL: 116.0
+SUCCESS: 27.0
+FAILURES: 89.0
+GLOBAL SUCESS CHANCE: 0.00419059444358218
+Elapse time: 0.188042735042735
+Cardinality Ratio: 0.1
+Failure Ratio: 0.769230769230769
+Cost: 0.212979037002124
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 1 
+TIME: 11.922
+CARDINALITY: 50.0
+TOTAL: 116.0
+SUCCESS: 44.0
+FAILURES: 72.0
+GLOBAL SUCESS CHANCE: 0.00682911687102281
+Elapse time: 0.101897435897436
+Cardinality Ratio: 0.137254901960784
+Failure Ratio: 0.623931623931624
+Cost: 0.17094442241482
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 3 
+TIME: 17.815
+CARDINALITY: 8.0
+TOTAL: 92.0
+SUCCESS: 6.0
+FAILURES: 86.0
+GLOBAL SUCESS CHANCE: 0.000931243209684929
+Elapse time: 0.191559139784946
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.935483870967742
+Cost: 0.384455478756981
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 4 
+TIME: 19.661
+CARDINALITY: 18.0
+TOTAL: 87.0
+SUCCESS: 13.0
+FAILURES: 74.0
+GLOBAL SUCESS CHANCE: 0.00201769362098401
+Elapse time: 0.223420454545454
+Cardinality Ratio: 0.31578947368421
+Failure Ratio: 0.852272727272727
+Cost: 0.386832898289492
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 378.223
+CARDINALITY: 1969.0
+TOTAL: 1963.0
+SUCCESS: 1455.0
+FAILURES: 508.0
+GLOBAL SUCESS CHANCE: 0.225826478348595
+Elapse time: 0.192577902240326
+Cardinality Ratio: 0.261421319796954
+Failure Ratio: 0.259164969450102
+Cost: 0.324695788201304
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 31.218
+CARDINALITY: 94.0
+TOTAL: 60.0
+SUCCESS: 43.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.00667390966940866
+Elapse time: 0.511770491803279
+Cardinality Ratio: 0.547368421052631
+Failure Ratio: 0.295081967213115
+Cost: 0.749347198998048
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 3 
+TIME: 11.129
+CARDINALITY: 19.0
+TOTAL: 76.0
+SUCCESS: 11.0
+FAILURES: 65.0
+GLOBAL SUCESS CHANCE: 0.0017072792177557
+Elapse time: 0.144532467532468
+Cardinality Ratio: 0.45
+Failure Ratio: 0.857142857142857
+Cost: 0.472641126195154
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 29.571
+CARDINALITY: 54.0
+TOTAL: 53.0
+SUCCESS: 28.0
+FAILURES: 25.0
+GLOBAL SUCESS CHANCE: 0.00434580164519634
+Elapse time: 0.547611111111111
+Cardinality Ratio: 0.490909090909091
+Failure Ratio: 0.481481481481481
+Cost: 0.735438416558134
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 5 
+TIME: 28.092
+CARDINALITY: 12.0
+TOTAL: 80.0
+SUCCESS: 7.0
+FAILURES: 73.0
+GLOBAL SUCESS CHANCE: 0.00108645041129908
+Elapse time: 0.346814814814815
+Cardinality Ratio: 0.461538461538462
+Failure Ratio: 0.91358024691358
+Cost: 0.577319900275683
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 516.06
+CARDINALITY: 1572.0
+TOTAL: 1009.0
+SUCCESS: 819.0
+FAILURES: 190.0
+GLOBAL SUCESS CHANCE: 0.127114698121993
+Elapse time: 0.510950495049505
+Cardinality Ratio: 0.479338842975207
+Failure Ratio: 0.189108910891089
+Cost: 0.700596984561127
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 5 
+TIME: 414.211
+CARDINALITY: 754.0
+TOTAL: 959.0
+SUCCESS: 449.0
+FAILURES: 510.0
+GLOBAL SUCESS CHANCE: 0.0696880335247555
+Elapse time: 0.431469791666667
+Cardinality Ratio: 0.405298013245033
+Failure Ratio: 0.532291666666667
+Cost: 0.591973530372134
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 4 
+TIME: 410.230999999999
+CARDINALITY: 1219.0
+TOTAL: 1481.0
+SUCCESS: 776.0
+FAILURES: 705.0
+GLOBAL SUCESS CHANCE: 0.120440788452584
+Elapse time: 0.276809041835357
+Cardinality Ratio: 0.363934426229508
+Failure Ratio: 0.47638326585695
+Cost: 0.45724338402738
+HEURISTIC ELAPSED TIME: 2048.326
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://localhost:8894/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://data.nytimes.com/elements/nytd_org> 
+append => a
+format => txt
+chunk => 150
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 15 & 3.28   & 204.11  & 1906.57 & 47.6 & 91.3 & 62.57  \\ 
+LEARNING TIME: 204.112
+SEARCH TIME: 1906.566
+MATCHER TIME: 139.958
+TOTAL TIME: 2250.64
+PAIR COMPLETENESS: 0.912977099236641
+RECALL: 0.851908396946565
+PRECISON: 0.898550724637681
+FMEASURE: 0.874608150470219
+FOUND INSTANCES: 1863
+NUMBER QUERIES: 6443
+RATIO NUMBER QUERIES / INSTANCES: 3.27888040712468
+RATIO QUERIES/POSITIVES: 0.570852087536862
+RATIO QUERIES/NEGATIVES: 0.429147912463138
+NUMBER HOMONYMS: 3914
+RATIO HOMONYMS/INSTANCES: 2.10091250670961
+INSTANCES / HOMONYMS RATIO: 0.475983648441492
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	5	6	6	6	6	6	6	6	6	6	6	6	7	7	7	7	7	7	7	7	7	7	8	8	8	8	8	8	9	9	9	9	10	10	10	11	12	12	12	13	13	13	13	14	14	15	17	17	17	18	18	20	22	31	32	32	32
+LIST OF HOMONYMS: 1	3	2	5	1	2	1	1	2	3	3	1	3	2	12	3	2	1	1	2	3	1	3	1	1	1	1	1	1	1	2	3	1	3	1	8	1	1	1	1	2	1	2	2	2	1	2	1	2	1	1	6	2	1	3	2	2	3	2	3	4	1	2	1	4	2	3	4	2	2	2	3	2	1	2	1	2	2	2	2	4	2	4	2	2	2	2	2	3	3	1	2	2	2	2	1	1	1	2	2	2	1	1	3	2	2	1	1	4	1	1	2	2	1	2	2	2	2	1	2	3	1	1	1	2	2	2	2	1	3	1	2	3	1	2	1	2	4	2	2	32	2	2	3	2	1	1	1	1	1	2	1	2	2	1	1	1	2	3	2	4	2	2	1	3	1	1	2	3	1	2	1	1	1	1	2	1	2	1	1	2	1	7	3	4	2	2	3	2	2	2	2	2	1	1	1	3	1	2	2	2	1	1	2	2	1	3	1	3	2	2	2	2	1	2	2	1	2	2	1	1	2	1	2	1	1	3	1	1	2	2	1	2	5	2	2	4	1	2	6	4	2	2	2	1	3	1	1	1	2	1	2	2	2	1	2	7	3	1	1	3	2	6	3	3	2	4	1	2	1	2	4	1	1	2	1	2	2	1	2	4	3	1	2	2	2	2	2	1	2	1	2	2	2	5	20	1	2	2	2	1	2	2	2	2	2	4	1	2	2	8	2	1	1	1	1	2	1	2	1	1	1	1	3	2	5	2	2	2	2	2	3	1	1	1	1	3	1	3	3	2	1	2	2	2	2	1	1	3	2	2	1	2	1	2	32	1	2	1	2	4	1	2	1	2	2	1	2	3	2	2	4	4	1	1	1	1	1	2	2	9	2	2	1	2	1	2	3	2	1	4	1	4	1	1	2	2	1	3	2	2	2	2	2	1	2	1	1	1	2	2	1	1	1	1	2	1	2	2	1	2	1	1	2	2	1	1	2	2	1	2	1	3	1	2	4	1	1	2	1	1	2	1	2	1	1	2	3	2	2	1	5	2	4	2	3	2	3	1	1	3	1	1	2	2	1	1	2	1	3	2	2	1	13	2	1	2	2	4	3	1	2	2	2	2	1	2	2	2	4	3	2	2	1	1	2	1	2	1	2	2	1	1	2	2	2	2	1	2	2	1	2	1	2	3	1	1	2	1	1	2	3	1	1	2	1	2	1	1	2	2	2	2	1	1	2	3	3	3	2	1	2	2	1	3	1	2	1	2	1	3	1	1	2	4	3	2	1	1	3	2	2	1	1	4	2	2	1	1	2	2	2	1	1	1	2	2	1	1	2	2	2	1	1	1	2	1	1	1	2	1	2	3	2	1	1	1	2	4	1	2	2	2	2	1	2	1	1	1	2	2	2	2	3	3	1	2	4	1	1	1	1	2	2	1	14	1	1	2	2	1	2	2	2	3	1	1	4	2	2	3	2	2	2	1	2	2	2	2	2	2	3	1	2	4	1	2	1	2	2	2	2	2	1	2	1	2	2	1	3	1	1	2	4	2	2	1	2	2	1	3	1	4	2	2	2	32	2	1	3	3	2	2	1	1	1	2	1	2	5	7	2	2	2	2	1	1	1	3	1	2	3	3	1	2	2	2	2	2	1	2	5	2	2	1	1	1	1	2	1	2	2	2	3	1	1	2	1	1	1	2	1	2	2	1	2	2	1	2	2	2	1	1	1	2	1	2	2	2	6	1	3	1	1	3	2	1	2	1	1	1	2	3	1	2	4	2	1	2	2	2	1	1	2	2	2	18	1	2	1	1	1	2	1	3	3	1	2	3	1	1	1	1	1	3	1	7	1	2	2	1	1	2	2	1	2	2	1	2	2	17	5	1	3	4	1	1	3	13	2	1	2	1	2	2	2	1	1	1	3	4	1	2	1	2	2	2	22	8	12	1	4	1	2	2	1	1	3	2	1	3	2	2	2	1	1	2	1	2	1	2	1	2	3	2	1	2	1	1	1	3	2	1	1	2	1	1	5	1	2	4	4	2	2	2	2	5	2	3	2	2	1	1	2	1	2	1	2	3	1	2	2	2	3	2	1	4	2	1	1	3	2	9	6	2	2	1	1	1	3	1	1	4	1	2	1	2	1	2	1	2	5	1	1	3	1	2	2	6	2	1	1	5	2	1	1	2	1	2	1	1	1	1	2	2	2	2	2	1	1	4	3	2	1	2	2	4	3	2	2	2	2	2	2	3	2	1	2	3	2	4	2	1	1	5	1	13	1	2	1	2	2	2	2	9	1	1	1	3	3	1	2	1	1	2	2	2	1	2	2	1	2	2	1	2	3	1	2	2	2	1	2	1	2	2	5	1	1	2	1	2	2	4	2	2	2	1	1	1	2	1	1	2	1	1	8	2	2	2	2	2	2	2	2	1	4	1	2	1	2	2	1	2	5	2	3	2	1	2	1	1	2	1	2	1	2	1	1	3	2	2	1	3	1	1	2	1	1	2	1	2	1	1	3	1	2	2	1	2	2	1	1	2	2	2	1	1	2	2	1	2	1	3	5	1	2	3	1	2	2	2	5	2	2	7	4	1	1	2	1	2	1	2	2	1	1	1	1	2	2	2	2	2	7	1	4	1	1	1	2	10	2	5	2	2	1	2	2	2	1	1	2	2	2	2	2	2	1	1	2	2	3	2	2	11	6	2	2	1	4	2	1	1	2	1	2	2	1	1	1	1	1	2	2	2	2	1	2	1	1	1	1	2	2	2	1	2	2	2	1	1	2	2	1	2	3	2	1	2	2	3	2	1	2	3	1	1	2	1	1	2	1	1	1	1	2	17	2	4	2	2	2	2	1	2	2	2	4	31	2	2	2	2	2	2	2	2	2	2	2	2	1	1	3	2	1	3	2	2	1	1	2	3	4	2	1	2	2	2	1	1	2	2	1	1	1	10	1	2	1	2	2	2	2	2	2	9	2	1	2	1	1	2	1	2	2	2	2	1	2	2	3	2	1	4	1	1	2	1	1	2	1	3	2	2	1	1	1	2	2	2	3	2	2	2	2	2	2	2	1	2	2	1	1	1	17	1	2	1	2	2	2	1	1	1	1	1	1	2	2	4	2	1	1	3	3	2	1	1	3	1	1	2	1	1	1	1	2	1	1	4	1	2	1	3	3	1	2	1	1	2	10	1	1	2	1	1	1	2	2	2	1	3	2	2	2	1	1	2	1	2	1	2	1	2	1	1	1	1	1	2	2	1	3	1	2	2	1	7	3	2	1	2	2	2	1	1	3	1	3	5	1	2	1	1	2	5	2	2	1	1	1	2	2	1	2	3	2	1	2	2	1	1	2	2	3	2	3	2	2	2	2	1	4	2	3	1	2	1	5	3	1	1	1	1	1	2	1	1	2	2	4	2	1	1	2	1	2	2	2	1	3	2	1	1	1	1	3	1	1	7	2	1	3	2	2	1	2	2	1	1	2	2	2	3	2	2	2	2	1	1	1	1	8	1	1	1	2	2	1	1	1	2	2	1	2	2	1	1	4	2	2	1	2	1	1	1	1	1	2	2	1	2	2	2	3	2	2	1	2	1	2	1	2	1	2	1	2	2	2	1	3	3	2	1	2	1	2	14	1	2	8	1	2	2	6	2	2	1	1	2	1	1	2	7	1	2	2	2	5	2	18	1	7	2	2	1	2	2	1	2	1	2	1	2	1	2	3	1	1	2	1	2	3	2	2	2	4	2	2	2	1	1	1	1	2	1	1	1	1	2	1	2	1	2	2	2	2	1	2	2	2	4	1	2	1	1	2	2	2	1	4	1	1	2	3	1	2	1	3	2	2	2	1	1	4	2	2	1	2	2	1	1	1	1	2	2	1	1	1	1	13	1	15	2	2	2	1	2	2	2	2	2	2	1	1	2	3	3	2	3	1	1	2	1	2	2	2	1	1	2	2	3	1	1	1	5	2	1	2	1	2	2	2	2	1	3	2	1	6	5	2	2	2	2	1	3	2	1	2	2	2	2	2	2	1	2	2	1	2	2	3	2	2	6	1	2	2	2	2	2	1	1	1	2	2	1	3	1	2	2	3	2	2	1	2	2	1	1	1	3	1	2	4	2	3	1	2	2	2	2	2	1	1	2	2	1	2	3	1	2	2	2	4	1	6	2	1	2	12	2	2	4	3	2	1	1	4	1	3	1	2	2	2	3	2	1	2	1	2	2	1	2
+ELAPSED TIME S: 2259.299
+ELAPSED TIME M: 37.6549833333333

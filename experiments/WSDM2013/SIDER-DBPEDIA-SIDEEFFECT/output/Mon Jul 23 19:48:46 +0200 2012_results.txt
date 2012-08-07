@@ -1,0 +1,492 @@
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 3.34
+CARDINALITY: 0.0
+TOTAL: 89.0
+SUCCESS: 0.0
+FAILURES: 89.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0371111111111111
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0006883803502
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 1.664
+CARDINALITY: 0.0
+TOTAL: 89.0
+SUCCESS: 0.0
+FAILURES: 89.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0184888888888889
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00017090490193
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 1.355
+CARDINALITY: 0.0
+TOTAL: 89.0
+SUCCESS: 0.0
+FAILURES: 89.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0150555555555555
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011332845487
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 1.279
+CARDINALITY: 0.0
+TOTAL: 89.0
+SUCCESS: 0.0
+FAILURES: 89.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0142111111111111
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010097274176
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 80.714
+CARDINALITY: 341.0
+TOTAL: 750.0
+SUCCESS: 340.0
+FAILURES: 410.0
+GLOBAL SUCESS CHANCE: 0.0947603121516165
+Elapse time: 0.107475366178429
+Cardinality Ratio: 0.00584795321637432
+Failure Ratio: 0.547270306258322
+Cost: 0.107634348105093
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 0.866000000000001
+CARDINALITY: 0.0
+TOTAL: 55.0
+SUCCESS: 0.0
+FAILURES: 55.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0154642857142857
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011956491844
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 0.963000000000001
+CARDINALITY: 0.0
+TOTAL: 55.0
+SUCCESS: 0.0
+FAILURES: 55.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0171964285714286
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00014784764834
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 2.344
+CARDINALITY: 17.0
+TOTAL: 89.0
+SUCCESS: 17.0
+FAILURES: 72.0
+GLOBAL SUCESS CHANCE: 0.00473801560758082
+Elapse time: 0.0260444444444444
+Cardinality Ratio: 0.0555555555555556
+Failure Ratio: 0.811111111111111
+Cost: 0.0613574187813191
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 3.53
+CARDINALITY: 2.0
+TOTAL: 55.0
+SUCCESS: 2.0
+FAILURES: 53.0
+GLOBAL SUCESS CHANCE: 0.000557413600891862
+Elapse time: 0.0630357142857143
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.964285714285714
+Cost: 0.339241230375409
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 5.735
+CARDINALITY: 0.0
+TOTAL: 53.0
+SUCCESS: 0.0
+FAILURES: 53.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.106203703703704
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00562379977822
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 2.739
+CARDINALITY: 0.0
+TOTAL: 53.0
+SUCCESS: 0.0
+FAILURES: 53.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0507222222222222
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00128554559984
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 134.118
+CARDINALITY: 537.0
+TOTAL: 733.0
+SUCCESS: 537.0
+FAILURES: 196.0
+GLOBAL SUCESS CHANCE: 0.149665551839465
+Elapse time: 0.182722070844687
+Cardinality Ratio: 0.0018587360594795
+Failure Ratio: 0.268392370572207
+Cost: 0.182731524575016
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 0.394
+CARDINALITY: 0.0
+TOTAL: 28.0
+SUCCESS: 0.0
+FAILURES: 28.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0135862068965517
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00009228825036
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 1.26
+CARDINALITY: 0.0
+TOTAL: 28.0
+SUCCESS: 0.0
+FAILURES: 28.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.043448275862069
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00094343130638
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 6.299
+CARDINALITY: 1.0
+TOTAL: 53.0
+SUCCESS: 1.0
+FAILURES: 52.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.116648148148148
+Cardinality Ratio: 0.5
+Failure Ratio: 0.981481481481481
+Cost: 0.513426519052524
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 23.693
+CARDINALITY: 3.0
+TOTAL: 28.0
+SUCCESS: 3.0
+FAILURES: 25.0
+GLOBAL SUCESS CHANCE: 0.000836120401337793
+Elapse time: 0.817
+Cardinality Ratio: 0.25
+Failure Ratio: 0.896551724137931
+Cost: 0.854393937244407
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 69.167
+CARDINALITY: 1.0
+TOTAL: 52.0
+SUCCESS: 1.0
+FAILURES: 51.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 1.30503773584906
+Cardinality Ratio: 0.5
+Failure Ratio: 0.981132075471698
+Cost: 1.39754194641522
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 105.193
+CARDINALITY: 1.0
+TOTAL: 25.0
+SUCCESS: 1.0
+FAILURES: 24.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 4.04588461538462
+Cardinality Ratio: 0.5
+Failure Ratio: 0.961538461538462
+Cost: 4.0766631355811
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 3.431
+CARDINALITY: 2.0
+TOTAL: 24.0
+SUCCESS: 1.0
+FAILURES: 23.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.13724
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.96
+Cost: 0.680646209160416
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease> 
+TIME: 1.164
+CARDINALITY: 0.0
+TOTAL: 23.0
+SUCCESS: 0.0
+FAILURES: 23.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0485
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00117543417725
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.796
+CARDINALITY: 0.0
+TOTAL: 38.0
+SUCCESS: 0.0
+FAILURES: 38.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0204102564102564
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00020826759567
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 2 
+TIME: 1.163
+CARDINALITY: 0.0
+TOTAL: 69.0
+SUCCESS: 0.0
+FAILURES: 69.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0166142857142857
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00013800772183
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 2 
+TIME: 0.991000000000001
+CARDINALITY: 0.0
+TOTAL: 69.0
+SUCCESS: 0.0
+FAILURES: 69.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0141571428571429
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010020732618
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.55
+CARDINALITY: 0.0
+TOTAL: 38.0
+SUCCESS: 0.0
+FAILURES: 38.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0141025641025641
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00009943621335
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 3 
+TIME: 3.401
+CARDINALITY: 1.0
+TOTAL: 68.0
+SUCCESS: 1.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.0492898550724637
+Cardinality Ratio: 0.5
+Failure Ratio: 0.985507246376812
+Cost: 0.502423615899038
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 1 
+TIME: 1.067
+CARDINALITY: 2.0
+TOTAL: 68.0
+SUCCESS: 1.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.015463768115942
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.985507246376812
+Cost: 0.666845988642646
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 1 
+TIME: 1.175
+CARDINALITY: 1.0
+TOTAL: 68.0
+SUCCESS: 1.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.0170289855072464
+Cardinality Ratio: 0.5
+Failure Ratio: 0.985507246376812
+Cost: 0.50028990230406
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 6.45399999999999
+CARDINALITY: 56.0
+TOTAL: 200.0
+SUCCESS: 55.0
+FAILURES: 145.0
+GLOBAL SUCESS CHANCE: 0.0153288740245262
+Elapse time: 0.0321094527363184
+Cardinality Ratio: 0.0350877192982456
+Failure Ratio: 0.72636815920398
+Cost: 0.0475622224100004
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 3 
+TIME: 3.491
+CARDINALITY: 1.0
+TOTAL: 68.0
+SUCCESS: 1.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.0505942028985507
+Cardinality Ratio: 0.5
+Failure Ratio: 0.985507246376812
+Cost: 0.502553254259625
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 4 
+TIME: 4.267
+CARDINALITY: 0.0
+TOTAL: 67.0
+SUCCESS: 0.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.06275
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00196684700643
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 4 
+TIME: 3.186
+CARDINALITY: 0.0
+TOTAL: 67.0
+SUCCESS: 0.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0468529411764706
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00109699734685
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 13.578
+CARDINALITY: 168.0
+TOTAL: 150.0
+SUCCESS: 143.0
+FAILURES: 7.0
+GLOBAL SUCESS CHANCE: 0.0398550724637681
+Elapse time: 0.0899205298013245
+Cardinality Ratio: 0.153846153846154
+Failure Ratio: 0.0529801324503311
+Cost: 0.178197476786304
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.126
+CARDINALITY: 2.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.042
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.666666666666667
+Cost: 0.667988356518618
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.309
+CARDINALITY: 2.0
+TOTAL: 9.0
+SUCCESS: 2.0
+FAILURES: 7.0
+GLOBAL SUCESS CHANCE: 0.000557413600891862
+Elapse time: 0.0309
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.8
+Cost: 0.334762484623219
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 5 
+TIME: 5.36
+CARDINALITY: 3.0
+TOTAL: 67.0
+SUCCESS: 3.0
+FAILURES: 64.0
+GLOBAL SUCESS CHANCE: 0.000836120401337793
+Elapse time: 0.0788235294117647
+Cardinality Ratio: 0.25
+Failure Ratio: 0.955882352941176
+Cost: 0.262131930120936
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.348
+CARDINALITY: 3.0
+TOTAL: 3.0
+SUCCESS: 3.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.000836120401337793
+Elapse time: 0.087
+Cardinality Ratio: 0.25
+Failure Ratio: 0.25
+Cost: 0.264705496731745
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 5 
+TIME: 7.185
+CARDINALITY: 0.0
+TOTAL: 64.0
+SUCCESS: 0.0
+FAILURES: 64.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.110538461538462
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00609082665497
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.253
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.1265
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00796936957429
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.355
+CARDINALITY: 1.0
+TOTAL: 6.0
+SUCCESS: 1.0
+FAILURES: 5.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.0507142857142857
+Cardinality Ratio: 0.5
+Failure Ratio: 0.857142857142857
+Cost: 0.502565357715303
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.479
+CARDINALITY: 3.0
+TOTAL: 6.0
+SUCCESS: 1.0
+FAILURES: 5.0
+GLOBAL SUCESS CHANCE: 0.000278706800445931
+Elapse time: 0.0684285714285714
+Cardinality Ratio: 0.75
+Failure Ratio: 0.857142857142857
+Cost: 0.753115176707889
+HEURISTIC ELAPSED TIME: 525.813
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+target => http://localhost:8894/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/side_effects> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaC
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaC  & 40 & 4.66   & 21.21  & 508.37 & 94.44 & 90.58 & 92.47  \\ 
+LEARNING TIME: 21.206
+SEARCH TIME: 508.373000000001
+MATCHER TIME: 13.808
+TOTAL TIME: 543.39
+PAIR COMPLETENESS: 0.905806451612903
+RECALL: 0.713548387096774
+PRECISON: 0.945299145299145
+FMEASURE: 0.813235294117647
+FOUND INSTANCES: 765
+NUMBER QUERIES: 3588
+RATIO NUMBER QUERIES / INSTANCES: 4.65974025974026
+RATIO QUERIES/POSITIVES: 0.311036789297659
+RATIO QUERIES/NEGATIVES: 0.688963210702341
+NUMBER HOMONYMS: 810
+RATIO HOMONYMS/INSTANCES: 1.05882352941176
+INSTANCES / HOMONYMS RATIO: 0.944444444444444
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	4	4
+LIST OF HOMONYMS: 4	1	3	1	1	1	1	1	1	1	1	1	2	1	1	3	1	1	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	2	3	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	4	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	3	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2
+ELAPSED TIME S: 598.326
+ELAPSED TIME M: 9.9721

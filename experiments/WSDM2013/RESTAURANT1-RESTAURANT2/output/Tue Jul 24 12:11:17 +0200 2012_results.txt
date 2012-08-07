@@ -1,0 +1,162 @@
+[<http://www.okkam.org/ontology_restaurant1.owl#name>=<http://www.okkam.org/ontology_restaurant2.owl#name>] 0.6 1 
+TIME: 0.351
+CARDINALITY: 0.0
+TOTAL: 23.0
+SUCCESS: 0.0
+FAILURES: 23.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.014625
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010693959446
+[<http://www.okkam.org/ontology_restaurant1.owl#phone_number>=<http://www.okkam.org/ontology_restaurant2.owl#phone_number>] 0.6 1 
+TIME: 0.568
+CARDINALITY: 0.0
+TOTAL: 22.0
+SUCCESS: 0.0
+FAILURES: 22.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0246956521739131
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00030489113884
+[<http://www.okkam.org/ontology_restaurant1.owl#phone_number>=<http://www.okkam.org/ontology_restaurant2.owl#phone_number>] 0.6 2 
+TIME: 0.573
+CARDINALITY: 0.0
+TOTAL: 22.0
+SUCCESS: 0.0
+FAILURES: 22.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0249130434782609
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0003102817303
+[<http://www.okkam.org/ontology_restaurant1.owl#name>=<http://www.okkam.org/ontology_restaurant2.owl#name>] 0.6 2 
+TIME: 2.669
+CARDINALITY: 80.0
+TOTAL: 109.0
+SUCCESS: 80.0
+FAILURES: 29.0
+GLOBAL SUCESS CHANCE: 0.344827586206897
+Elapse time: 0.0242636363636363
+Cardinality Ratio: 0.0123456790123457
+Failure Ratio: 0.272727272727273
+Cost: 0.027223883629318
+[<http://www.okkam.org/ontology_restaurant1.owl#name>=<http://www.okkam.org/ontology_restaurant2.owl#name>] 0.6 3 
+TIME: 0.242
+CARDINALITY: 1.0
+TOTAL: 11.0
+SUCCESS: 1.0
+FAILURES: 10.0
+GLOBAL SUCESS CHANCE: 0.00431034482758621
+Elapse time: 0.0201666666666667
+Cardinality Ratio: 0.5
+Failure Ratio: 0.916666666666667
+Cost: 0.500406529178471
+[<http://www.okkam.org/ontology_restaurant1.owl#phone_number>=<http://www.okkam.org/ontology_restaurant2.owl#phone_number>] 0.6 4 
+TIME: 1.209
+CARDINALITY: 31.0
+TOTAL: 29.0
+SUCCESS: 27.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.116379310344828
+Elapse time: 0.0403
+Cardinality Ratio: 0.15625
+Failure Ratio: 0.1
+Cost: 0.161363417477444
+[<http://www.okkam.org/ontology_restaurant1.owl#phone_number>=<http://www.okkam.org/ontology_restaurant2.owl#phone_number>] 0.6 3 
+TIME: 0.212
+CARDINALITY: 6.0
+TOTAL: 5.0
+SUCCESS: 4.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0172413793103448
+Elapse time: 0.0353333333333333
+Cardinality Ratio: 0.428571428571429
+Failure Ratio: 0.333333333333333
+Cost: 0.430025480445287
+[<http://www.okkam.org/ontology_restaurant1.owl#name>=<http://www.okkam.org/ontology_restaurant2.owl#name>] 0.6 4 
+TIME: 0.217
+CARDINALITY: 2.0
+TOTAL: 5.0
+SUCCESS: 2.0
+FAILURES: 3.0
+GLOBAL SUCESS CHANCE: 0.00862068965517241
+Elapse time: 0.0361666666666667
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.666666666666667
+Cost: 0.335289634329618
+[<http://www.okkam.org/ontology_restaurant1.owl#phone_number>=<http://www.okkam.org/ontology_restaurant2.owl#phone_number>] 0.6 5 
+TIME: 0.248
+CARDINALITY: 2.0
+TOTAL: 3.0
+SUCCESS: 1.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.00431034482758621
+Elapse time: 0.062
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.75
+Cost: 0.669543459712993
+[<http://www.okkam.org/ontology_restaurant1.owl#name>=<http://www.okkam.org/ontology_restaurant2.owl#name>] 0.6 5 
+TIME: 0.531
+CARDINALITY: 1.0
+TOTAL: 3.0
+SUCCESS: 1.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.00431034482758621
+Elapse time: 0.13275
+Cardinality Ratio: 0.5
+Failure Ratio: 0.75
+Cost: 0.517322493711611
+HEURISTIC ELAPSED TIME: 8.23
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://restaurant1.org
+target => http://localhost:8891/sparql?default-graph-uri=http://restaurant2.org
+class =>  <http://www.okkam.org/ontology_restaurant1.owl#Restaurant> 
+append => a
+format => txt
+chunk => 150
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaC
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaC  & 10 & 2.05   & 3.13  & 7.07 & 97.39 & 98.23 & 97.81  \\ 
+LEARNING TIME: 3.134
+SEARCH TIME: 7.07199999999999
+MATCHER TIME: 0.148
+TOTAL TIME: 10.35
+PAIR COMPLETENESS: 0.982300884955752
+RECALL: 0.982300884955752
+PRECISON: 0.965217391304348
+FMEASURE: 0.973684210526316
+FOUND INSTANCES: 112
+NUMBER QUERIES: 232
+RATIO NUMBER QUERIES / INSTANCES: 2.05309734513274
+RATIO QUERIES/POSITIVES: 0.5
+RATIO QUERIES/NEGATIVES: 0.5
+NUMBER HOMONYMS: 115
+RATIO HOMONYMS/INSTANCES: 1.02678571428571
+INSTANCES / HOMONYMS RATIO: 0.973913043478261
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2
+LIST OF HOMONYMS: 1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 11.441
+ELAPSED TIME M: 0.190683333333333

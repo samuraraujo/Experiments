@@ -1,0 +1,53 @@
+HEURISTIC ELAPSED TIME: 304.772
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+class =>  <http://data.nytimes.com/elements/nytd_geo> 
+append => a
+format => txt
+chunk => 150
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => NoAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => Baseline
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+sparqllimit => 10
+name => S-agnostic
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & S-agnostic  & 5 & 5.0   & 11.48  & 295.24 & 63.01 & 15.2 & 24.5  \\ 
+LEARNING TIME: 11.481
+SEARCH TIME: 295.243
+MATCHER TIME: 8.684
+TOTAL TIME: 315.41
+PAIR COMPLETENESS: 0.152040245947457
+RECALL: 0.144773616545556
+PRECISON: 0.787234042553191
+FMEASURE: 0.244570349386213
+FOUND INSTANCES: 322
+NUMBER QUERIES: 8935
+RATIO NUMBER QUERIES / INSTANCES: 5.0
+RATIO QUERIES/POSITIVES: 0.0365976496922216
+RATIO QUERIES/NEGATIVES: 0.963402350307778
+NUMBER HOMONYMS: 511
+RATIO HOMONYMS/INSTANCES: 1.58695652173913
+INSTANCES / HOMONYMS RATIO: 0.63013698630137
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	4	4	4	4	4	4	5	5	5	5	5	5	5	5	6	6	6	7	7	7	7	8	9
+LIST OF HOMONYMS: 5	1	4	1	1	1	1	1	1	5	1	2	2	1	1	2	1	1	1	1	1	1	1	1	1	1	3	1	2	1	1	4	1	1	3	1	1	1	1	1	2	1	6	1	1	1	2	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	3	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	2	1	3	1	3	2	1	1	1	2	1	1	1	3	2	1	1	6	1	7	1	1	1	1	1	2	1	1	1	1	5	1	1	1	1	1	1	1	1	7	1	1	3	1	1	1	1	1	1	3	1	1	4	2	1	7	1	1	1	1	3	1	1	2	1	1	1	1	1	1	1	1	1	1	1	3	7	1	1	1	2	1	1	2	1	2	1	1	3	1	1	1	1	1	1	1	1	1	2	1	1	3	1	1	1	2	2	3	1	2	1	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	1	3	5	1	1	3	1	1	1	2	3	1	1	1	2	1	3	1	2	1	2	1	1	8	3	2	1	1	5	1	1	1	2	1	2	3	1	3	1	2	4	1	1	4	1	1	1	1	1	5	1	1	3	1	5	3	1	1	1	5	1	9	1	1	1	1	1	1	6	1	1	1	1	1	1	2	1	1	1	1	1	3	1	2	1	1	1	1	1	1	1	1	2	1	1	1	4	1	1
+ELAPSED TIME S: 317.112
+ELAPSED TIME M: 5.2852

@@ -1,0 +1,492 @@
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 8.23
+CARDINALITY: 0.0
+TOTAL: 73.0
+SUCCESS: 0.0
+FAILURES: 73.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.111216216216216
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00616551657739
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 28.293
+CARDINALITY: 257.0
+TOTAL: 274.0
+SUCCESS: 257.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.606132075471698
+Elapse time: 0.102883636363636
+Cardinality Ratio: 0.00387596899224807
+Failure Ratio: 0.0654545454545455
+Cost: 0.102956620802325
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 2.893
+CARDINALITY: 15.0
+TOTAL: 17.0
+SUCCESS: 15.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.035377358490566
+Elapse time: 0.160722222222222
+Cardinality Ratio: 0.0625
+Failure Ratio: 0.166666666666667
+Cost: 0.172446753277785
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.209
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0696666666666667
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00242378485571
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.147
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.049
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00119978026366
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.041
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0136666666666667
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00009338452855
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.107
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.0356666666666667
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.501270496948615
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 0.022
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.011
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00006049816999
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.02
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.01
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00004999875006
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 0.021
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0105
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0000551234807
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.014
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.007
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00002449969988
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.015
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0075
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0000281246045
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.027
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0135
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0000911208485
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.021
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0105
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0000551234807
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.023
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0115
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00006612281389
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.014
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.007
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00002449969988
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.014
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.007
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00002449969988
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 0.021
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0105
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0000551234807
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/genericName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.02
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.01
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00004999875006
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 3 
+TIME: 0.103
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0343333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00058921530155
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.113
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0376666666666667
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00070913745093
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.073
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0243333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00029601174408
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 1 
+TIME: 0.07
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0233333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00027218517984
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.084
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.028
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0003919231981
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.079
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0263333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0003466621349
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 2 
+TIME: 0.076
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0253333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00032083742056
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.08
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0266666666666667
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00035549236814
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.045
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.015
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011249367259
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.063
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.021
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.500440805690343
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.067
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.0223333333333333
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.500498529246368
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.139
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0463333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00107281342457
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/brandName>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 0.137
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.0456666666666667
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.502081113411413
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.279
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.093
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.508575461460735
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.129
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.043
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.501845593783586
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.162
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.054
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.502907546175239
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.123
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.041
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00084014707644
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 4 
+TIME: 0.343
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.114333333333333
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.512905557691775
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.434
+CARDINALITY: 2.0
+TOTAL: 2.0
+SUCCESS: 2.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.00471698113207547
+Elapse time: 0.144666666666667
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.333333333333333
+Cost: 0.363372474955872
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/drugName>] 0.6 5 
+TIME: 0.354
+CARDINALITY: 1.0
+TOTAL: 1.0
+SUCCESS: 1.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.00235849056603774
+Elapse time: 0.177
+Cardinality Ratio: 0.5
+Failure Ratio: 0.5
+Cost: 0.530404562574644
+[<http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/synonym>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.424
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.212
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.02222502415075
+HEURISTIC ELAPSED TIME: 83.514
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://drugbank.org
+target => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+class =>  <http://www4.wiwiss.fu-berlin.de/drugbank/resource/drugbank/drugs> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 40 & 1.5   & 78.32  & 44.51 & 100.0 & 99.65 & 99.82  \\ 
+LEARNING TIME: 78.321
+SEARCH TIME: 44.51
+MATCHER TIME: 24.638
+TOTAL TIME: 147.47
+PAIR COMPLETENESS: 0.996466431095406
+RECALL: 0.639575971731449
+PRECISON: 0.994505494505494
+FMEASURE: 0.778494623655914
+FOUND INSTANCES: 283
+NUMBER QUERIES: 424
+RATIO NUMBER QUERIES / INSTANCES: 1.4982332155477
+RATIO QUERIES/POSITIVES: 0.667452830188679
+RATIO QUERIES/NEGATIVES: 0.332547169811321
+NUMBER HOMONYMS: 283
+RATIO HOMONYMS/INSTANCES: 1.0
+INSTANCES / HOMONYMS RATIO: 1.0
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 164.922
+ELAPSED TIME M: 2.7487

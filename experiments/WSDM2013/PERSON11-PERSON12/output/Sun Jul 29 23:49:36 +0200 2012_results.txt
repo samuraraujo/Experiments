@@ -1,0 +1,217 @@
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 5 
+TIME: 1.441
+CARDINALITY: 0.0
+TOTAL: 26.0
+SUCCESS: 0.0
+FAILURES: 26.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0533703703703704
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00142318548827
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 1 
+TIME: 1.199
+CARDINALITY: 0.0
+TOTAL: 25.0
+SUCCESS: 0.0
+FAILURES: 25.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0461153846153846
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00106274963072
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 3 
+TIME: 0.941
+CARDINALITY: 0.0
+TOTAL: 25.0
+SUCCESS: 0.0
+FAILURES: 25.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0361923076923077
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00065472723417
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 2 
+TIME: 0.872
+CARDINALITY: 0.0
+TOTAL: 25.0
+SUCCESS: 0.0
+FAILURES: 25.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0335384615384616
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0005622561352
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 4 
+TIME: 0.725
+CARDINALITY: 0.0
+TOTAL: 25.0
+SUCCESS: 0.0
+FAILURES: 25.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0278846153846154
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0003887003436
+[<http://www.okkam.org/ontology_person1.owl#phone_numer>=<http://www.okkam.org/ontology_person2.owl#phone_numer>] 0.6 4 
+TIME: 27.877
+CARDINALITY: 431.0
+TOTAL: 457.0
+SUCCESS: 431.0
+FAILURES: 26.0
+GLOBAL SUCESS CHANCE: 0.687400318979266
+Elapse time: 0.0608668122270743
+Cardinality Ratio: 0.00231481481481477
+Failure Ratio: 0.0589519650655022
+Cost: 0.0609108134760389
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 4 
+TIME: 0.112
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00159489633173844
+Elapse time: 0.0373333333333333
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.50139184055764
+[<http://www.okkam.org/ontology_person1.owl#phone_numer>=<http://www.okkam.org/ontology_person2.owl#phone_numer>] 0.6 2 
+TIME: 0.114
+CARDINALITY: 2.0
+TOTAL: 2.0
+SUCCESS: 2.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.00318979266347687
+Elapse time: 0.038
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.333333333333333
+Cost: 0.335492341359846
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 5 
+TIME: 0.129
+CARDINALITY: 1.0
+TOTAL: 2.0
+SUCCESS: 1.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00159489633173844
+Elapse time: 0.043
+Cardinality Ratio: 0.5
+Failure Ratio: 0.666666666666667
+Cost: 0.501845593783586
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 2 
+TIME: 0.197
+CARDINALITY: 4.0
+TOTAL: 3.0
+SUCCESS: 2.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00318979266347687
+Elapse time: 0.04925
+Cardinality Ratio: 0.6
+Failure Ratio: 0.5
+Cost: 0.602017908786773
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 3 
+TIME: 2.362
+CARDINALITY: 31.0
+TOTAL: 28.0
+SUCCESS: 27.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0430622009569378
+Elapse time: 0.081448275862069
+Cardinality Ratio: 0.15625
+Failure Ratio: 0.0689655172413793
+Cost: 0.176204097968531
+[<http://www.okkam.org/ontology_person1.owl#phone_numer>=<http://www.okkam.org/ontology_person2.owl#phone_numer>] 0.6 5 
+TIME: 0.18
+CARDINALITY: 2.0
+TOTAL: 2.0
+SUCCESS: 2.0
+FAILURES: 0.0
+GLOBAL SUCESS CHANCE: 0.00318979266347687
+Elapse time: 0.06
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.333333333333333
+Cost: 0.338690287890148
+[<http://www.okkam.org/ontology_person1.owl#phone_numer>=<http://www.okkam.org/ontology_person2.owl#phone_numer>] 0.6 1 
+TIME: 0.122
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.061
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00185877248243
+[<http://www.okkam.org/ontology_person1.owl#phone_numer>=<http://www.okkam.org/ontology_person2.owl#phone_numer>] 0.6 3 
+TIME: 0.35
+CARDINALITY: 1.0
+TOTAL: 3.0
+SUCCESS: 1.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.00159489633173844
+Elapse time: 0.0875
+Cardinality Ratio: 0.5
+Failure Ratio: 0.75
+Cost: 0.507598512606174
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 1 
+TIME: 0.143
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0715
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00255286643648
+HEURISTIC ELAPSED TIME: 43.503
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://person11.org
+target => http://localhost:8891/sparql?default-graph-uri=http://person12.org
+class =>  <http://www.okkam.org/ontology_person1.owl#Person> 
+append => a
+format => txt
+chunk => 20
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 15 & 1.35   & 15.55  & 37.6 & 99.57 & 95.63 & 97.56  \\ 
+LEARNING TIME: 15.547
+SEARCH TIME: 37.601
+MATCHER TIME: 5.82
+TOTAL TIME: 58.97
+PAIR COMPLETENESS: 0.95625
+RECALL: 0.95625
+PRECISON: 0.987096774193548
+FMEASURE: 0.971428571428571
+FOUND INSTANCES: 465
+NUMBER QUERIES: 627
+RATIO NUMBER QUERIES / INSTANCES: 1.34838709677419
+RATIO QUERIES/POSITIVES: 0.74481658692185
+RATIO QUERIES/NEGATIVES: 0.25518341307815
+NUMBER HOMONYMS: 467
+RATIO HOMONYMS/INSTANCES: 1.00430107526882
+INSTANCES / HOMONYMS RATIO: 0.995717344753747
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 60.063
+ELAPSED TIME M: 1.00105

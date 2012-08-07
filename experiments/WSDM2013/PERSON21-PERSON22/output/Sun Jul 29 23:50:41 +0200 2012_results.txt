@@ -1,0 +1,272 @@
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 4 
+TIME: 2.033
+CARDINALITY: 4.0
+TOTAL: 39.0
+SUCCESS: 4.0
+FAILURES: 35.0
+GLOBAL SUCESS CHANCE: 0.00886917960088692
+Elapse time: 0.050825
+Cardinality Ratio: 0.2
+Failure Ratio: 0.9
+Cost: 0.206356925313884
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 5 
+TIME: 1.017
+CARDINALITY: 0.0
+TOTAL: 35.0
+SUCCESS: 0.0
+FAILURES: 35.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.02825
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00039895166878
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 4 
+TIME: 2.299
+CARDINALITY: 1.0
+TOTAL: 35.0
+SUCCESS: 1.0
+FAILURES: 34.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0638611111111111
+Cardinality Ratio: 0.5
+Failure Ratio: 0.972222222222222
+Cost: 0.504061743750055
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 1 
+TIME: 1.845
+CARDINALITY: 0.0
+TOTAL: 33.0
+SUCCESS: 0.0
+FAILURES: 33.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0542647058823529
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00147124686857
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 3 
+TIME: 1.348
+CARDINALITY: 0.0
+TOTAL: 33.0
+SUCCESS: 0.0
+FAILURES: 33.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0396470588235294
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0007856360247
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 5 
+TIME: 1.005
+CARDINALITY: 4.0
+TOTAL: 32.0
+SUCCESS: 1.0
+FAILURES: 31.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0304545454545455
+Cardinality Ratio: 0.8
+Failure Ratio: 0.96969696969697
+Cost: 0.800579464724672
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 1 
+TIME: 1.065
+CARDINALITY: 0.0
+TOTAL: 31.0
+SUCCESS: 0.0
+FAILURES: 31.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.03328125
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00055366752692
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 2 
+TIME: 1.389
+CARDINALITY: 0.0
+TOTAL: 32.0
+SUCCESS: 0.0
+FAILURES: 32.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0420909090909091
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00088543032062
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 4 
+TIME: 3.598
+CARDINALITY: 64.0
+TOTAL: 57.0
+SUCCESS: 29.0
+FAILURES: 28.0
+GLOBAL SUCESS CHANCE: 0.0643015521064301
+Elapse time: 0.0620344827586207
+Cardinality Ratio: 0.553846153846154
+Failure Ratio: 0.5
+Cost: 0.55730946446414
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 2 
+TIME: 0.625
+CARDINALITY: 0.0
+TOTAL: 17.0
+SUCCESS: 0.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0347222222222222
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00060263477369
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 1 
+TIME: 0.692
+CARDINALITY: 0.0
+TOTAL: 18.0
+SUCCESS: 0.0
+FAILURES: 18.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.036421052631579
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00066302673517
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 3 
+TIME: 0.662
+CARDINALITY: 0.0
+TOTAL: 18.0
+SUCCESS: 0.0
+FAILURES: 18.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0348421052631579
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00060680204522
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 3 
+TIME: 0.708
+CARDINALITY: 1.0
+TOTAL: 18.0
+SUCCESS: 1.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0372631578947368
+Cardinality Ratio: 0.5
+Failure Ratio: 0.947368421052631
+Cost: 0.501386620220652
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 2 
+TIME: 1.735
+CARDINALITY: 63.0
+TOTAL: 30.0
+SUCCESS: 26.0
+FAILURES: 4.0
+GLOBAL SUCESS CHANCE: 0.057649667405765
+Elapse time: 0.0559677419354839
+Cardinality Ratio: 0.59375
+Failure Ratio: 0.161290322580645
+Cost: 0.596381967062517
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 4 
+TIME: 0.334
+CARDINALITY: 3.0
+TOTAL: 5.0
+SUCCESS: 1.0
+FAILURES: 4.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0556666666666667
+Cardinality Ratio: 0.75
+Failure Ratio: 0.833333333333333
+Cost: 0.752063014499302
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 1 
+TIME: 0.126
+CARDINALITY: 0.0
+TOTAL: 2.0
+SUCCESS: 0.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.042
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00088161138069
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 2 
+TIME: 0.253
+CARDINALITY: 2.0
+TOTAL: 5.0
+SUCCESS: 1.0
+FAILURES: 4.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0421666666666667
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.833333333333333
+Cost: 0.66799885645278
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 5 
+TIME: 0.227
+CARDINALITY: 1.0
+TOTAL: 5.0
+SUCCESS: 1.0
+FAILURES: 4.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0378333333333333
+Cardinality Ratio: 0.5
+Failure Ratio: 0.833333333333333
+Cost: 0.501429318160707
+[<http://www.okkam.org/ontology_person1.owl#given_name>=<http://www.okkam.org/ontology_person2.owl#given_name>] 0.6 3 
+TIME: 0.105
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0525
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00137717669218
+[<http://www.okkam.org/ontology_person1.owl#surname>=<http://www.okkam.org/ontology_person2.owl#surname>] 0.6 5 
+TIME: 0.313
+CARDINALITY: 6.0
+TOTAL: 5.0
+SUCCESS: 1.0
+FAILURES: 4.0
+GLOBAL SUCESS CHANCE: 0.00221729490022173
+Elapse time: 0.0521666666666667
+Cardinality Ratio: 0.857142857142857
+Failure Ratio: 0.833333333333333
+Cost: 0.858728850488984
+HEURISTIC ELAPSED TIME: 23.288
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://person21.org
+target => http://localhost:8891/sparql?default-graph-uri=http://person22.org
+class =>  <http://www.okkam.org/ontology_person1.owl#Person> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 20 & 6.44   & 7.5  & 22.09 & 44.3 & 59.32 & 50.72  \\ 
+LEARNING TIME: 7.496
+SEARCH TIME: 22.093
+MATCHER TIME: 0.346
+TOTAL TIME: 29.94
+PAIR COMPLETENESS: 0.593220338983051
+RECALL: 0.372881355932203
+PRECISON: 0.505747126436782
+FMEASURE: 0.429268292682927
+FOUND INSTANCES: 66
+NUMBER QUERIES: 451
+RATIO NUMBER QUERIES / INSTANCES: 6.44285714285714
+RATIO QUERIES/POSITIVES: 0.146341463414634
+RATIO QUERIES/NEGATIVES: 0.853658536585366
+NUMBER HOMONYMS: 149
+RATIO HOMONYMS/INSTANCES: 2.25757575757576
+INSTANCES / HOMONYMS RATIO: 0.442953020134228
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	3	3	3	3	4	4	4	4	4	5	6	6	8
+LIST OF HOMONYMS: 1	1	2	3	2	1	6	3	4	3	4	4	1	2	2	1	3	3	4	2	1	2	1	4	3	1	1	1	1	2	1	2	2	6	3	1	1	1	1	1	3	3	3	1	1	2	1	2	2	3	1	1	1	1	5	8	2	2	3	2	2	2	3	3	2	2
+ELAPSED TIME S: 31.671
+ELAPSED TIME M: 0.52785

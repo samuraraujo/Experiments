@@ -1,0 +1,166 @@
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 2 
+TIME: 6.258
+CARDINALITY: 0.0
+TOTAL: 135.0
+SUCCESS: 0.0
+FAILURES: 135.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0460147058823529
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00105811677317
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 2 
+TIME: 2.184
+CARDINALITY: 0.0
+TOTAL: 135.0
+SUCCESS: 0.0
+FAILURES: 135.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0160588235294117
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012893459451
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 2.129
+CARDINALITY: 0.0
+TOTAL: 135.0
+SUCCESS: 0.0
+FAILURES: 135.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0156544117647059
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00012252279793
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 623.031000000001
+CARDINALITY: 1763.0
+TOTAL: 1918.0
+SUCCESS: 1091.0
+FAILURES: 827.0
+GLOBAL SUCESS CHANCE: 0.152972518227706
+Elapse time: 0.324664408546118
+Cardinality Ratio: 0.381519274376417
+Failure Ratio: 0.43147472642001
+Cost: 0.500963007513837
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 20.69
+CARDINALITY: 83.0
+TOTAL: 95.0
+SUCCESS: 40.0
+FAILURES: 55.0
+GLOBAL SUCESS CHANCE: 0.00560852495793606
+Elapse time: 0.215520833333333
+Cardinality Ratio: 0.523809523809524
+Failure Ratio: 0.583333333333333
+Cost: 0.566414730417787
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 5 
+TIME: 39.126
+CARDINALITY: 122.0
+TOTAL: 134.0
+SUCCESS: 36.0
+FAILURES: 98.0
+GLOBAL SUCESS CHANCE: 0.00504767246214246
+Elapse time: 0.289822222222222
+Cardinality Ratio: 0.707317073170732
+Failure Ratio: 0.733333333333333
+Cost: 0.764391498181813
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 17.343
+CARDINALITY: 45.0
+TOTAL: 95.0
+SUCCESS: 23.0
+FAILURES: 72.0
+GLOBAL SUCESS CHANCE: 0.00322490185081324
+Elapse time: 0.18065625
+Cardinality Ratio: 0.5
+Failure Ratio: 0.760416666666667
+Cost: 0.531635853441115
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 4 
+TIME: 26.537
+CARDINALITY: 146.0
+TOTAL: 117.0
+SUCCESS: 38.0
+FAILURES: 79.0
+GLOBAL SUCESS CHANCE: 0.00532809871003926
+Elapse time: 0.224889830508475
+Cardinality Ratio: 0.741496598639456
+Failure Ratio: 0.677966101694915
+Cost: 0.774850076892306
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 4 
+TIME: 38.428
+CARDINALITY: 89.0
+TOTAL: 134.0
+SUCCESS: 35.0
+FAILURES: 99.0
+GLOBAL SUCESS CHANCE: 0.00490745933819405
+Elapse time: 0.284651851851852
+Cardinality Ratio: 0.611111111111111
+Failure Ratio: 0.740740740740741
+Cost: 0.674153889617308
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 5 
+TIME: 20.061
+CARDINALITY: 63.0
+TOTAL: 118.0
+SUCCESS: 16.0
+FAILURES: 102.0
+GLOBAL SUCESS CHANCE: 0.00224340998317442
+Elapse time: 0.168579831932773
+Cardinality Ratio: 0.75
+Failure Ratio: 0.865546218487395
+Cost: 0.768712663961302
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 3 
+TIME: 20.437
+CARDINALITY: 137.0
+TOTAL: 109.0
+SUCCESS: 30.0
+FAILURES: 79.0
+GLOBAL SUCESS CHANCE: 0.00420639371845205
+Elapse time: 0.185790909090909
+Cardinality Ratio: 0.782608695652174
+Failure Ratio: 0.727272727272727
+Cost: 0.804359765534816
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 418.203000000001
+CARDINALITY: 2367.0
+TOTAL: 1463.0
+SUCCESS: 1439.0
+FAILURES: 24.0
+GLOBAL SUCESS CHANCE: 0.20176668536175
+Elapse time: 0.285657786885246
+Cardinality Ratio: 0.392314189189189
+Failure Ratio: 0.0170765027322404
+Cost: 0.485294543805458
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://xmlns.com/foaf/0.1/name>] 0.6 1 
+TIME: 110.786
+CARDINALITY: 754.0
+TOTAL: 525.0
+SUCCESS: 298.0
+FAILURES: 227.0
+GLOBAL SUCESS CHANCE: 0.0417835109366237
+Elapse time: 0.210619771863118
+Cardinality Ratio: 0.605298013245033
+Failure Ratio: 0.433460076045627
+Cost: 0.64089497824375
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 3 
+TIME: 20.202
+CARDINALITY: 72.0
+TOTAL: 117.0
+SUCCESS: 18.0
+FAILURES: 99.0
+GLOBAL SUCESS CHANCE: 0.00252383623107123
+Elapse time: 0.171203389830508
+Cardinality Ratio: 0.753424657534247
+Failure Ratio: 0.847457627118644
+Cost: 0.772631422652518
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://dbpedia.org/property/name>] 0.6 1 
+TIME: 599.005
+CARDINALITY: 2475.0
+TOTAL: 1902.0
+SUCCESS: 1051.0
+FAILURES: 851.0
+GLOBAL SUCESS CHANCE: 0.14736399326977
+Elapse time: 0.314768786127168
+Cardinality Ratio: 0.575525040387722
+Failure Ratio: 0.447714135575407
+Cost: 0.655979009445622
+HEURISTIC ELAPSED TIME: 2470.079

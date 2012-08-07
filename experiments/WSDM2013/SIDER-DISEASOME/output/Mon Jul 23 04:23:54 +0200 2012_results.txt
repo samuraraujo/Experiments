@@ -1,0 +1,52 @@
+HEURISTIC ELAPSED TIME: 94.366
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+target => http://localhost:8891/sparql?default-graph-uri=http://diseasome.org
+class =>  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/side_effects> 
+append => a
+format => txt
+chunk => 100
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => Baseline
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => S-based
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & S-based  & 4 & 4.0   & 7.64  & 91.51 & 86.19 & 91.86 & 88.93  \\ 
+LEARNING TIME: 7.64
+SEARCH TIME: 91.511
+MATCHER TIME: 1.725
+TOTAL TIME: 100.88
+PAIR COMPLETENESS: 0.918604651162791
+RECALL: 0.848837209302325
+PRECISON: 0.954248366013072
+FMEASURE: 0.898461538461538
+FOUND INSTANCES: 156
+NUMBER QUERIES: 664
+RATIO NUMBER QUERIES / INSTANCES: 4.0
+RATIO QUERIES/POSITIVES: 0.867469879518072
+RATIO QUERIES/NEGATIVES: 0.132530120481928
+NUMBER HOMONYMS: 181
+RATIO HOMONYMS/INSTANCES: 1.16025641025641
+INSTANCES / HOMONYMS RATIO: 0.861878453038674
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	5
+LIST OF HOMONYMS: 1	1	1	1	2	2	2	1	1	1	1	1	2	1	1	1	1	1	1	1	1	3	1	1	1	3	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	3	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	2	1	1	1	1	1	1	5	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2
+ELAPSED TIME S: 102.68
+ELAPSED TIME M: 1.71133333333333

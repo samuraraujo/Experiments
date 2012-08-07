@@ -1,0 +1,162 @@
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.526
+CARDINALITY: 0.0
+TOTAL: 29.0
+SUCCESS: 0.0
+FAILURES: 29.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0175333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00015369707749
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.735
+CARDINALITY: 10.0
+TOTAL: 29.0
+SUCCESS: 10.0
+FAILURES: 19.0
+GLOBAL SUCESS CHANCE: 0.0332225913621262
+Elapse time: 0.0245
+Cardinality Ratio: 0.0909090909090909
+Failure Ratio: 0.666666666666667
+Cost: 0.0941526038403472
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 0.377
+CARDINALITY: 0.0
+TOTAL: 19.0
+SUCCESS: 0.0
+FAILURES: 19.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.01885
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00017764547104
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 0.327
+CARDINALITY: 1.0
+TOTAL: 19.0
+SUCCESS: 1.0
+FAILURES: 18.0
+GLOBAL SUCESS CHANCE: 0.00332225913621262
+Elapse time: 0.01635
+Cardinality Ratio: 0.5
+Failure Ratio: 0.95
+Cost: 0.500267251076862
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 5.324
+CARDINALITY: 126.0
+TOTAL: 153.0
+SUCCESS: 126.0
+FAILURES: 27.0
+GLOBAL SUCESS CHANCE: 0.418604651162791
+Elapse time: 0.0345714285714286
+Cardinality Ratio: 0.00787401574803148
+Failure Ratio: 0.181818181818182
+Cost: 0.0354567877488872
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.13
+CARDINALITY: 1.0
+TOTAL: 6.0
+SUCCESS: 1.0
+FAILURES: 5.0
+GLOBAL SUCESS CHANCE: 0.00332225913621262
+Elapse time: 0.0185714285714286
+Cardinality Ratio: 0.5
+Failure Ratio: 0.857142857142857
+Cost: 0.500344779086565
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 1.159
+CARDINALITY: 20.0
+TOTAL: 29.0
+SUCCESS: 20.0
+FAILURES: 9.0
+GLOBAL SUCESS CHANCE: 0.0664451827242525
+Elapse time: 0.0386333333333333
+Cardinality Ratio: 0.0476190476190477
+Failure Ratio: 0.333333333333333
+Cost: 0.0613197206499636
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.558
+CARDINALITY: 8.0
+TOTAL: 10.0
+SUCCESS: 8.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.026578073089701
+Elapse time: 0.0507272727272727
+Cardinality Ratio: 0.111111111111111
+Failure Ratio: 0.272727272727273
+Cost: 0.122143093176376
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.148
+CARDINALITY: 2.0
+TOTAL: 4.0
+SUCCESS: 2.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.00664451827242525
+Elapse time: 0.0296
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.6
+Cost: 0.334644992658057
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.347
+CARDINALITY: 1.0
+TOTAL: 3.0
+SUCCESS: 1.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.00332225913621262
+Elapse time: 0.08675
+Cardinality Ratio: 0.5
+Failure Ratio: 0.75
+Cost: 0.507469765109213
+HEURISTIC ELAPSED TIME: 12.649
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+target => http://localhost:8891/sparql?default-graph-uri=http://tcm.org
+class =>  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/side_effects> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaC
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaC  & 10 & 1.76   & 6.78  & 10.1 & 100.0 & 98.25 & 99.12  \\ 
+LEARNING TIME: 6.78
+SEARCH TIME: 10.098
+MATCHER TIME: 0.207
+TOTAL TIME: 17.09
+PAIR COMPLETENESS: 0.982456140350877
+RECALL: 0.982456140350877
+PRECISON: 0.994082840236686
+FMEASURE: 0.988235294117647
+FOUND INSTANCES: 169
+NUMBER QUERIES: 301
+RATIO NUMBER QUERIES / INSTANCES: 1.76023391812865
+RATIO QUERIES/POSITIVES: 0.561461794019934
+RATIO QUERIES/NEGATIVES: 0.438538205980066
+NUMBER HOMONYMS: 169
+RATIO HOMONYMS/INSTANCES: 1.0
+INSTANCES / HOMONYMS RATIO: 1.0
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 20.796
+ELAPSED TIME M: 0.3466

@@ -1,0 +1,217 @@
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#name>] 0.6 1 
+TIME: 1.629
+CARDINALITY: 0.0
+TOTAL: 33.0
+SUCCESS: 0.0
+FAILURES: 33.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0479117647058824
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00114711066717
+[<http://www.w3.org/2003/01/geo/wgs84_pos#long>=<http://www.w3.org/2003/01/geo/wgs84_pos#long>] 0.6 1 
+TIME: 1.475
+CARDINALITY: 0.0
+TOTAL: 33.0
+SUCCESS: 0.0
+FAILURES: 33.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0433823529411765
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00094057193557
+[<http://www.w3.org/2003/01/geo/wgs84_pos#long>=<http://www.w3.org/2003/01/geo/wgs84_pos#long>] 0.6 5 
+TIME: 2.609
+CARDINALITY: 0.0
+TOTAL: 33.0
+SUCCESS: 0.0
+FAILURES: 33.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0767352941176471
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.0029398313774
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#alternateName>] 0.6 1 
+TIME: 253.018999999999
+CARDINALITY: 1185.0
+TOTAL: 1787.0
+SUCCESS: 1002.0
+FAILURES: 785.0
+GLOBAL SUCESS CHANCE: 0.345636426353915
+Elapse time: 0.141509507829977
+Cardinality Ratio: 0.155143338954469
+Failure Ratio: 0.439597315436242
+Cost: 0.20998665773859
+[<http://www.w3.org/2003/01/geo/wgs84_pos#long>=<http://www.w3.org/2003/01/geo/wgs84_pos#long>] 0.6 2 
+TIME: 256.49
+CARDINALITY: 4834.0
+TOTAL: 809.0
+SUCCESS: 593.0
+FAILURES: 216.0
+GLOBAL SUCESS CHANCE: 0.204553294239393
+Elapse time: 0.316654320987654
+Cardinality Ratio: 0.877352637021717
+Failure Ratio: 0.267901234567901
+Cost: 0.932747344509279
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#alternateName>] 0.6 3 
+TIME: 20.58
+CARDINALITY: 10.0
+TOTAL: 17.0
+SUCCESS: 3.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.00103483959986202
+Elapse time: 1.14333333333333
+Cardinality Ratio: 0.727272727272727
+Failure Ratio: 0.833333333333333
+Cost: 1.35504122850407
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#name>] 0.6 5 
+TIME: 15.31
+CARDINALITY: 14.0
+TOTAL: 24.0
+SUCCESS: 3.0
+FAILURES: 21.0
+GLOBAL SUCESS CHANCE: 0.00103483959986202
+Elapse time: 0.6124
+Cardinality Ratio: 0.8
+Failure Ratio: 0.88
+Cost: 1.00748883864785
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#name>] 0.6 4 
+TIME: 6.435
+CARDINALITY: 25.0
+TOTAL: 23.0
+SUCCESS: 2.0
+FAILURES: 21.0
+GLOBAL SUCESS CHANCE: 0.000689893066574681
+Elapse time: 0.268125
+Cardinality Ratio: 0.923076923076923
+Failure Ratio: 0.916666666666667
+Cost: 0.961229432311641
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#name>] 0.6 3 
+TIME: 6.238
+CARDINALITY: 25.0
+TOTAL: 23.0
+SUCCESS: 2.0
+FAILURES: 21.0
+GLOBAL SUCESS CHANCE: 0.000689893066574681
+Elapse time: 0.259916666666667
+Cardinality Ratio: 0.923076923076923
+Failure Ratio: 0.916666666666667
+Cost: 0.958972199559649
+[<http://www.w3.org/2003/01/geo/wgs84_pos#long>=<http://www.w3.org/2003/01/geo/wgs84_pos#long>] 0.6 3 
+TIME: 12.053
+CARDINALITY: 198.0
+TOTAL: 23.0
+SUCCESS: 9.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.00310451879958606
+Elapse time: 0.502208333333333
+Cardinality Ratio: 0.954773869346734
+Failure Ratio: 0.625
+Cost: 1.0787985686201
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#alternateName>] 0.6 5 
+TIME: 6.539
+CARDINALITY: 9.0
+TOTAL: 16.0
+SUCCESS: 2.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.000689893066574681
+Elapse time: 0.384647058823529
+Cardinality Ratio: 0.8
+Failure Ratio: 0.882352941176471
+Cost: 0.887667370055694
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#alternateName>] 0.6 2 
+TIME: 3.65
+CARDINALITY: 48.0
+TOTAL: 17.0
+SUCCESS: 8.0
+FAILURES: 9.0
+GLOBAL SUCESS CHANCE: 0.00275957226629872
+Elapse time: 0.202777777777778
+Cardinality Ratio: 0.836734693877551
+Failure Ratio: 0.555555555555556
+Cost: 0.860955152780244
+[<http://www.w3.org/2003/01/geo/wgs84_pos#long>=<http://www.w3.org/2003/01/geo/wgs84_pos#long>] 0.6 4 
+TIME: 5.473
+CARDINALITY: 0.0
+TOTAL: 23.0
+SUCCESS: 0.0
+FAILURES: 23.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.228041666666667
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.02567197569989
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#alternateName>] 0.6 4 
+TIME: 3.868
+CARDINALITY: 9.0
+TOTAL: 15.0
+SUCCESS: 2.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.000689893066574681
+Elapse time: 0.24175
+Cardinality Ratio: 0.8
+Failure Ratio: 0.875
+Cost: 0.835729060461583
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://www.geonames.org/ontology#name>] 0.6 2 
+TIME: 16.771
+CARDINALITY: 296.0
+TOTAL: 23.0
+SUCCESS: 22.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.00758882373232149
+Elapse time: 0.698791666666667
+Cardinality Ratio: 0.925925925925926
+Failure Ratio: 0.0833333333333333
+Cost: 1.16002095399375
+HEURISTIC ELAPSED TIME: 744.142
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+class =>  <http://data.nytimes.com/elements/nytd_geo> 
+append => a
+format => txt
+chunk => 150
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 15 & 1.62   & 130.64  & 616.35 & 26.15 & 77.81 & 39.15  \\ 
+LEARNING TIME: 130.635
+SEARCH TIME: 616.353999999999
+MATCHER TIME: 125.797
+TOTAL TIME: 872.79
+PAIR COMPLETENESS: 0.778088317495808
+RECALL: 0.71660145332588
+PRECISON: 0.786985880908533
+FMEASURE: 0.750146284376829
+FOUND INSTANCES: 1585
+NUMBER QUERIES: 2899
+RATIO NUMBER QUERIES / INSTANCES: 1.62227196418579
+RATIO QUERIES/POSITIVES: 0.568471886857537
+RATIO QUERIES/NEGATIVES: 0.431528113142463
+NUMBER HOMONYMS: 6061
+RATIO HOMONYMS/INSTANCES: 3.82397476340694
+INSTANCES / HOMONYMS RATIO: 0.261508001979871
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	5	5	5	5	5	5	5	5	5	5	5	5	6	6	6	6	6	6	6	6	7	7	7	8	8	9	10	10	11	11	12	12	13	15	19	22	25	26	29	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	30	31	33	36
+LIST OF HOMONYMS: 1	1	1	4	30	9	1	10	30	33	15	1	1	3	25	31	2	2	5	36	7	1	4	4	2	1	1	6	5	2	1	3	5	1	2	1	30	1	1	1	3	1	1	1	3	1	1	1	1	1	4	1	1	1	1	1	1	3	30	1	1	1	1	5	1	1	1	4	1	1	1	30	1	1	2	1	1	1	1	2	1	1	2	2	1	1	1	1	2	1	2	1	3	1	1	1	1	1	2	1	1	1	1	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	30	4	1	1	2	2	1	1	1	1	1	1	2	1	2	1	1	1	1	1	1	1	1	1	30	1	1	1	1	2	1	1	1	1	1	1	2	1	1	1	1	1	1	2	1	3	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	30	30	2	30	4	1	1	1	1	1	1	1	1	1	1	1	30	30	1	2	1	1	1	2	1	2	30	2	4	30	1	1	1	1	1	1	30	30	2	30	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	3	1	1	1	1	2	1	2	1	1	1	1	1	1	1	1	1	4	1	1	2	30	30	1	1	1	1	1	1	1	1	1	1	1	1	2	1	30	5	1	1	1	1	30	2	2	1	1	1	1	1	1	1	2	30	2	1	1	30	3	3	1	1	1	1	30	1	1	1	1	2	1	4	1	1	2	1	4	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	30	1	1	1	1	1	30	1	1	2	1	1	1	2	1	1	1	30	1	1	1	2	1	30	2	1	3	3	1	1	1	1	1	2	1	1	1	1	1	1	30	1	1	1	30	1	2	1	1	1	2	2	1	2	1	2	2	6	30	1	4	30	3	1	1	1	1	2	2	1	1	1	3	30	1	1	1	1	2	1	1	1	1	1	1	30	1	2	1	1	2	1	30	1	1	1	1	1	1	1	1	1	1	1	2	3	1	2	1	30	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	30	1	1	1	1	1	3	1	30	1	1	1	1	1	1	1	1	1	3	1	1	1	1	1	1	1	1	1	1	1	3	1	1	1	1	2	1	1	30	1	1	1	1	1	1	1	1	13	1	1	1	1	2	8	1	1	1	1	1	1	1	30	1	1	1	1	30	1	2	1	1	1	1	1	1	1	1	30	1	1	1	1	1	30	1	2	1	1	2	1	1	30	1	1	1	1	1	2	1	22	1	30	1	30	1	1	2	2	1	1	1	2	1	30	1	2	30	1	30	1	3	2	2	1	1	1	30	1	30	1	3	1	2	1	1	1	1	1	1	1	1	30	1	1	2	2	1	1	1	1	1	1	30	1	1	1	1	1	1	2	2	30	1	30	1	1	2	4	5	3	1	1	1	1	1	2	19	1	1	1	1	2	3	1	1	1	30	1	2	1	1	1	2	2	1	2	1	2	1	1	1	1	1	1	2	1	1	1	30	1	1	1	1	1	1	1	6	2	1	1	1	1	1	1	1	1	7	1	1	1	1	2	1	2	1	1	1	2	1	1	1	1	1	30	1	5	2	1	1	30	1	1	2	1	1	1	1	1	30	4	2	30	4	1	1	1	1	1	1	2	1	1	30	1	1	2	1	30	1	1	1	2	1	1	30	1	3	2	1	1	30	2	30	1	2	1	1	30	1	1	1	30	1	1	1	8	1	30	2	2	2	30	4	1	2	1	1	1	1	1	1	30	2	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	30	1	1	1	1	1	1	1	1	1	1	30	1	1	1	1	2	1	1	1	1	1	1	1	26	1	2	1	3	1	30	1	1	1	1	1	1	3	1	1	11	1	1	1	1	1	1	1	1	3	1	1	30	5	2	1	1	30	1	2	30	1	1	1	1	1	1	30	1	1	1	2	1	2	30	1	1	30	1	2	1	2	1	3	1	1	1	7	1	1	30	1	2	30	1	1	30	1	4	2	1	30	30	2	1	1	1	1	1	4	2	1	30	1	1	1	1	1	1	1	1	2	1	2	1	1	1	2	1	1	1	1	1	30	1	6	1	1	1	2	1	2	1	1	1	1	1	1	1	1	30	1	1	1	1	1	1	1	1	1	1	1	1	6	1	1	1	2	1	1	1	1	2	30	1	1	1	1	1	1	1	1	30	1	2	1	30	1	1	1	4	1	1	2	1	2	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	30	2	1	3	1	1	2	1	1	1	1	30	1	1	1	1	1	1	1	2	30	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	10	1	1	1	30	2	3	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	3	1	2	1	12	2	30	30	1	1	1	30	5	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	29	1	1	1	30	2	2	2	1	1	2	6	1	1	1	1	1	1	2	1	2	1	2	2	1	30	1	2	1	2	1	1	1	4	1	1	30	1	1	1	1	2	1	1	30	1	1	2	3	30	1	1	2	2	30	2	1	1	1	1	11	1	30	2	1	1	4	1	1	1	1	1	2	30	1	1	1	1	1	2	1	1	2	6	1	3	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	30	1	2	1	1	3	1	1	30	1	1	1	1	2	1	3	1	30	2	1	1	1	1	1	2	1	30	1	1	1	2	2	1	1	1	30	1	1	1	1	1	1	1	30	1	1	1	1	2	2	2	2	1	1	1	1	5	1	1	1	1	1	2	1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	2	3	1	4	30	1	2	1	1	3	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	3	30	1	2	1	2	3	1	1	30	1	1	30	30	1	1	2	1	30	1	2	1	2	30	1	1	3	3	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	2	30	1	1	1	1	1	1	3	12	1	1	1	1	1	3	1	1	1	1	1	3	1	1	1	1	1	1	1	1	1	1	2	1	2	2	2	1	1	1	1	1	1	1	1	1	1	30	2	30	1	1	1	1	1	1	1	1	5	1	1	2	1	1	1	1	3	1	1	6	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	3	1	1	30	2	1	1	1	1	30	1	1	2	1	1	1	1	5	1	30	3	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	30	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	2	2	1	1	1	3	1	1	1	2	1	30	2	1	1	1	1	1	1	1
+ELAPSED TIME S: 876.795
+ELAPSED TIME M: 14.61325

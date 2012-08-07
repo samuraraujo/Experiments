@@ -1,0 +1,547 @@
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 4.19
+CARDINALITY: 0.0
+TOTAL: 124.0
+SUCCESS: 0.0
+FAILURES: 124.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.03352
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00056163748167
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 1.858
+CARDINALITY: 0.0
+TOTAL: 124.0
+SUCCESS: 0.0
+FAILURES: 124.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.014864
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00011046314695
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 8.455
+CARDINALITY: 24.0
+TOTAL: 124.0
+SUCCESS: 23.0
+FAILURES: 101.0
+GLOBAL SUCESS CHANCE: 0.00259154929577465
+Elapse time: 0.06764
+Cardinality Ratio: 0.08
+Failure Ratio: 0.816
+Cost: 0.104762443652294
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 231.744999999997
+CARDINALITY: 1709.0
+TOTAL: 3021.0
+SUCCESS: 1681.0
+FAILURES: 1340.0
+GLOBAL SUCESS CHANCE: 0.189408450704225
+Elapse time: 0.0766859695565839
+Cardinality Ratio: 0.0169590643274854
+Failure Ratio: 0.443745863666446
+Cost: 0.0785388298212871
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 2.004
+CARDINALITY: 1.0
+TOTAL: 102.0
+SUCCESS: 1.0
+FAILURES: 101.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.0194563106796116
+Cardinality Ratio: 0.5
+Failure Ratio: 0.990291262135922
+Cost: 0.500378404835042
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 8.318
+CARDINALITY: 21.0
+TOTAL: 101.0
+SUCCESS: 20.0
+FAILURES: 81.0
+GLOBAL SUCESS CHANCE: 0.00225352112676056
+Elapse time: 0.0815490196078431
+Cardinality Ratio: 0.0909090909090909
+Failure Ratio: 0.803921568627451
+Cost: 0.122125777004356
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 0.883000000000001
+CARDINALITY: 0.0
+TOTAL: 60.0
+SUCCESS: 0.0
+FAILURES: 60.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0144754098360656
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010476325729
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 0.986
+CARDINALITY: 0.0
+TOTAL: 60.0
+SUCCESS: 0.0
+FAILURES: 60.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0161639344262295
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00013062785625
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 82.1670000000004
+CARDINALITY: 437.0
+TOTAL: 1367.0
+SUCCESS: 432.0
+FAILURES: 935.0
+GLOBAL SUCESS CHANCE: 0.0486760563380282
+Elapse time: 0.0600635964912284
+Cardinality Ratio: 0.0136986301369864
+Failure Ratio: 0.684210526315789
+Cost: 0.0616059095468207
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 94.996
+CARDINALITY: 319.0
+TOTAL: 935.0
+SUCCESS: 318.0
+FAILURES: 617.0
+GLOBAL SUCESS CHANCE: 0.035830985915493
+Elapse time: 0.101491452991453
+Cardinality Ratio: 0.00624999999999998
+Failure Ratio: 0.66025641025641
+Cost: 0.101683713200868
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 23.807
+CARDINALITY: 100.0
+TOTAL: 622.0
+SUCCESS: 95.0
+FAILURES: 527.0
+GLOBAL SUCESS CHANCE: 0.0107042253521127
+Elapse time: 0.0382134831460674
+Cardinality Ratio: 0.0594059405940595
+Failure Ratio: 0.847512038523274
+Cost: 0.0706352325119674
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 8.67
+CARDINALITY: 3.0
+TOTAL: 19.0
+SUCCESS: 3.0
+FAILURES: 16.0
+GLOBAL SUCESS CHANCE: 0.000338028169014084
+Elapse time: 0.4335
+Cardinality Ratio: 0.25
+Failure Ratio: 0.85
+Cost: 0.500422071855349
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 0.333
+CARDINALITY: 0.0
+TOTAL: 16.0
+SUCCESS: 0.0
+FAILURES: 16.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0195882352941177
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00019183108139
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 10.96
+CARDINALITY: 0.0
+TOTAL: 16.0
+SUCCESS: 0.0
+FAILURES: 16.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.644705882352941
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.18980909172038
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/business.employer> 
+TIME: 16.436
+CARDINALITY: 4.0
+TOTAL: 82.0
+SUCCESS: 3.0
+FAILURES: 79.0
+GLOBAL SUCESS CHANCE: 0.000338028169014084
+Elapse time: 0.198024096385542
+Cardinality Ratio: 0.4
+Failure Ratio: 0.963855421686747
+Cost: 0.446333443458263
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.293
+CARDINALITY: 0.0
+TOTAL: 16.0
+SUCCESS: 0.0
+FAILURES: 16.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0172352941176471
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00014851665306
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 1.2
+CARDINALITY: 0.0
+TOTAL: 80.0
+SUCCESS: 0.0
+FAILURES: 80.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0148148148148148
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010973334829
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 1.345
+CARDINALITY: 2.0
+TOTAL: 80.0
+SUCCESS: 1.0
+FAILURES: 79.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.0166049382716049
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.987654320987654
+Cost: 0.666873427585361
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.347
+CARDINALITY: 2.0
+TOTAL: 16.0
+SUCCESS: 2.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.000225352112676056
+Elapse time: 0.0204117647058824
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.882352941176471
+Cost: 0.33395770877391
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 1.145
+CARDINALITY: 0.0
+TOTAL: 80.0
+SUCCESS: 0.0
+FAILURES: 80.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0141358024691358
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00009990546517
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 2.161
+CARDINALITY: 4.0
+TOTAL: 80.0
+SUCCESS: 3.0
+FAILURES: 77.0
+GLOBAL SUCESS CHANCE: 0.000338028169014084
+Elapse time: 0.026679012345679
+Cardinality Ratio: 0.4
+Failure Ratio: 0.962962962962963
+Cost: 0.400888724834886
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 2 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.195
+CARDINALITY: 0.0
+TOTAL: 14.0
+SUCCESS: 0.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.013
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00008449643018
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.198
+CARDINALITY: 0.0
+TOTAL: 14.0
+SUCCESS: 0.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0132
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00008711620538
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 3 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.237
+CARDINALITY: 1.0
+TOTAL: 14.0
+SUCCESS: 1.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.0158
+Cardinality Ratio: 0.5
+Failure Ratio: 0.933333333333333
+Cost: 0.500249577710966
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.286
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0204285714285714
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00020864149967
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 4 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.235
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0167857142857143
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00014087017984
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.827
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0590714285714286
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00174319746803
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 1 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 0.182
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.013
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00008449643018
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 2.23
+CARDINALITY: 0.0
+TOTAL: 13.0
+SUCCESS: 0.0
+FAILURES: 13.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.159285714285714
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.01260650737367
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 5 AND <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.freebase.com/ns/organization.organization> 
+TIME: 4.348
+CARDINALITY: 2.0
+TOTAL: 78.0
+SUCCESS: 1.0
+FAILURES: 77.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.0550379746835443
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.987341772151899
+Cost: 0.66893469270304
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 2 
+TIME: 0.975
+CARDINALITY: 0.0
+TOTAL: 36.0
+SUCCESS: 0.0
+FAILURES: 36.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0263513513513514
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00034713660711
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 2 
+TIME: 1.45
+CARDINALITY: 0.0
+TOTAL: 100.0
+SUCCESS: 0.0
+FAILURES: 100.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0143564356435644
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00010304831272
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 3 
+TIME: 3.40899999999999
+CARDINALITY: 7.0
+TOTAL: 98.0
+SUCCESS: 6.0
+FAILURES: 92.0
+GLOBAL SUCESS CHANCE: 0.000676056338028169
+Elapse time: 0.0344343434343434
+Cardinality Ratio: 0.25
+Failure Ratio: 0.939393939393939
+Cost: 0.252360305927367
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 3 
+TIME: 50.215
+CARDINALITY: 344.0
+TOTAL: 547.0
+SUCCESS: 315.0
+FAILURES: 232.0
+GLOBAL SUCESS CHANCE: 0.0354929577464789
+Elapse time: 0.0916332116788321
+Cardinality Ratio: 0.0869565217391305
+Failure Ratio: 0.425182481751825
+Cost: 0.126325302910959
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 1 
+TIME: 1.864
+CARDINALITY: 1.0
+TOTAL: 95.0
+SUCCESS: 1.0
+FAILURES: 94.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.0194166666666666
+Cardinality Ratio: 0.5
+Failure Ratio: 0.989583333333333
+Cost: 0.500376864917278
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 4 
+TIME: 5.361
+CARDINALITY: 9.0
+TOTAL: 95.0
+SUCCESS: 8.0
+FAILURES: 87.0
+GLOBAL SUCESS CHANCE: 0.000901408450704225
+Elapse time: 0.05584375
+Cardinality Ratio: 0.2
+Failure Ratio: 0.916666666666667
+Cost: 0.207650004608867
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 2 
+TIME: 1.061
+CARDINALITY: 1.0
+TOTAL: 16.0
+SUCCESS: 1.0
+FAILURES: 15.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.0624117647058823
+Cardinality Ratio: 0.5
+Failure Ratio: 0.941176470588235
+Cost: 0.503880172634032
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 1 
+TIME: 0.663
+CARDINALITY: 1.0
+TOTAL: 12.0
+SUCCESS: 1.0
+FAILURES: 11.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.051
+Cardinality Ratio: 0.5
+Failure Ratio: 0.923076923076923
+Cost: 0.50259426976439
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 3 
+TIME: 0.676
+CARDINALITY: 0.0
+TOTAL: 11.0
+SUCCESS: 0.0
+FAILURES: 11.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0563333333333333
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.001585465372
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 4 
+TIME: 27.332
+CARDINALITY: 86.0
+TOTAL: 258.0
+SUCCESS: 79.0
+FAILURES: 179.0
+GLOBAL SUCESS CHANCE: 0.00890140845070422
+Elapse time: 0.105528957528958
+Cardinality Ratio: 0.0919540229885057
+Failure Ratio: 0.694980694980695
+Cost: 0.13997107994482
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 4 
+TIME: 11.023
+CARDINALITY: 29.0
+TOTAL: 187.0
+SUCCESS: 19.0
+FAILURES: 168.0
+GLOBAL SUCESS CHANCE: 0.00214084507042253
+Elapse time: 0.0586329787234042
+Cardinality Ratio: 0.366666666666667
+Failure Ratio: 0.898936170212766
+Cost: 0.371325020216015
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.name>] 0.6 5 
+TIME: 0.942
+CARDINALITY: 0.0
+TOTAL: 7.0
+SUCCESS: 0.0
+FAILURES: 7.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.11775
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00690866641419
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 1 
+TIME: 0.852
+CARDINALITY: 0.0
+TOTAL: 7.0
+SUCCESS: 0.0
+FAILURES: 7.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.1065
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00565513472562
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/type.object.key.value>] 0.6 5 
+TIME: 1.304
+CARDINALITY: 1.0
+TOTAL: 8.0
+SUCCESS: 1.0
+FAILURES: 7.0
+GLOBAL SUCESS CHANCE: 0.000112676056338028
+Elapse time: 0.144888888888889
+Cardinality Ratio: 0.5
+Failure Ratio: 0.888888888888889
+Cost: 0.520569678451844
+[<http://www.w3.org/2004/02/skos/core#prefLabel>=<http://rdf.freebase.com/ns/common.topic.alias>] 0.6 5 
+TIME: 11.133
+CARDINALITY: 3.0
+TOTAL: 88.0
+SUCCESS: 2.0
+FAILURES: 86.0
+GLOBAL SUCESS CHANCE: 0.000225352112676056
+Elapse time: 0.125089887640449
+Cardinality Ratio: 0.5
+Failure Ratio: 0.97752808988764
+Cost: 0.51541001153441
+HEURISTIC ELAPSED TIME: 750.826
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://localhost:8895/sparql?default-graph-uri=http://freebase.org
+class =>  <http://data.nytimes.com/elements/nytd_org> 
+append => a
+format => txt
+chunk => 150
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => true
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaC
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaC  & 45 & 2.92   & 42.85  & 641.44 & 99.24 & 89.85 & 94.31  \\ 
+LEARNING TIME: 42.845
+SEARCH TIME: 641.443000000001
+MATCHER TIME: 108.989
+TOTAL TIME: 793.28
+PAIR COMPLETENESS: 0.898488830486202
+RECALL: 0.896189224704336
+PRECISON: 0.947551233067037
+FMEASURE: 0.92115482019247
+FOUND INSTANCES: 2879
+NUMBER QUERIES: 8875
+RATIO NUMBER QUERIES / INSTANCES: 2.91557161629435
+RATIO QUERIES/POSITIVES: 0.339943661971831
+RATIO QUERIES/NEGATIVES: 0.660056338028169
+NUMBER HOMONYMS: 2901
+RATIO HOMONYMS/INSTANCES: 1.00764154220215
+INSTANCES / HOMONYMS RATIO: 0.992416408135126
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2
+LIST OF HOMONYMS: 1	1	1	2	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	2	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+ELAPSED TIME S: 796.669
+ELAPSED TIME M: 13.2778166666667

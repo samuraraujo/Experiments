@@ -1,0 +1,53 @@
+HEURISTIC ELAPSED TIME: 922.068
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8890/sparql?default-graph-uri=http://nytimes.org
+target => http://localhost:8898/sparql?default-graph-uri=http://geonames.org
+class =>  <http://data.nytimes.com/elements/nytd_geo> 
+append => a
+format => txt
+chunk => 150
+topk => 1
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => Baseline
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+sparqllimit => 100
+name => S-based
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & S-based  & 2 & 2.0   & 97.18  & 903.58 & 42.75 & 21.52 & 28.63  \\ 
+LEARNING TIME: 97.182
+SEARCH TIME: 903.576
+MATCHER TIME: 17.101
+TOTAL TIME: 1017.86
+PAIR COMPLETENESS: 0.215204024594746
+RECALL: 0.201229737283399
+PRECISON: 0.76271186440678
+FMEASURE: 0.31844316674038
+FOUND INSTANCES: 469
+NUMBER QUERIES: 3574
+RATIO NUMBER QUERIES / INSTANCES: 2.0
+RATIO QUERIES/POSITIVES: 0.131225517627308
+RATIO QUERIES/NEGATIVES: 0.868774482372692
+NUMBER HOMONYMS: 1097
+RATIO HOMONYMS/INSTANCES: 2.33901918976546
+INSTANCES / HOMONYMS RATIO: 0.427529626253418
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	3	4	4	4	4	4	4	4	4	4	4	4	4	4	4	4	5	5	5	5	5	5	5	5	5	5	6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	7	7	7	7	7	7	7	7	7	7	8	8	8	8	8	8	8	9	9	10	11	11	11	27	40	53
+LIST OF HOMONYMS: 2	2	1	2	7	1	1	1	1	3	1	1	6	3	3	1	1	2	1	2	1	1	1	2	1	3	1	6	1	1	1	2	1	1	1	3	6	1	2	3	7	1	4	2	4	4	1	1	1	2	1	2	2	2	1	1	1	2	4	1	1	2	1	1	1	11	1	3	2	1	2	2	4	1	1	1	1	1	1	1	1	1	1	2	6	8	1	5	11	1	1	1	6	1	3	2	7	6	1	1	4	8	1	1	1	1	1	1	1	2	1	7	2	8	2	1	1	1	3	2	1	1	2	1	1	1	1	2	1	4	2	1	5	7	2	1	1	1	1	1	1	1	5	1	9	1	4	3	1	1	1	2	2	1	1	1	1	1	1	1	1	1	2	2	3	2	3	1	1	1	7	1	1	1	2	3	1	2	1	1	1	2	3	2	1	1	9	6	1	1	1	1	1	1	1	1	1	1	8	1	1	3	3	2	2	1	2	2	1	2	3	2	1	2	3	1	1	1	1	3	3	2	2	1	1	1	1	2	1	1	2	7	1	2	3	6	5	3	1	1	1	1	2	2	2	3	3	2	1	1	2	1	1	2	1	1	7	3	1	1	1	3	3	1	1	1	1	4	3	2	2	1	10	1	7	1	1	2	1	1	3	1	3	1	1	1	1	1	2	1	3	2	5	1	1	2	1	1	1	1	1	1	1	3	1	1	2	2	8	3	1	1	40	4	1	3	7	1	4	3	2	2	4	1	1	1	1	1	1	1	1	1	1	4	6	1	1	2	1	2	1	2	5	1	3	1	1	6	3	1	1	1	1	3	2	2	1	1	27	1	1	2	2	1	6	2	1	3	1	1	8	5	1	2	1	1	3	1	1	1	1	2	1	1	4	1	1	2	1	1	2	2	6	53	1	6	1	3	1	1	3	1	1	1	1	2	1	1	11	2	4	1	1	1	1	5	1	1	3	3	1	1	1	8	1	1	1	1	1	2	1	2	1	1	1	5	1	3	1	1	6	2	1	2	2	2	1	1	1	1	1	1	2	2	2	1	3	1	2	3	3	5	1	2	1	1	6	1	1
+ELAPSED TIME S: 1021.324
+ELAPSED TIME M: 17.0220666666667

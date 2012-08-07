@@ -1,0 +1,272 @@
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 6.868
+CARDINALITY: 0.0
+TOTAL: 63.0
+SUCCESS: 0.0
+FAILURES: 63.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.1073125
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00574150389464
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 2 
+TIME: 8.13
+CARDINALITY: 0.0
+TOTAL: 63.0
+SUCCESS: 0.0
+FAILURES: 63.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.12703125
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00803617915061
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 2 
+TIME: 8.181
+CARDINALITY: 0.0
+TOTAL: 67.0
+SUCCESS: 0.0
+FAILURES: 67.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.120308823529412
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00721110648117
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 2 
+TIME: 6.186
+CARDINALITY: 0.0
+TOTAL: 66.0
+SUCCESS: 0.0
+FAILURES: 66.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.0923283582089552
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00425321793339
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 149.468
+CARDINALITY: 263.0
+TOTAL: 765.0
+SUCCESS: 245.0
+FAILURES: 520.0
+GLOBAL SUCESS CHANCE: 0.127537740760021
+Elapse time: 0.195127937336814
+Cardinality Ratio: 0.071969696969697
+Failure Ratio: 0.680156657963446
+Cost: 0.207977280516959
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 4 
+TIME: 17.603
+CARDINALITY: 27.0
+TOTAL: 65.0
+SUCCESS: 27.0
+FAILURES: 38.0
+GLOBAL SUCESS CHANCE: 0.0140551795939615
+Elapse time: 0.266712121212121
+Cardinality Ratio: 0.0357142857142857
+Failure Ratio: 0.590909090909091
+Cost: 0.269092671408106
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 3 
+TIME: 4.47
+CARDINALITY: 0.0
+TOTAL: 38.0
+SUCCESS: 0.0
+FAILURES: 38.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.114615384615385
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.00654691216581
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 4 
+TIME: 6.565
+CARDINALITY: 1.0
+TOTAL: 38.0
+SUCCESS: 1.0
+FAILURES: 37.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.168333333333333
+Cardinality Ratio: 0.5
+Failure Ratio: 0.974358974358974
+Cost: 0.527575692305011
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 186.701
+CARDINALITY: 641.0
+TOTAL: 520.0
+SUCCESS: 503.0
+FAILURES: 17.0
+GLOBAL SUCESS CHANCE: 0.26184279021343
+Elapse time: 0.358351247600768
+Cardinality Ratio: 0.216510903426791
+Failure Ratio: 0.0345489443378119
+Cost: 0.418679576716744
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 3 
+TIME: 0.759
+CARDINALITY: 2.0
+TOTAL: 4.0
+SUCCESS: 2.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.00104112441436752
+Elapse time: 0.1518
+Cardinality Ratio: 0.333333333333333
+Failure Ratio: 0.6
+Cost: 0.366270871229356
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 1 
+TIME: 5.402
+CARDINALITY: 1.0
+TOTAL: 38.0
+SUCCESS: 1.0
+FAILURES: 37.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.13851282051282
+Cardinality Ratio: 0.5
+Failure Ratio: 0.974358974358974
+Cost: 0.518831187812006
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 3 
+TIME: 5.88
+CARDINALITY: 1.0
+TOTAL: 38.0
+SUCCESS: 1.0
+FAILURES: 37.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.150769230769231
+Cardinality Ratio: 0.5
+Failure Ratio: 0.974358974358974
+Cost: 0.522236882024571
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 1 
+TIME: 3.973
+CARDINALITY: 2.0
+TOTAL: 38.0
+SUCCESS: 1.0
+FAILURES: 37.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.101871794871795
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.974358974358974
+Cost: 0.674405150510319
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 0.684
+CARDINALITY: 1.0
+TOTAL: 3.0
+SUCCESS: 1.0
+FAILURES: 2.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.171
+Cardinality Ratio: 0.5
+Failure Ratio: 0.75
+Cost: 0.528432587942871
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 1 
+TIME: 1.871
+CARDINALITY: 2.0
+TOTAL: 15.0
+SUCCESS: 1.0
+FAILURES: 14.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.1169375
+Cardinality Ratio: 0.666666666666667
+Failure Ratio: 0.9375
+Cost: 0.676844755723714
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 0.599
+CARDINALITY: 0.0
+TOTAL: 1.0
+SUCCESS: 0.0
+FAILURES: 1.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 0.2995
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 1.04388708680585
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 5 
+TIME: 6.349
+CARDINALITY: 8.0
+TOTAL: 17.0
+SUCCESS: 7.0
+FAILURES: 10.0
+GLOBAL SUCESS CHANCE: 0.00364393545028631
+Elapse time: 0.352722222222222
+Cardinality Ratio: 0.222222222222222
+Failure Ratio: 0.611111111111111
+Cost: 0.416888093016298
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://www.w3.org/2000/01/rdf-schema#label>] 0.6 4 
+TIME: 1.739
+CARDINALITY: 3.0
+TOTAL: 11.0
+SUCCESS: 1.0
+FAILURES: 10.0
+GLOBAL SUCESS CHANCE: 0.000520562207183758
+Elapse time: 0.144916666666667
+Cardinality Ratio: 0.75
+Failure Ratio: 0.916666666666667
+Cost: 0.763872266990874
+[<http://www.w3.org/2000/01/rdf-schema#label>=<http://dbpedia.org/property/name>] 0.6 5 
+TIME: 58.389
+CARDINALITY: 3.0
+TOTAL: 37.0
+SUCCESS: 3.0
+FAILURES: 34.0
+GLOBAL SUCESS CHANCE: 0.00156168662155128
+Elapse time: 1.53655263157895
+Cardinality Ratio: 0.25
+Failure Ratio: 0.921052631578947
+Cost: 1.55675752434738
+[<http://www4.wiwiss.fu-berlin.de/sider/resource/sider/sideEffectName>=<http://dbpedia.org/property/name>] 0.6 5 
+TIME: 99.882
+CARDINALITY: 0.0
+TOTAL: 34.0
+SUCCESS: 0.0
+FAILURES: 34.0
+GLOBAL SUCESS CHANCE: 0.0
+Elapse time: 2.85377142857143
+Cardinality Ratio: 1.0
+Failure Ratio: 1.0
+Cost: 3.02390663985028
+HEURISTIC ELAPSED TIME: 601.674
+Parameters:
+verbose => false
+logfile => 
+source => http://localhost:8891/sparql?default-graph-uri=http://sider.org
+target => http://lod.openlinksw.com/sparql?default-graph-uri=http://dbpedia.org
+class =>  <http://www4.wiwiss.fu-berlin.de/sider/resource/sider/side_effects> 
+append => a
+format => txt
+chunk => 150
+topk => 0
+offset => 0
+stringthreshold => 0.7
+usepivot => true
+blocking => true
+transitionupdate => false
+globalrecall => true
+aligner => HierarchicalClusterAligner
+ranker => TimeBasedTransitionRanking
+selector => DecisionTreeSelectionAlgorithm
+searcher => BranchAndBound
+learningpercent => 0.2
+transitionfailurerate => 1.0
+qconly => false
+name => SondaA
+$shuffle
+true
+$orderbyclause
+
+$orderby
+
+ & SondaA  & 20 & 2.49   & 66.47  & 582.36 & 82.25 & 89.03 & 85.51  \\ 
+LEARNING TIME: 66.472
+SEARCH TIME: 582.355999999999
+MATCHER TIME: 15.97
+TOTAL TIME: 664.8
+PAIR COMPLETENESS: 0.890322580645161
+RECALL: 0.616774193548387
+PRECISON: 0.957915831663327
+FMEASURE: 0.750392464678179
+FOUND INSTANCES: 760
+NUMBER QUERIES: 1921
+RATIO NUMBER QUERIES / INSTANCES: 2.49480519480519
+RATIO QUERIES/POSITIVES: 0.413326392503904
+RATIO QUERIES/NEGATIVES: 0.586673607496096
+NUMBER HOMONYMS: 924
+RATIO HOMONYMS/INSTANCES: 1.21578947368421
+INSTANCES / HOMONYMS RATIO: 0.822510822510822
+SORTED LIST OF HOMONYMS: 1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	2	3	3	3	3	3	3	3	3	3	3	4	4	5
+LIST OF HOMONYMS: 4	1	3	1	1	1	1	1	1	1	1	1	2	1	1	3	1	1	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	2	1	1	1	1	1	1	2	2	1	1	1	1	1	1	1	1	2	3	1	1	2	1	1	1	2	2	1	1	1	1	1	2	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	3	1	1	1	1	1	1	1	2	1	1	1	1	1	1	2	2	2	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	3	1	1	1	1	1	1	1	1	2	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	2	1	1	1	2	1	1	1	4	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	2	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	2	2	1	1	2	1	1	1	1	1	2	1	1	2	1	1	1	1	1	2	1	1	1	1	2	1	1	1	2	1	2	1	1	2	1	2	2	1	1	1	1	3	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	2	1	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	2	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	2	1	2	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	2	1	2	1	2	2	2	1	1	1	1	1	2	2	1	1	2	1	2	2	1	1	1	1	1	1	1	2	1	2	1	1	1	1	1	1	1	1	1	5	1	2	1	1	2	1	1	1	1	2	1	1	1	2	2	1	1	1	1	2	1	2	2	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	2	2	1	1	3	2	2	1	2	1	1	2	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	2	1	1	2	1	1	1	2	1	2	1	1	1	1	1	1	3	1	2	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	2	1	2	1	1	2	2	3	1	1	1	1	1	1	2	2	2	1	1	1	2	1	1	2	1	1	1	1	2	1	1	1	1	1	1	2	2	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	2	1	1	2	1	1	3	1	1	1	1	1	1	1	1	1	2	1	1	1	2	2	2	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	2	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	1	1	1	1	1	1	1	1	1	2	2	1	1	2	1	1	2	1	1	1	1	1	1	2	1	1	1	2	1	1	1	1	1	1	1	1	1	1	1	1	1	1	2	1	2	1	1	2	1	1	1	1	1	1	1	1	1	2	1	2	1	1	1	2	1	2	1
+ELAPSED TIME S: 671.033
+ELAPSED TIME M: 11.1838833333333
